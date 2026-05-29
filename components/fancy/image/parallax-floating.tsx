@@ -7,6 +7,7 @@ import {
   useContext,
   useEffect,
   useRef,
+  useState,
 } from "react"
 import { useAnimationFrame } from "motion/react"
 
@@ -111,7 +112,7 @@ export const FloatingElement = ({
   depth = 1,
 }: FloatingElementProps) => {
   const elementRef = useRef<HTMLDivElement>(null)
-  const idRef = useRef(Math.random().toString(36).substring(7))
+  const [elementId] = useState(() => Math.random().toString(36).substring(7))
   const context = useContext(FloatingContext)
 
   useEffect(() => {
@@ -119,8 +120,8 @@ export const FloatingElement = ({
 
     const nonNullDepth = depth ?? 0.01
 
-    context.registerElement(idRef.current, elementRef.current, nonNullDepth)
-    return () => context.unregisterElement(idRef.current)
+    context.registerElement(elementId, elementRef.current, nonNullDepth)
+    return () => context.unregisterElement(elementId)
   }, [depth])
 
   return (

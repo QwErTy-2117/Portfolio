@@ -225,7 +225,7 @@ const MarqueeAlongSvgPath = ({
   )
 
   // Generate a random ID for the path if not provided
-  const id = pathId || `marquee-path-${Math.random().toString(36).substring(7)}`
+  const [id] = React.useState(() => pathId || `marquee-path-${Math.random().toString(36).substring(7)}`)
 
   // Scroll tracking
   const { scrollY } = useScroll({

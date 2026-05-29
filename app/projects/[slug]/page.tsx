@@ -30,7 +30,7 @@ export default function ProjectPage() {
       { opacity: [0, 1] },
       { duration: 0.5, delay: stagger(0.15) }
     )
-  }, [])
+  }, [animate])
 
   useEffect(() => {
     if (!containerRef.current) return

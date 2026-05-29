@@ -18,7 +18,9 @@ interface LoadingScreenProps {
 
 export default function LoadingScreen({ onFinish }: LoadingScreenProps) {
   const [show, setShow] = useState(true)
-  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
+  const [randomQuote] = useState(
+    () => quotes[Math.floor(Math.random() * quotes.length)]
+  )
 
   useEffect(() => {
     const timer = setTimeout(() => {
