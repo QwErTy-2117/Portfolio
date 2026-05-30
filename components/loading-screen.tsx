@@ -17,18 +17,26 @@ interface LoadingScreenProps {
 }
 
 export default function LoadingScreen({ onFinish }: LoadingScreenProps) {
-  const [show, setShow] = useState(true)
+  const [mounted, setMounted] = useState(false)
   const [randomQuote] = useState(
     () => quotes[Math.floor(Math.random() * quotes.length)]
   )
+  const [show, setShow] = useState(true)
 
   useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    if (!mounted) return
     const timer = setTimeout(() => {
       setShow(false)
       setTimeout(onFinish, 800)
     }, 2500)
     return () => clearTimeout(timer)
-  }, [onFinish])
+  }, [mounted, onFinish])
+
+  if (!mounted) return null
 
   return (
     <AnimatePresence>

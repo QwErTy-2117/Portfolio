@@ -53,7 +53,7 @@ export default function Home() {
         className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-hidden"
         ref={containerRef}
       >
-        <div className="relative z-10 min-h-[calc(100dvh+20rem)]">
+        <div className="relative z-10 bg-[#fefefe]">
           {/* Hero */}
           <div className="max-w-3xl mx-auto px-8 pt-32 sm:pt-40 pb-24">
             <motion.div
