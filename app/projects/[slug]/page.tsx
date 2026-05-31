@@ -117,7 +117,7 @@ export default function ProjectPage() {
       <div className="relative z-10 bg-[#fefefe]">
         <div className="absolute bottom-0 w-full left-0 h-64 bg-gradient-to-t from-[#fefefe] from-10% via-50% via-[#fefefe]/50 to-transparent pointer-events-none isolate" />
 
-        <div className="max-w-md mx-auto px-4 pb-64 text-black">
+        <div className="max-w-3xl mx-auto px-6 sm:px-8 pb-64 text-black pt-24">
           <div className="leading-normal space-y-4 font-overusedGrotesk text-neutral-700 pt-16">
             <p>
               <TextHighlighter
