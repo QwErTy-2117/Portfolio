@@ -103,7 +103,7 @@ export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null)
   const [loading, setLoading] = useState(true)
   const [dismissLoading, setDismissLoading] = useState(false)
-  const [contentRevealed, setContentRevealed] = useState(false)
+  const [overlayDone, setOverlayDone] = useState(false)
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -132,7 +132,6 @@ export default function Home() {
 
   const handleLoadingFinish = useCallback(() => {
     setLoading(false)
-    setContentRevealed(true)
   }, [])
 
   const firstRow = projects.slice(0, Math.floor(projects.length / 2))
@@ -142,19 +141,25 @@ export default function Home() {
     <>
       {loading && <LoadingScreen onFinish={handleLoadingFinish} dismiss={dismissLoading} />}
 
+      {!overlayDone && (
+        <motion.div
+          className="fixed inset-0 z-50 bg-white"
+          initial={{ opacity: 1 }}
+          animate={{ opacity: loading ? 1 : 0 }}
+          transition={{ duration: 2, ease: [0.16, 1, 0.3, 1] }}
+          onAnimationComplete={() => {
+            if (!loading) setOverlayDone(true)
+          }}
+        />
+      )}
+
       <div
         className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-hidden relative"
         ref={containerRef}
       >
         <div className="absolute bottom-0 w-full left-0 h-64 bg-gradient-to-t from-[#fefefe] from-10% via-50% via-[#fefefe]/50 to-transparent pointer-events-none isolate z-20" />
 
-        <div
-          className="relative z-10 bg-[#fefefe]"
-          style={{
-            filter: contentRevealed ? "blur(0px)" : "blur(20px)",
-            transition: "filter 2s cubic-bezier(0.16, 1, 0.3, 1)",
-          }}
-        >
+        <div className="relative z-10 bg-[#fefefe]">
           {/* Hero */}
           <div className="max-w-3xl mx-auto px-6 sm:px-8 pt-32 sm:pt-40 pb-24">
             <motion.div
