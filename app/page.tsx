@@ -210,8 +210,16 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="text-neutral-500 text-base sm:text-lg font-overusedGrotesk max-w-xl leading-relaxed mt-8 mb-24"
             >
-              I build things for the web that are functional, playful, and
-              human-centered. Based in Italy, making ideas come to life.
+              I build things for the web that are{" "}
+              <TextHighlighter
+                className={highlightClass}
+                transition={highlightTransition}
+                highlightColor={highlightColor}
+                useInViewOptions={inViewOptions}
+              >
+                functional, playful, and human-centered
+              </TextHighlighter>
+              . Based in Italy, making ideas come to life.
             </motion.p>
 
             {/* About */}
@@ -242,20 +250,21 @@ export default function Home() {
                 </p>
               </div>
             </motion.div>
+          </div>
 
-            {/* Projects Marquee — Isometric 3D */}
-            <div className="mb-24 h-[500px] sm:h-[600px] relative overflow-hidden">
-              <h2 className="absolute text-center text-3xl sm:text-5xl md:text-6xl top-[15%] left-1/2 -translate-x-1/2 text-black font-calendas z-10">
-                My Projects
-              </h2>
+          {/* Projects Marquee — Full-bleed Isometric 3D */}
+          <div className="mb-24 relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] h-[500px] sm:h-[600px] overflow-hidden">
+            <h2 className="absolute text-center text-3xl sm:text-5xl md:text-6xl top-[15%] left-1/2 -translate-x-1/2 text-black font-calendas z-10">
+              My Projects
+            </h2>
 
-              <div
-                className="absolute h-1/2 sm:h-full w-[200%] -left-3/4 top-28 flex flex-col space-y-2 sm:space-y-3 md:space-y-4 perspective-near"
-                style={{
-                  transform:
-                    "rotateX(45deg) rotateY(-15deg) rotateZ(35deg) translateZ(-200px)",
-                }}
-              >
+            <div
+              className="absolute h-1/2 sm:h-full w-[200%] -left-1/2 top-28 flex flex-col space-y-2 sm:space-y-3 md:space-y-4 perspective-near"
+              style={{
+                transform:
+                  "rotateX(45deg) rotateY(-15deg) rotateZ(35deg) translateZ(-200px)",
+              }}
+            >
                 <SimpleMarquee
                   className="w-full"
                   baseVelocity={10}
@@ -293,9 +302,10 @@ export default function Home() {
                     <MarqueeItem key={project.slug} project={project} index={i} />
                   ))}
                 </SimpleMarquee>
-          </div>
-        </div>
+              </div>
+            </div>
 
+          <div className="max-w-3xl mx-auto px-6 sm:px-8">
             {/* How I Work */}
             <motion.div
               initial={{ opacity: 0 }}
@@ -337,7 +347,15 @@ export default function Home() {
                 Let&apos;s work together
               </h2>
               <p className="text-neutral-500 font-overusedGrotesk max-w-md mx-auto mb-8">
-                Have a project in mind? I&apos;d love to hear about it.
+                <TextHighlighter
+                  className={highlightClass}
+                  transition={highlightTransition}
+                  highlightColor={highlightColor}
+                  useInViewOptions={inViewOptions}
+                >
+                  Have a project in mind?
+                </TextHighlighter>{" "}
+                I&apos;d love to hear about it.
               </p>
               <a
                 href="mailto:luca@example.com"
