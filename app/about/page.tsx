@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import Lenis from "lenis"
 
 import { TextHighlighter } from "@/components/fancy/text/text-highlighter"
-import { Transition } from "motion"
+import { motion, Transition } from "motion/react"
 
 const transition = { type: "spring", duration: 1, bounce: 0 } as Transition
 const highlightClass = "rounded-[0.3em] px-px"
@@ -40,7 +40,7 @@ export default function About() {
         className="h-full w-full z-10 bg-[#fefefe] overflow-scroll pt-20"
         ref={containerRef}
       >
-        <div className="max-w-md mx-auto px-4 mt-24 pb-64 text-black">
+        <div className="max-w-3xl mx-auto px-6 sm:px-8 mt-24 pb-64 text-black pt-24">
           <h1 className="text-4xl font-calendas tracking-tight mb-12">
             About Me
           </h1>
@@ -54,83 +54,118 @@ export default function About() {
           </div>
 
           <div className="leading-normal space-y-4 font-overusedGrotesk text-neutral-700">
-            <p>
-              I&apos;m Luca Garofolo, a{" "}
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                full-stack developer and designer
-              </TextHighlighter>{" "}
-              based in Italy. I&apos;ve been building for the web for over 5 years,
-              working with startups, agencies, and direct clients to create
-              digital experiences that are both functional and delightful.
-            </p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              viewport={{ once: true }}
+            >
+              <p>
+                I&apos;m Luca Garofolo, a{" "}
+                <TextHighlighter
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  useInViewOptions={inViewOptions}
+                >
+                  full-stack developer and designer
+                </TextHighlighter>{" "}
+                based in Italy. I&apos;ve been building for the web for over 5 years,
+                working with startups, agencies, and direct clients to create
+                digital experiences that are both functional and delightful.
+              </p>
+            </motion.div>
 
-            <p>
-              My approach is rooted in{" "}
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                simplicity, clarity, and purpose
-              </TextHighlighter>
-              . I believe the best interfaces are invisible — they let users
-              focus on what matters without getting in the way.
-            </p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              viewport={{ once: true }}
+            >
+              <p>
+                My approach is rooted in{" "}
+                <TextHighlighter
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  useInViewOptions={inViewOptions}
+                >
+                  simplicity, clarity, and purpose
+                </TextHighlighter>
+                . I believe the best interfaces are invisible — they let users
+                focus on what matters without getting in the way.
+              </p>
+            </motion.div>
 
-            <p>
-              I specialize in{" "}
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                React, Next.js, and design systems
-              </TextHighlighter>
-              , but I&apos;m always exploring new tools and techniques. I love
-              the intersection of code and creativity, and I&apos;m constantly
-              pushing myself to make things that are a little bit better than
-              yesterday.
-            </p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              viewport={{ once: true }}
+            >
+              <p>
+                I specialize in{" "}
+                <TextHighlighter
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  useInViewOptions={inViewOptions}
+                >
+                  React, Next.js, and design systems
+                </TextHighlighter>
+                , but I&apos;m always exploring new tools and techniques. I love
+                the intersection of code and creativity, and I&apos;m constantly
+                pushing myself to make things that are a little bit better than
+                yesterday.
+              </p>
+            </motion.div>
 
-            <p>
-              When I&apos;m not coding, you&apos;ll find me{" "}
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                experimenting with type design, photography, or reading about
-                cognitive science
-              </TextHighlighter>
-              . I think the best designers are curious about everything.
-            </p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              viewport={{ once: true }}
+            >
+              <p>
+                When I&apos;m not coding, you&apos;ll find me{" "}
+                <TextHighlighter
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  useInViewOptions={inViewOptions}
+                >
+                  experimenting with type design, photography, or reading about
+                  cognitive science
+                </TextHighlighter>
+                . I think the best designers are curious about everything.
+              </p>
+            </motion.div>
 
-            <p>
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                Every project is a chance to learn something new
-              </TextHighlighter>
-              . If that sounds like your kind of collaboration,{" "}
-              <a
-                href="mailto:luca@example.com"
-                className="text-[#ff5941] hover:underline"
-              >
-                let&apos;s talk
-              </a>
-              .
-            </p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              viewport={{ once: true }}
+            >
+              <p>
+                <TextHighlighter
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  useInViewOptions={inViewOptions}
+                >
+                  Every project is a chance to learn something new
+                </TextHighlighter>
+                . If that sounds like your kind of collaboration,{" "}
+                <a
+                  href="mailto:luca@example.com"
+                  className="text-[#ff5941] hover:underline"
+                >
+                  let&apos;s talk
+                </a>
+                .
+              </p>
+            </motion.div>
           </div>
         </div>
       </div>
