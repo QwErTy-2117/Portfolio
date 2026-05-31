@@ -252,14 +252,14 @@ export default function Home() {
             </motion.div>
           </div>
 
-          {/* Projects Marquee — Full-bleed Isometric 3D */}
-          <div className="mb-24 relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] h-[500px] sm:h-[600px] overflow-hidden">
+          {/* Projects Marquee */}
+          <div className="relative w-full overflow-hidden h-[600px] sm:h-[700px]">
             <h2 className="absolute text-center text-3xl sm:text-5xl md:text-6xl top-[15%] left-1/2 -translate-x-1/2 text-black font-calendas z-10">
               My Projects
             </h2>
 
             <div
-              className="absolute h-1/2 sm:h-full w-[200%] -left-1/2 top-28 flex flex-col space-y-2 sm:space-y-3 md:space-y-4 perspective-near"
+              className="absolute h-1/2 sm:h-full w-[200%] -left-3/4 top-32 flex flex-col space-y-2 sm:space-y-3 md:space-y-4 perspective-near"
               style={{
                 transform:
                   "rotateX(45deg) rotateY(-15deg) rotateZ(35deg) translateZ(-200px)",
