@@ -4,7 +4,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 
-const links = [
+const navLinks = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
   { href: "/about", label: "About" },
@@ -14,9 +14,9 @@ export default function Navbar() {
   const pathname = usePathname()
 
   return (
-    <nav className="fixed top-4 left-4 right-4 z-50 flex items-center justify-between px-6 py-3 rounded-full bg-white/80 backdrop-blur-md border border-black/5 shadow-sm">
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 flex items-center px-6 py-2.5 rounded-full bg-white/80 backdrop-blur-md border border-black/5 shadow-sm">
       <div className="flex items-center gap-8">
-        {links.map((link) => (
+        {navLinks.map((link) => (
           <Link
             key={link.href}
             href={link.href}
@@ -31,12 +31,14 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <Link
-        href="/about"
-        className="text-sm font-overusedGrotesk px-4 py-1.5 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors duration-200"
-      >
-        Contact Me
-      </Link>
+      <div className="ml-12">
+        <Link
+          href="mailto:luca@example.com"
+          className="text-sm font-overusedGrotesk px-5 py-1.5 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors duration-200"
+        >
+          Contact Me
+        </Link>
+      </div>
     </nav>
   )
 }
