@@ -40,7 +40,7 @@ export default function About() {
         className="h-full w-full z-10 bg-[#fefefe] overflow-scroll pt-20"
         ref={containerRef}
       >
-        <div className="max-w-3xl mx-auto px-6 sm:px-8 mt-24 pb-64 text-black pt-24">
+        <div className="max-w-3xl mx-auto px-6 sm:px-8 pb-64 text-black pt-24">
           <h1 className="text-4xl font-calendas tracking-tight mb-12">
             About Me
           </h1>
