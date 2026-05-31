@@ -154,7 +154,7 @@ export default function Home() {
       )}
 
       <div
-        className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-hidden relative"
+        className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-clip relative"
         ref={containerRef}
       >
         <div className="absolute bottom-0 w-full left-0 h-64 bg-gradient-to-t from-[#fefefe] from-10% via-50% via-[#fefefe]/50 to-transparent pointer-events-none isolate z-20" />
@@ -253,13 +253,17 @@ export default function Home() {
           </div>
 
           {/* Projects Marquee */}
-          <div className="relative w-full overflow-hidden h-[600px] sm:h-[700px]">
+          <div className="relative w-full overflow-hidden h-[650px]">
             <h2 className="absolute text-center text-3xl sm:text-5xl md:text-6xl top-[15%] left-1/2 -translate-x-1/2 text-black font-calendas z-10">
               My Projects
             </h2>
 
+            {/* Edge fade gradients */}
+            <div className="absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-[#fefefe] to-transparent z-10 pointer-events-none" />
+            <div className="absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-[#fefefe] to-transparent z-10 pointer-events-none" />
+
             <div
-              className="absolute h-1/2 sm:h-full w-[200%] -left-3/4 top-32 flex flex-col space-y-2 sm:space-y-3 md:space-y-4 perspective-near"
+              className="absolute h-1/2 sm:h-full w-[200%] -left-1/2 top-36 flex flex-col space-y-2 sm:space-y-3 md:space-y-4"
               style={{
                 transform:
                   "rotateX(45deg) rotateY(-15deg) rotateZ(35deg) translateZ(-200px)",
