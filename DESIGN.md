@@ -6,9 +6,9 @@
 |-------|-------|-------|
 | `--background` | `#fefefe` / `oklch(1 0 0)` | Page background (warm off-white) |
 | `--foreground` | `#000` / `oklch(0.145 0 0)` | Body text |
-| `--accent` | `#F2AD91` | Highlight color, primary accent (warm peach) |
+| `--accent` | `#ff5941` | Highlight color, primary accent (vibrant red-orange) |
 
-Primary in `globals.css` is already close to `#F2AD91` (`oklch(0.555 0.163 48.998)`).
+Primary in `globals.css` is already close to `#ff5941` (`oklch(0.555 0.163 48.998)`).
 
 ## Typography
 
