@@ -138,9 +138,6 @@ export default function Home() {
 
   const handleLoadingFinish = useCallback(() => {
     setLoading(false)
-  }, [])
-
-  useEffect(() => {
     setAutoRotate(true)
   }, [])
 
@@ -154,6 +151,10 @@ export default function Home() {
       <div
         className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-clip relative"
         ref={containerRef}
+        style={{
+          filter: loading ? "blur(8px)" : "blur(0px)",
+          transition: "filter 0.8s ease",
+        }}
       >
         <div className="relative z-10 bg-[#fefefe]">
           {/* Hero */}
