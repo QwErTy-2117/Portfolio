@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 flex items-center px-7 py-3 rounded-full bg-white/80 backdrop-blur-md border border-black/5 shadow-sm">
+      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 flex items-center px-7 py-3 rounded-full bg-white/30 backdrop-blur-lg border border-white/10">
         <div className="flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
@@ -23,9 +23,13 @@ export default function Navbar() {
               href={link.href}
               className={cn(
                 "text-base font-overusedGrotesk transition-colors duration-200",
-                pathname === link.href
-                  ? "text-black font-medium"
-                  : "text-neutral-500 hover:text-black"
+                pathname.startsWith("/projects")
+                  ? pathname === link.href
+                    ? "text-white font-medium"
+                    : "text-neutral-400 hover:text-white"
+                  : pathname === link.href
+                    ? "text-black font-medium"
+                    : "text-neutral-500 hover:text-black"
               )}
             >
               {link.label}

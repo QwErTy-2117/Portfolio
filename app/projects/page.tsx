@@ -1,92 +1,134 @@
 "use client"
 
-import { useEffect } from "react"
+import { useRef } from "react"
+import Image from "next/image"
 import Link from "next/link"
-import { motion, stagger, useAnimate } from "motion/react"
 
-import Floating, { FloatingElement } from "@/components/fancy/image/parallax-floating"
+import { cn } from "@/lib/utils"
+import StackingCards, {
+  StackingCardItem,
+} from "@/components/fancy/blocks/stacking-cards"
 import { projects } from "@/data/projects"
 
-const positions = [
-  { depth: 1.5, className: "top-[16%] left-[22%]" },
-  { depth: 2.5, className: "top-[11%] left-[55%]" },
-  { depth: 1, className: "top-[23%] left-[80%]" },
-  { depth: 2, className: "top-[42%] left-[18%]" },
-  { depth: 3, className: "top-[37%] left-[82%]" },
-  { depth: 1.5, className: "top-[68%] left-[20%]" },
-  { depth: 2, className: "top-[74%] left-[55%]" },
-  { depth: 1, className: "top-[64%] left-[78%]" },
-]
-
-const sizes = [
-  "w-28 h-28 md:w-36 md:h-36",
-  "w-32 h-20 md:w-40 md:h-28",
-  "w-24 h-24 md:w-32 md:h-32",
-  "w-32 h-32 md:w-40 md:h-40",
-  "w-20 h-20 md:w-28 md:h-28",
-  "w-28 h-20 md:w-36 md:h-28",
-  "w-24 h-32 md:w-32 md:h-40",
-  "w-32 h-24 md:w-44 md:h-32",
+const projectColors = [
+  "bg-[#f97316]",
+  "bg-[#0015ff]",
+  "bg-[#ff5941]",
+  "bg-[#1f464d]",
+  "bg-[#0015ff]",
 ]
 
 export default function Projects() {
-  const [scope, animate] = useAnimate()
-
-  useEffect(() => {
-    animate(
-      "img",
-      { opacity: [0, 1] },
-      { duration: 0.5, delay: stagger(0.15) }
-    )
-  }, [animate])
+  const container = useRef<HTMLDivElement>(null)
 
   return (
     <div
-      className="flex w-dvw h-dvh justify-center items-center bg-black overflow-hidden"
-      ref={scope}
+      className="h-dvh bg-black overflow-auto text-white"
+      ref={container}
     >
-      <motion.div
-        className="z-50 text-center space-y-6 items-center flex flex-col"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.88, delay: 1.5 }}
-      >
-        <p className="text-5xl md:text-7xl text-white font-calendas italic leading-none">
-          Projects
-        </p>
-        <p className="text-neutral-400 font-overusedGrotesk max-w-md">
-          A selection of things I&apos;ve built.
-        </p>
-        <div className="flex flex-wrap justify-center gap-4 mt-4">
-          <Link
-            href="/about"
-            className="text-sm font-overusedGrotesk px-6 py-3 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors"
-          >
-            About
-          </Link>
-          <Link
-            href="mailto:garofololuca7@gmail.com"
-            className="text-sm font-overusedGrotesk px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] hover:bg-[#ff5941] hover:text-white transition-colors"
-          >
-            Contact Me
-          </Link>
-        </div>
-      </motion.div>
+      <div className="relative z-10 bg-black">
+        <StackingCards
+          totalCards={projects.length}
+          scrollOptions={{ container: container }}
+        >
+          <div className="relative font-calendas h-dvh w-full flex flex-col justify-center items-center whitespace-pre">
+            <p className="text-5xl md:text-7xl text-white font-calendas italic leading-none mb-4">
+              Projects
+            </p>
+            <p className="text-neutral-400 font-overusedGrotesk text-base md:text-lg max-w-md text-center">
+              A selection of things I&apos;ve built.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <Link
+                href="/about"
+                className="text-sm font-overusedGrotesk px-6 py-3 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors"
+              >
+                About
+              </Link>
+              <Link
+                href="mailto:garofololuca7@gmail.com"
+                className="text-sm font-overusedGrotesk px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] hover:bg-[#ff5941] hover:text-white transition-colors"
+              >
+                Contact Me
+              </Link>
+            </div>
+            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+              <span className="text-sm font-overusedGrotesk text-neutral-500">
+                Scroll down
+              </span>
+              <span className="text-2xl text-neutral-500">↓</span>
+            </div>
+          </div>
 
-      <Floating sensitivity={-1} className="overflow-hidden">
-        {projects.slice(0, 8).map((project, i) => (
-          <FloatingElement key={project.slug} depth={positions[i % positions.length].depth} className={positions[i % positions.length].className}>
-            <Link href={`/projects/${project.slug}`}>
-              <motion.img
-                initial={{ opacity: 0 }}
-                src={project.images[0]}
-                alt={project.title}
-                className={`${sizes[i % sizes.length]} object-cover hover:scale-105 duration-200 cursor-pointer transition-transform rounded-lg -translate-x-1/2 -translate-y-1/2`}
-              />
-            </Link>
-          </FloatingElement>
-        ))}
-      </Floating>
+          {projects.map((project, index) => (
+            <StackingCardItem key={project.slug} index={index} className="h-dvh">
+              <div
+                className={cn(
+                  projectColors[index % projectColors.length],
+                  "h-[80%] sm:h-[70%] flex-col sm:flex-row aspect-video px-8 py-10 flex w-11/12 rounded-3xl mx-auto relative"
+                )}
+              >
+                <div className="flex-1 flex flex-col justify-center">
+                  <span className="text-sm font-overusedGrotesk opacity-80 mb-2">
+                    {project.tag} &middot; {project.year}
+                  </span>
+                  <h3 className="font-bold text-2xl mb-5">{project.title}</h3>
+                  <p className="font-overusedGrotesk text-sm sm:text-base max-w-md">
+                    {project.description}
+                  </p>
+                  <Link
+                    href={`/projects/${project.slug}`}
+                    className="mt-6 text-sm font-overusedGrotesk px-6 py-3 rounded-full bg-white text-black hover:bg-white/90 transition-colors w-fit font-semibold"
+                  >
+                    View Project
+                  </Link>
+                </div>
+
+                <div className="w-full sm:w-1/2 rounded-xl aspect-video relative overflow-hidden">
+                  <Image
+                    src={project.images[0]}
+                    alt={project.title}
+                    className="object-cover"
+                    fill
+                  />
+                </div>
+              </div>
+            </StackingCardItem>
+          ))}
+        </StackingCards>
+      </div>
+
+      <div className="sticky z-0 bottom-0 w-full h-80 bg-black flex justify-center items-center">
+        <div className="relative overflow-hidden w-full h-full flex justify-end px-12 text-right items-start py-12 text-[#ff5941]">
+          <div className="flex flex-row space-x-12 sm:space-x-16 md:space-x-24 text-sm sm:text-lg md:text-xl">
+            <ul className="space-y-1">
+              <li className="hover:underline cursor-pointer text-neutral-500 hover:text-[#ff5941] transition-colors">
+                <Link href="/">Home</Link>
+              </li>
+              <li className="hover:underline cursor-pointer text-neutral-500 hover:text-[#ff5941] transition-colors">
+                <Link href="/projects">Projects</Link>
+              </li>
+              <li className="hover:underline cursor-pointer text-neutral-500 hover:text-[#ff5941] transition-colors">
+                <Link href="/about">About</Link>
+              </li>
+            </ul>
+            <ul className="space-y-1">
+              <li className="hover:underline cursor-pointer text-neutral-500 hover:text-[#ff5941] transition-colors">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </li>
+              <li className="hover:underline cursor-pointer text-neutral-500 hover:text-[#ff5941] transition-colors">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+              </li>
+              <li className="hover:underline cursor-pointer text-neutral-500 hover:text-[#ff5941] transition-colors">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+          <h2 className="absolute bottom-0 left-0 translate-y-1/3 sm:text-[192px] text-[80px] text-[#ff5941] font-calendas leading-none select-none">
+            Luca
+          </h2>
+        </div>
+      </div>
     </div>
   )
 }

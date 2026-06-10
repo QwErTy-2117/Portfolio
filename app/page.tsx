@@ -99,6 +99,15 @@ export default function Home() {
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
 
   useEffect(() => {
+    const nav = (window as any).navigation
+    if (nav?.currentEntry?.index > 0) {
+      setLoading(false)
+      setDismissLoading(true)
+      setOverlayDone(true)
+    }
+  }, [])
+
+  useEffect(() => {
     if (loading) return
     heroHighlightRef.current?.animate()
     aboutHighlightRef.current?.animate()

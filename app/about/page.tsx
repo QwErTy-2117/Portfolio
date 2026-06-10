@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
+import Link from "next/link"
 import Lenis from "lenis"
 
 import { TextHighlighter } from "@/components/fancy/text/text-highlighter"
@@ -33,13 +34,13 @@ export default function About() {
   }, [])
 
   return (
-    <div className="w-dvw h-dvh bg-[#fefefe] relative p-0">
-      <div className="absolute bottom-0 w-full left-0 h-64 bg-gradient-to-t from-[#fefefe] from-10% via-50% via-[#fefefe]/50 to-transparent pointer-events-none isolate z-10" />
+    <div
+      className="w-dvw h-dvh bg-[#fefefe] relative p-0 overflow-y-auto"
+      ref={containerRef}
+    >
+      <div className="absolute bottom-0 w-full left-0 h-64 bg-gradient-to-t from-[#fefefe] from-10% via-50% via-[#fefefe]/50 to-transparent pointer-events-none isolate z-20" />
 
-      <div
-        className="h-full w-full z-10 bg-[#fefefe] overflow-scroll pt-20"
-        ref={containerRef}
-      >
+      <div className="relative z-10 bg-[#fefefe] pt-20">
         <div className="max-w-3xl mx-auto px-6 sm:px-8 pb-64 text-black pt-24">
           <h1 className="text-4xl font-calendas tracking-tight mb-12">
             About Me
@@ -167,6 +168,38 @@ export default function About() {
               </p>
             </motion.div>
           </div>
+        </div>
+      </div>
+
+      <div className="sticky z-0 bottom-0 w-full h-80 bg-white flex justify-center items-center">
+        <div className="relative overflow-hidden w-full h-full flex justify-end px-12 text-right items-start py-12 text-[#ff5941]">
+          <div className="flex flex-row space-x-12 sm:space-x-16 md:space-x-24 text-sm sm:text-lg md:text-xl">
+            <ul className="space-y-1">
+              <li className="hover:underline cursor-pointer text-neutral-600 hover:text-[#ff5941] transition-colors">
+                <Link href="/">Home</Link>
+              </li>
+              <li className="hover:underline cursor-pointer text-neutral-600 hover:text-[#ff5941] transition-colors">
+                <Link href="/projects">Projects</Link>
+              </li>
+              <li className="hover:underline cursor-pointer text-neutral-600 hover:text-[#ff5941] transition-colors">
+                <Link href="/about">About</Link>
+              </li>
+            </ul>
+            <ul className="space-y-1">
+              <li className="hover:underline cursor-pointer text-neutral-600 hover:text-[#ff5941] transition-colors">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </li>
+              <li className="hover:underline cursor-pointer text-neutral-600 hover:text-[#ff5941] transition-colors">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+              </li>
+              <li className="hover:underline cursor-pointer text-neutral-600 hover:text-[#ff5941] transition-colors">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+          <h2 className="absolute bottom-0 left-0 translate-y-1/3 sm:text-[192px] text-[80px] text-[#ff5941] font-calendas leading-none select-none">
+            Luca
+          </h2>
         </div>
       </div>
     </div>
