@@ -93,6 +93,7 @@ export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null)
   const [loading, setLoading] = useState(true)
   const [dismissLoading, setDismissLoading] = useState(false)
+  const [reveal, setReveal] = useState<"idle" | "white" | "fading" | "done">("idle")
   const textRotateRef = useRef<TextRotateRef>(null)
   const heroHighlightRef = useRef<TextHighlighterRef>(null)
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
@@ -100,6 +101,7 @@ export default function Home() {
   useEffect(() => {
     const nav = (window as any).navigation
     if (nav?.currentEntry?.index > 0) {
+      setReveal("done")
       setLoading(false)
       setDismissLoading(true)
     }
@@ -138,6 +140,9 @@ export default function Home() {
 
   const handleLoadingFinish = useCallback(() => {
     setLoading(false)
+    setReveal("white")
+    setTimeout(() => setReveal("fading"), 50)
+    setTimeout(() => setReveal("done"), 1500)
   }, [])
 
   useEffect(() => {
@@ -148,7 +153,7 @@ export default function Home() {
       intervalId = setInterval(() => {
         textRotateRef.current?.next()
       }, 2000)
-    }, 800)
+    }, 300)
     return () => {
       clearTimeout(firstTimer)
       if (intervalId) clearInterval(intervalId)
@@ -161,6 +166,18 @@ export default function Home() {
   return (
     <>
       {loading && <LoadingScreen onFinish={handleLoadingFinish} dismiss={dismissLoading} />}
+
+      {reveal !== "done" && (
+        <div
+          className="fixed inset-0 bg-white"
+          style={{
+            zIndex: 100,
+            opacity: reveal === "fading" ? 0 : 1,
+            transition: "opacity 1.5s ease",
+            pointerEvents: "none",
+          }}
+        />
+      )}
 
       <div
         className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-clip relative"
