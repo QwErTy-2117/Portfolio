@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { motion } from "motion/react"
+import TextRotate from "@/components/fancy/text/text-rotate"
 
 const quotes = [
   "The problem isn't how to make the world more technological. It's about how to make the world more humane again.",
@@ -50,11 +51,20 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
         willChange: "transform",
       }}
     >
-      <div
-        className="max-w-2xl px-8 text-center font-overusedGrotesk"
-        style={{ color: "#000000", fontSize: "clamp(1.125rem, 4vw, 2.5rem)" }}
-      >
-        {quotes[0]}
+      <div className="max-w-2xl px-8 text-center" style={{ color: "#000" }}>
+        <TextRotate
+          texts={quotes}
+          mainClassName="text-xl sm:text-2xl md:text-4xl font-overusedGrotesk overflow-hidden"
+          staggerFrom={"last"}
+          initial={{ y: "100%" }}
+          animate={{ y: 0 }}
+          exit={{ y: "-120%" }}
+          staggerDuration={0.025}
+          splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+          transition={{ type: "spring", damping: 30, stiffness: 400 }}
+          rotationInterval={2500}
+          auto
+        />
       </div>
     </motion.div>
   )
