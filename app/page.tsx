@@ -5,7 +5,7 @@ import { LayoutGroup, motion, Variants } from "motion/react"
 import Lenis from "lenis"
 import Link from "next/link"
 
-import TextRotate from "@/components/fancy/text/text-rotate"
+import TextRotate, { type TextRotateRef } from "@/components/fancy/text/text-rotate"
 import {
   TextHighlighter,
   type TextHighlighterRef,
@@ -93,7 +93,7 @@ export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null)
   const [loading, setLoading] = useState(true)
   const [dismissLoading, setDismissLoading] = useState(false)
-  const [autoRotate, setAutoRotate] = useState(false)
+  const textRotateRef = useRef<TextRotateRef>(null)
   const heroHighlightRef = useRef<TextHighlighterRef>(null)
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
 
@@ -138,8 +138,22 @@ export default function Home() {
 
   const handleLoadingFinish = useCallback(() => {
     setLoading(false)
-    setAutoRotate(true)
   }, [])
+
+  useEffect(() => {
+    if (loading) return
+    let intervalId: ReturnType<typeof setInterval> | undefined
+    const firstTimer = setTimeout(() => {
+      textRotateRef.current?.next()
+      intervalId = setInterval(() => {
+        textRotateRef.current?.next()
+      }, 2000)
+    }, 800)
+    return () => {
+      clearTimeout(firstTimer)
+      if (intervalId) clearInterval(intervalId)
+    }
+  }, [loading])
 
   const firstRow = projects.slice(0, Math.floor(projects.length / 2))
   const secondRow = projects.slice(Math.floor(projects.length / 2))
@@ -172,6 +186,7 @@ export default function Home() {
                     meet{" "}
                   </motion.span>
                   <TextRotate
+                    ref={textRotateRef}
                     texts={[
                       "a dreamer ✦",
                       "a developer ⚡",
@@ -188,7 +203,7 @@ export default function Home() {
                     splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
                     transition={{ type: "spring", damping: 30, stiffness: 400 }}
                     rotationInterval={2000}
-                    auto={autoRotate}
+                    auto={false}
                   />
                 </motion.div>
               </LayoutGroup>
