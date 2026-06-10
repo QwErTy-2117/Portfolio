@@ -98,11 +98,18 @@ export default function Home() {
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
 
   useEffect(() => {
-    if (sessionStorage.getItem("__intro_complete")) {
+    console.log("[Loading] component mounted, loading:", loading)
+    const nav = (window as any).navigation
+    console.log("[Loading] window.navigation exists:", !!nav)
+    console.log("[Loading] navigation.currentEntry:", nav?.currentEntry)
+    console.log("[Loading] navigation.currentEntry?.index:", nav?.currentEntry?.index)
+    console.log("[Loading] navigation.currentEntry?.id:", nav?.currentEntry?.id)
+    console.log("[Loading] navigation.entries():", nav?.entries()?.length)
+    if (nav?.currentEntry?.index > 0) {
+      console.log("[Loading] SKIPPING - index > 0")
       setLoading(false)
       setDismissLoading(true)
     }
-    sessionStorage.setItem("__intro_complete", "true")
   }, [])
 
   useEffect(() => {

@@ -39,13 +39,20 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
   if (phase === "hidden") return null
 
   return (
-    <motion.div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
-      initial={{ opacity: 1 }}
-      animate={{ opacity: phase === "exiting" ? 0 : 1 }}
-      transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-      style={{ pointerEvents: phase === "exiting" ? "none" : "auto" }}
-    >
+    <>
+      <div
+        className="fixed inset-0 z-[200] flex items-center justify-center bg-red-500 text-white text-2xl"
+        style={{ opacity: 1 }}
+      >
+        LOADING...
+      </div>
+      <motion.div
+        className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
+        initial={{ opacity: 1 }}
+        animate={{ opacity: phase === "exiting" ? 0 : 1 }}
+        transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+        style={{ pointerEvents: phase === "exiting" ? "none" : "auto" }}
+      >
       <div className="max-w-xl px-8 text-center">
         <TextRotate
           ref={textRotateRef}
@@ -73,5 +80,6 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
         />
       </div>
     </motion.div>
+    </>
   )
 }
