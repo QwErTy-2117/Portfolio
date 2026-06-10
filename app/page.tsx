@@ -153,7 +153,7 @@ export default function Home() {
       intervalId = setInterval(() => {
         textRotateRef.current?.next()
       }, 2000)
-    }, 300)
+    }, 500)
     return () => {
       clearTimeout(firstTimer)
       if (intervalId) clearInterval(intervalId)
