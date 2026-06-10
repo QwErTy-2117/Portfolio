@@ -93,7 +93,6 @@ export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null)
   const [loading, setLoading] = useState(true)
   const [dismissLoading, setDismissLoading] = useState(false)
-  const [overlayDone, setOverlayDone] = useState(false)
   const [autoRotate, setAutoRotate] = useState(false)
   const heroHighlightRef = useRef<TextHighlighterRef>(null)
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
@@ -103,7 +102,6 @@ export default function Home() {
     if (nav?.currentEntry?.index > 0) {
       setLoading(false)
       setDismissLoading(true)
-      setOverlayDone(true)
     }
   }, [])
 
@@ -152,18 +150,6 @@ export default function Home() {
   return (
     <>
       {loading && <LoadingScreen onFinish={handleLoadingFinish} dismiss={dismissLoading} />}
-
-      {!overlayDone && (
-        <motion.div
-          className="fixed inset-0 z-50 bg-white"
-          initial={{ opacity: 1 }}
-          animate={{ opacity: loading ? 1 : 0 }}
-          transition={{ duration: 2, ease: [0.16, 1, 0.3, 1] }}
-          onAnimationComplete={() => {
-            if (!loading) setOverlayDone(true)
-          }}
-        />
-      )}
 
       <div
         className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-clip relative"

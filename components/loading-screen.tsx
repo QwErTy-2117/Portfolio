@@ -16,32 +16,40 @@ interface LoadingScreenProps {
 }
 
 export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps) {
-  const [visible, setVisible] = useState(true)
+  const [texts, setTexts] = useState(quotes)
   const textRotateRef = useRef<TextRotateRef>(null)
+  const [phase, setPhase] = useState<"visible" | "exiting" | "hidden">("visible")
 
   useEffect(() => {
     if (!dismiss) return
-    setVisible(false)
+    setTexts([...quotes, ""])
+    setTimeout(() => textRotateRef.current?.jumpTo(2), 50)
+    setTimeout(() => setPhase("exiting"), 1000)
   }, [dismiss])
 
   useEffect(() => {
-    if (visible) return
-    const timer = setTimeout(onFinish, 1200)
+    if (phase !== "exiting") return
+    const timer = setTimeout(() => {
+      setPhase("hidden")
+      onFinish()
+    }, 1200)
     return () => clearTimeout(timer)
-  }, [visible, onFinish])
+  }, [phase, onFinish])
+
+  if (phase === "hidden") return null
 
   return (
     <motion.div
       className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
       initial={{ opacity: 1 }}
-      animate={{ opacity: visible ? 1 : 0 }}
+      animate={{ opacity: phase === "exiting" ? 0 : 1 }}
       transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-      style={{ pointerEvents: visible ? "auto" : "none" }}
+      style={{ pointerEvents: phase === "exiting" ? "none" : "auto" }}
     >
       <div className="max-w-xl px-8 text-center">
         <TextRotate
           ref={textRotateRef}
-          texts={quotes}
+          texts={texts}
           mainClassName="md:leading-10 flex whitespace-pre text-lg sm:text-xl md:text-5xl max-w-xl text-center"
           staggerFrom="random"
           animatePresenceMode="wait"
