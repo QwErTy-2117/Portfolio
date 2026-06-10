@@ -187,7 +187,7 @@ export default function About() {
             </ul>
             <ul className="space-y-1">
               <li className="hover:underline cursor-pointer text-neutral-600 hover:text-[#ff5941] transition-colors">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://github.com/QwErTy-2117" target="_blank" rel="noopener noreferrer">GitHub</a>
               </li>
               <li className="hover:underline cursor-pointer text-neutral-600 hover:text-[#ff5941] transition-colors">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
