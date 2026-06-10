@@ -6,29 +6,19 @@ import Lenis from "lenis"
 import Link from "next/link"
 
 import TextRotate from "@/components/fancy/text/text-rotate"
-import { TextHighlighter } from "@/components/fancy/text/text-highlighter"
+import {
+  TextHighlighter,
+  type TextHighlighterRef,
+} from "@/components/fancy/text/text-highlighter"
 import SimpleMarquee from "@/components/fancy/blocks/simple-marquee"
-import AnimatedPathText from "@/components/fancy/text/text-along-path"
 import LoadingScreen from "@/components/loading-screen"
 import { cn } from "@/lib/utils"
 import { projects } from "@/data/projects"
 
-const highlightTransition = { type: "spring", duration: 1, delay: 0.4, bounce: 0 } as const
+const highlightTransition = { type: "spring", duration: 1, bounce: 0 } as const
 const highlightClass = "rounded-[0.3em] px-px"
 const highlightColor = "#ff5941"
-const inViewOptions = { once: true, initial: true, amount: 0.1 }
-
-const howIWorkPaths = [
-  "M1 248C214 -47 582 158 679 -39",
-  "M1 208C214 -87 582 118 679 -79",
-  "M1 168C214 -127 582 78 679 -119",
-]
-
-const howIWorkTexts = [
-  `REACT • NEXT.JS • TYPESCRIPT • NODE.JS • PYTHON • FIGMA • TAILWIND • MOTION`,
-  `UX DESIGN • UI DESIGN • PROTOTYPING • DESIGN SYSTEMS • BRANDING • RESEARCH`,
-  `FULL-STACK • FRONTEND • BACKEND • API • DATABASE • DEVOPS • CLOUD`,
-]
+const inViewOptions = { once: true, initial: false, amount: 0.1 }
 
 function MarqueeItem({
   project,
@@ -104,6 +94,14 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
   const [dismissLoading, setDismissLoading] = useState(false)
   const [overlayDone, setOverlayDone] = useState(false)
+  const heroHighlightRef = useRef<TextHighlighterRef>(null)
+  const aboutHighlightRef = useRef<TextHighlighterRef>(null)
+
+  useEffect(() => {
+    if (loading) return
+    heroHighlightRef.current?.animate()
+    aboutHighlightRef.current?.animate()
+  }, [loading])
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -157,16 +155,10 @@ export default function Home() {
         className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-clip relative"
         ref={containerRef}
       >
-        <div className="absolute bottom-0 w-full left-0 h-64 bg-gradient-to-t from-[#fefefe] from-10% via-50% via-[#fefefe]/50 to-transparent pointer-events-none isolate z-20" />
-
         <div className="relative z-10 bg-[#fefefe]">
           {/* Hero */}
-          <div className="max-w-3xl mx-auto px-6 sm:px-8 pt-32 sm:pt-40 pb-24">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            >
+          <div className="max-w-3xl mx-auto px-6 sm:px-8 pt-32 sm:pt-40">
+            <div>
               <h1 className="text-6xl sm:text-7xl md:text-8xl font-calendas tracking-tight text-black leading-[0.9] mb-8 sm:mb-10">
                 hey there,
               </h1>
@@ -196,31 +188,30 @@ export default function Home() {
                     animate={{ y: 0 }}
                     exit={{ y: "-120%" }}
                     staggerDuration={0.025}
-                    splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1"
+                    splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
                     transition={{ type: "spring", damping: 30, stiffness: 400 }}
                     rotationInterval={2000}
+                    auto={overlayDone}
                   />
                 </motion.div>
               </LayoutGroup>
-            </motion.div>
+            </div>
 
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="text-neutral-500 text-base sm:text-lg font-overusedGrotesk max-w-xl leading-relaxed mt-8 mb-24"
-            >
+            <p className="text-neutral-500 text-base sm:text-lg font-overusedGrotesk max-w-xl leading-relaxed mt-8 mb-24">
               I build things for the web that are{" "}
               <TextHighlighter
+                ref={heroHighlightRef}
+                triggerType="ref"
                 className={highlightClass}
                 transition={highlightTransition}
                 highlightColor={highlightColor}
+                highlightTextColor="#fff"
                 useInViewOptions={inViewOptions}
               >
                 functional, playful, and human-centered
               </TextHighlighter>
               . Based in Italy, making ideas come to life.
-            </motion.p>
+            </p>
 
             {/* About */}
             <motion.div
@@ -228,19 +219,19 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               viewport={{ once: true }}
-              className="mb-24"
+              className="mb-6"
             >
-              <h2 className="text-sm font-overusedGrotesk text-neutral-400 mb-6 tracking-wider uppercase">
-                ✽ About
-              </h2>
               <div className="leading-relaxed space-y-4 font-overusedGrotesk text-neutral-600 text-base sm:text-lg max-w-xl">
                 <p>
                   I&apos;m a developer and designer with a passion for creating
                   digital experiences that are{" "}
                   <TextHighlighter
+                    ref={aboutHighlightRef}
+                    triggerType="ref"
                     className={highlightClass}
                     transition={highlightTransition}
                     highlightColor={highlightColor}
+                    highlightTextColor="#fff"
                     useInViewOptions={inViewOptions}
                   >
                     minimal, playful, human-centered design
@@ -249,21 +240,35 @@ export default function Home() {
                   design system, I care deeply about the details.
                 </p>
               </div>
+              <div className="mt-8 flex gap-4">
+                <Link
+                  href="/projects"
+                  className="inline-block px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] font-overusedGrotesk text-sm hover:bg-[#ff5941] hover:text-white transition-colors"
+                >
+                  My Projects
+                </Link>
+                <Link
+                  href="/about"
+                  className="inline-block px-6 py-3 rounded-full bg-[#ff5941] text-white font-overusedGrotesk text-sm hover:bg-[#ff5941]/90 transition-colors"
+                >
+                  Learn more about me
+                </Link>
+              </div>
             </motion.div>
           </div>
 
           {/* Projects Marquee */}
-          <div className="relative w-full overflow-hidden h-[650px]">
-            <h2 className="absolute text-center text-3xl sm:text-5xl md:text-6xl top-[15%] left-1/2 -translate-x-1/2 text-black font-calendas z-10">
+          <div className="relative w-full overflow-hidden h-[700px] mb-52">
+            <h2 className="absolute text-center text-3xl sm:text-5xl md:text-6xl top-[22%] left-1/2 -translate-x-1/2 text-black font-calendas z-10">
               My Projects
             </h2>
 
             {/* Edge fade gradients */}
-            <div className="absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-[#fefefe] to-transparent z-10 pointer-events-none" />
-            <div className="absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-[#fefefe] to-transparent z-10 pointer-events-none" />
+            <div className="absolute top-0 left-0 w-64 h-full bg-gradient-to-r from-[#fefefe] to-transparent z-10 pointer-events-none" />
+            <div className="absolute top-0 right-0 w-64 h-full bg-gradient-to-l from-[#fefefe] to-transparent z-10 pointer-events-none" />
 
             <div
-              className="absolute h-1/2 sm:h-full w-[200%] -left-1/2 top-36 flex flex-col space-y-2 sm:space-y-3 md:space-y-4"
+              className="absolute h-1/2 sm:h-full w-[150%] -left-[25%] top-56 flex flex-col space-y-2 sm:space-y-3 md:space-y-4"
               style={{
                 transform:
                   "rotateX(45deg) rotateY(-15deg) rotateZ(35deg) translateZ(-200px)",
@@ -272,7 +277,7 @@ export default function Home() {
                 <SimpleMarquee
                   className="w-full"
                   baseVelocity={10}
-                  repeat={3}
+                  repeat={24}
                   draggable={false}
                   scrollSpringConfig={{ damping: 50, stiffness: 400 }}
                   slowDownFactor={0.2}
@@ -291,7 +296,7 @@ export default function Home() {
                 <SimpleMarquee
                   className="w-full"
                   baseVelocity={10}
-                  repeat={3}
+                  repeat={24}
                   draggable={false}
                   scrollSpringConfig={{ damping: 50, stiffness: 400 }}
                   slowDownFactor={0.2}
@@ -307,38 +312,9 @@ export default function Home() {
                   ))}
                 </SimpleMarquee>
               </div>
-            </div>
+          </div>
 
           <div className="max-w-3xl mx-auto px-6 sm:px-8">
-            {/* How I Work */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              viewport={{ once: true }}
-              className="relative w-full h-[400px] sm:h-[500px] mb-24 overflow-hidden"
-            >
-              <h2 className="text-sm font-overusedGrotesk text-neutral-400 mb-6 tracking-wider uppercase text-center">
-                ✦ How I Work
-              </h2>
-              <div className="absolute w-full h-full">
-                {howIWorkPaths.map((path, i) => (
-                  <AnimatedPathText
-                    key={`work-path-${i}`}
-                    path={path}
-                    pathId={`work-path-${i}`}
-                    svgClassName="absolute -left-[100px] top-1/4 w-[calc(100%+200px)] h-full"
-                    viewBox="0 0 680 250"
-                    text={howIWorkTexts[i]}
-                    textClassName="text font-thin text-neutral-400 text-xs sm:text-sm"
-                    animationType="auto"
-                    duration={i * 0.5 + 5}
-                    textAnchor="start"
-                  />
-                ))}
-              </div>
-            </motion.div>
-
             {/* Contact */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -355,6 +331,7 @@ export default function Home() {
                   className={highlightClass}
                   transition={highlightTransition}
                   highlightColor={highlightColor}
+                  highlightTextColor="#fff"
                   useInViewOptions={inViewOptions}
                 >
                   Have a project in mind?

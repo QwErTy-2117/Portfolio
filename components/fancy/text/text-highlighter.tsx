@@ -60,6 +60,12 @@ type TextHighlighterProps = {
    * @default "ltr" (left to right)
    */
   direction?: HighlightDirection
+
+  /**
+   * Text color when the highlight is active. Animates from inherited color to this.
+   * @default undefined (no color change)
+   */
+  highlightTextColor?: string
 } & React.HTMLAttributes<HTMLElement>
 
 export type TextHighlighterRef = {
@@ -92,6 +98,7 @@ export const TextHighlighter = forwardRef<
       },
       className,
       highlightColor = "hsl(25, 90%, 80%)",
+      highlightTextColor,
       direction = "ltr",
       ...props
     },
@@ -174,7 +181,7 @@ export const TextHighlighter = forwardRef<
       backgroundImage: `linear-gradient(${highlightColor}, ${highlightColor})`,
       backgroundRepeat: "no-repeat",
       backgroundPosition: backgroundPosition,
-      backgroundSize: animatedSize,
+      backgroundSize: "0% 100%",
       boxDecorationBreak: "clone",
       WebkitBoxDecorationBreak: "clone",
     } as React.CSSProperties
@@ -191,6 +198,7 @@ export const TextHighlighter = forwardRef<
           style={highlightStyle}
           animate={{
             backgroundSize: animatedSize,
+            ...(highlightTextColor && shouldAnimate ? { color: highlightTextColor } : {}),
           }}
           initial={{
             backgroundSize: initialSize,

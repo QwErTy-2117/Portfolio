@@ -1,65 +1,71 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { AnimatePresence, motion } from "motion/react"
 import TextRotate from "@/components/fancy/text/text-rotate"
+import type { TextRotateRef } from "@/components/fancy/text/text-rotate"
 
 const quotes = [
-  "Design is not just what it looks like. Design is how it works.",
-  "The details are not the details. They make the design.",
-  "Simplicity is the ultimate sophistication.",
-  "Make it work, make it right, make it fast.",
-  "Good design is as little design as possible.",
+  "The problem isn't how to make the world more technological. It's about how to make the world more humane again.",
+  "When you use other people's software you live in somebody else's dream.",
 ]
 
 interface LoadingScreenProps {
   onFinish: () => void
+  dismiss?: boolean
 }
 
-export default function LoadingScreen({ onFinish }: LoadingScreenProps) {
+export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps) {
   const [mounted, setMounted] = useState(false)
-  const [randomQuote] = useState(
-    () => quotes[Math.floor(Math.random() * quotes.length)]
-  )
   const [show, setShow] = useState(true)
+  const [texts, setTexts] = useState(quotes)
+  const textRotateRef = useRef<TextRotateRef>(null)
 
   useEffect(() => {
     setMounted(true)
   }, [])
 
   useEffect(() => {
-    if (!mounted) return
-    const timer = setTimeout(() => {
-      setShow(false)
-      setTimeout(onFinish, 800)
-    }, 2500)
-    return () => clearTimeout(timer)
-  }, [mounted, onFinish])
+    if (!dismiss) return
+    setTexts([...quotes, ""])
+    setTimeout(() => textRotateRef.current?.jumpTo(2), 50)
+    setTimeout(() => setShow(false), 1000)
+  }, [dismiss])
 
   if (!mounted) return null
 
   return (
-    <AnimatePresence>
+    <AnimatePresence onExitComplete={onFinish}>
       {show && (
         <motion.div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black"
-          initial={{ opacity: 1 }}
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
         >
-          <div className="max-w-lg px-8 text-center">
+          <div className="max-w-xl px-8 text-center">
             <TextRotate
-              texts={[randomQuote]}
-              mainClassName="text-white text-lg sm:text-xl md:text-2xl font-overusedGrotesk leading-relaxed"
-              staggerFrom={"random"}
+              ref={textRotateRef}
+              texts={texts}
+              mainClassName="md:leading-10 flex whitespace-pre text-lg sm:text-xl md:text-5xl max-w-xl text-center"
+              staggerFrom="random"
+              animatePresenceMode="wait"
+              animatePresenceInitial
               splitBy="characters"
-              initial={{ y: "100%" }}
-              animate={{ y: 0 }}
-              exit={{ y: "-120%" }}
-              staggerDuration={0.02}
-              splitLevelClassName="overflow-hidden pb-0.5"
-              transition={{ type: "spring", damping: 30, stiffness: 400 }}
-              rotationInterval={10000}
+              initial={[
+                { filter: "blur(20px)", opacity: 0 },
+              ]}
+              animate={[
+                { filter: "blur(0px)", opacity: 1 },
+              ]}
+              exit={[
+                { filter: "blur(20px)", opacity: 0 },
+              ]}
+              loop
+              staggerDuration={0.01}
+              splitLevelClassName=""
+              elementLevelClassName="md:py-[4px]"
+              transition={{ ease: [0.909, 0.151, 0.153, 0.86], duration: 1 }}
+              rotationInterval={4000}
             />
           </div>
         </motion.div>
