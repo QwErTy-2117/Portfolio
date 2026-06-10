@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react"
 import { motion } from "motion/react"
-import TextRotate from "@/components/fancy/text/text-rotate"
 
 const quotes = [
   "The problem isn't how to make the world more technological. It's about how to make the world more humane again.",
@@ -16,6 +15,8 @@ interface LoadingScreenProps {
 
 export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps) {
   const [phase, setPhase] = useState<"visible" | "exiting" | "hidden">("visible")
+  const [quoteIndex, setQuoteIndex] = useState(0)
+  const [fading, setFading] = useState(false)
 
   useEffect(() => {
     if (!dismiss) return
@@ -31,6 +32,18 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
     }, 1200)
     return () => clearTimeout(timer)
   }, [phase, onFinish])
+
+  useEffect(() => {
+    if (phase !== "visible") return
+    const timer = setInterval(() => {
+      setFading(true)
+      setTimeout(() => {
+        setQuoteIndex((i) => (i + 1) % quotes.length)
+        setFading(false)
+      }, 600)
+    }, 2500)
+    return () => clearInterval(timer)
+  }, [phase])
 
   if (phase === "hidden") return null
 
@@ -51,20 +64,16 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
         willChange: "transform",
       }}
     >
-      <div className="max-w-2xl px-8 text-center" style={{ color: "#000" }}>
-        <TextRotate
-          texts={quotes}
-          mainClassName="text-xl sm:text-2xl md:text-4xl font-overusedGrotesk overflow-hidden"
-          staggerFrom={"last"}
-          initial={{ y: "100%" }}
-          animate={{ y: 0 }}
-          exit={{ y: "-120%" }}
-          staggerDuration={0.025}
-          splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
-          transition={{ type: "spring", damping: 30, stiffness: 400 }}
-          rotationInterval={2500}
-          auto
-        />
+      <div className="max-w-2xl px-8 text-center text-xl sm:text-2xl md:text-4xl font-overusedGrotesk">
+        <span
+          style={{
+            color: "#000",
+            opacity: fading ? 0 : 1,
+            transition: "opacity 0.6s ease",
+          }}
+        >
+          {quotes[quoteIndex]}
+        </span>
       </div>
     </motion.div>
   )
