@@ -176,10 +176,10 @@ export default function Home() {
                   </motion.span>
                   <TextRotate
                     texts={[
-                      "Luca Garofolo ✦",
+                      "a dreamer ✦",
                       "a developer ⚡",
                       "a designer ✽",
-                      "a dreamer ✦",
+                      "Luca Garofolo ✦",
                       "a creator 🚀",
                     ]}
                     mainClassName="text-white px-2 sm:px-2 md:px-3 bg-[#ff5941] overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
