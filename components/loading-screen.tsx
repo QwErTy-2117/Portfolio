@@ -1,6 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { motion } from "motion/react"
+import TextRotate from "@/components/fancy/text/text-rotate"
 
 const quotes = [
   "The problem isn't how to make the world more technological. It's about how to make the world more humane again.",
@@ -33,16 +35,37 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
   if (phase === "hidden") return null
 
   return (
-    <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
+    <motion.div
+      initial={false}
+      animate={{ opacity: phase === "exiting" ? 0 : 1 }}
+      transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
       style={{
-        opacity: phase === "exiting" ? 0 : 1,
-        transition: phase === "exiting" ? "opacity 1.2s ease" : undefined,
+        position: "fixed",
+        inset: 0,
+        zIndex: 9999,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#ffffff",
+        isolation: "isolate",
+        willChange: "transform",
       }}
     >
-      <div className="max-w-2xl px-8 text-center text-xl sm:text-2xl md:text-4xl text-black">
-        {quotes[0]}
+      <div className="max-w-2xl px-8 text-center">
+        <TextRotate
+          texts={quotes}
+          mainClassName="text-black text-xl sm:text-2xl md:text-4xl font-overusedGrotesk overflow-hidden"
+          staggerFrom={"last"}
+          initial={{ y: "100%" }}
+          animate={{ y: 0 }}
+          exit={{ y: "-120%" }}
+          staggerDuration={0.025}
+          splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+          transition={{ type: "spring", damping: 30, stiffness: 400 }}
+          rotationInterval={2500}
+          auto
+        />
       </div>
-    </div>
+    </motion.div>
   )
 }
