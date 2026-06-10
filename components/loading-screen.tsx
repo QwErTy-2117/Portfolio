@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { motion } from "motion/react"
 
 const quotes = [
   "The problem isn't how to make the world more technological. It's about how to make the world more humane again.",
@@ -32,13 +31,16 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
 
   if (phase === "hidden") return null
 
+  const opacity = phase === "exiting" ? 0 : 1
+
   return (
-    <motion.div
+    <div
       className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
+      style={{ opacity, transition: "opacity 1.2s ease" }}
     >
       <div className="max-w-xl px-8 text-center text-lg sm:text-xl md:text-5xl text-black">
         {quotes[0]}
       </div>
-    </motion.div>
+    </div>
   )
 }
