@@ -23,7 +23,7 @@ export default function Navbar() {
               href={link.href}
               className={cn(
                 "text-base font-overusedGrotesk transition-colors duration-200",
-                pathname.startsWith("/projects")
+                pathname === "/projects"
                   ? pathname === link.href
                     ? "text-white font-medium"
                     : "text-neutral-400 hover:text-white"

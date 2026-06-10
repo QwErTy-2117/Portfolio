@@ -1,7 +1,9 @@
 "use client"
 
-import { useEffect, useState } from "react"
-import { motion, AnimatePresence } from "motion/react"
+import { useEffect, useRef, useState } from "react"
+import { motion } from "motion/react"
+import TextRotate from "@/components/fancy/text/text-rotate"
+import type { TextRotateRef } from "@/components/fancy/text/text-rotate"
 
 const quotes = [
   "The problem isn't how to make the world more technological. It's about how to make the world more humane again.",
@@ -14,22 +16,16 @@ interface LoadingScreenProps {
 }
 
 export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps) {
+  const [texts, setTexts] = useState(quotes)
+  const textRotateRef = useRef<TextRotateRef>(null)
   const [phase, setPhase] = useState<"visible" | "exiting" | "hidden">("visible")
-  const [quoteIndex, setQuoteIndex] = useState(0)
 
   useEffect(() => {
     if (!dismiss) return
-    const timer = setTimeout(() => setPhase("exiting"), 1000)
-    return () => clearTimeout(timer)
+    setTexts([...quotes, ""])
+    setTimeout(() => textRotateRef.current?.jumpTo(2), 50)
+    setTimeout(() => setPhase("exiting"), 1000)
   }, [dismiss])
-
-  useEffect(() => {
-    if (phase !== "visible") return
-    const timer = setInterval(() => {
-      setQuoteIndex((i) => (i + 1) % quotes.length)
-    }, 2500)
-    return () => clearInterval(timer)
-  }, [phase])
 
   useEffect(() => {
     if (phase !== "exiting") return
@@ -44,34 +40,42 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
 
   return (
     <motion.div
-      initial={false}
+      className="fixed inset-0 flex items-center justify-center bg-white"
+      initial={{ opacity: 1 }}
       animate={{ opacity: phase === "exiting" ? 0 : 1 }}
       transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
       style={{
-        position: "fixed",
-        inset: 0,
         zIndex: 9999,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "#ffffff",
+        pointerEvents: phase === "exiting" ? "none" : "auto",
         isolation: "isolate",
         willChange: "transform",
       }}
     >
-      <div className="max-w-2xl px-8 text-center text-xl sm:text-2xl md:text-4xl font-overusedGrotesk">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={quoteIndex}
-            initial={{ y: 40, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: -40, opacity: 0 }}
-            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            style={{ color: "#000" }}
-          >
-            {quotes[quoteIndex]}
-          </motion.div>
-        </AnimatePresence>
+      <div className="max-w-xl px-8 text-center" style={{ color: "#000" }}>
+        <TextRotate
+          ref={textRotateRef}
+          texts={texts}
+          mainClassName="md:leading-10 flex whitespace-pre text-lg sm:text-xl md:text-5xl max-w-xl text-center"
+          staggerFrom="random"
+          animatePresenceMode="wait"
+          animatePresenceInitial
+          splitBy="characters"
+          initial={[
+            { filter: "blur(20px)", opacity: 0 },
+          ]}
+          animate={[
+            { filter: "blur(0px)", opacity: 1 },
+          ]}
+          exit={[
+            { filter: "blur(20px)", opacity: 0 },
+          ]}
+          loop
+          staggerDuration={0.01}
+          splitLevelClassName=""
+          elementLevelClassName="md:py-[4px]"
+          transition={{ ease: [0.909, 0.151, 0.153, 0.86], duration: 1 }}
+          rotationInterval={4000}
+        />
       </div>
     </motion.div>
   )
