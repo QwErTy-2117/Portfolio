@@ -35,7 +35,7 @@ export default function LoadingScreen({ onFinish, dismiss }: LoadingScreenProps)
   return (
     <motion.div
       className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
-      initial={{ opacity: 1 }}
+      initial={false}
       animate={{ opacity: phase === "exiting" ? 0 : 1 }}
       transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
       style={{ pointerEvents: phase === "exiting" ? "none" : "auto" }}
