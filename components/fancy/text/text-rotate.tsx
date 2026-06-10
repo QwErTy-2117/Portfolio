@@ -350,8 +350,15 @@ const TextRotate = forwardRef<TextRotateRef, TextRotateProps>(
     // Auto-rotate text
     useEffect(() => {
       if (!auto) return
-      const intervalId = setInterval(next, rotationInterval)
-      return () => clearInterval(intervalId)
+      let intervalId: ReturnType<typeof setInterval> | undefined
+      const timeoutId = setTimeout(() => {
+        next()
+        intervalId = setInterval(next, rotationInterval)
+      }, Math.max(0, rotationInterval - 500))
+      return () => {
+        clearTimeout(timeoutId)
+        if (intervalId) clearInterval(intervalId)
+      }
     }, [next, rotationInterval, auto])
 
     // Custom motion component to render the text as a custom HTML tag provided via prop

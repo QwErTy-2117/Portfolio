@@ -94,6 +94,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
   const [dismissLoading, setDismissLoading] = useState(false)
   const [overlayDone, setOverlayDone] = useState(false)
+  const [autoRotate, setAutoRotate] = useState(false)
   const heroHighlightRef = useRef<TextHighlighterRef>(null)
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
 
@@ -130,6 +131,10 @@ export default function Home() {
 
   const handleLoadingFinish = useCallback(() => {
     setLoading(false)
+  }, [])
+
+  useEffect(() => {
+    setAutoRotate(true)
   }, [])
 
   const firstRow = projects.slice(0, Math.floor(projects.length / 2))
@@ -191,7 +196,7 @@ export default function Home() {
                     splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
                     transition={{ type: "spring", damping: 30, stiffness: 400 }}
                     rotationInterval={2000}
-                    auto={overlayDone}
+                    auto={autoRotate}
                   />
                 </motion.div>
               </LayoutGroup>
@@ -339,7 +344,7 @@ export default function Home() {
                 I&apos;d love to hear about it.
               </p>
               <a
-                href="mailto:luca@example.com"
+                href="mailto:garofololuca7@gmail.com"
                 className="inline-block px-6 py-3 rounded-full bg-[#ff5941] text-white font-overusedGrotesk text-sm hover:bg-[#ff5941]/90 transition-colors"
               >
                 Get in touch

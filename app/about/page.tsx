@@ -158,7 +158,7 @@ export default function About() {
                 </TextHighlighter>
                 . If that sounds like your kind of collaboration,{" "}
                 <a
-                  href="mailto:luca@example.com"
+                  href="mailto:garofololuca7@gmail.com"
                   className="text-[#ff5941] hover:underline"
                 >
                   let&apos;s talk

@@ -676,7 +676,7 @@ export default function Home() {
                 Have a project in mind? I&apos;d love to hear about it.
               </p>
               <a
-                href="mailto:luca@example.com"
+                href="mailto:garofololuca7@gmail.com"
                 className="inline-block px-6 py-3 rounded-full bg-[#ff5941] text-white font-overusedGrotesk text-sm hover:bg-[#ff5941]/90 transition-colors"
               >
                 Get in touch
@@ -870,7 +870,7 @@ export default function About() {
               </TextHighlighter>
               . If that sounds like your kind of collaboration,{" "}
               <a
-                href="mailto:luca@example.com"
+                href="mailto:garofololuca7@gmail.com"
                 className="text-[#ff5941] hover:underline"
               >
                 let&apos;s talk

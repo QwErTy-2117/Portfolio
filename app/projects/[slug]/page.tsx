@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { useParams } from "next/navigation"
 import Link from "next/link"
-import { motion, stagger, useAnimate } from "motion/react"
+import { motion } from "motion/react"
 import Lenis from "lenis"
 import { notFound } from "next/navigation"
 
@@ -46,9 +46,7 @@ export default function ProjectPage() {
 
   return (
     <div className="w-dvw h-dvh bg-[#fefefe] overflow-y-auto overflow-x-hidden" ref={containerRef}>
-      <div className="absolute bottom-0 w-full left-0 h-64 bg-gradient-to-t from-[#fefefe] from-10% via-50% via-[#fefefe]/50 to-transparent pointer-events-none isolate z-20" />
-
-      <div className="relative z-10 bg-[#fefefe]">
+      <div className="bg-[#fefefe]">
         <div className="max-w-3xl mx-auto px-6 sm:px-8 pb-64 text-black pt-24">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -137,7 +135,7 @@ export default function ProjectPage() {
           <div className="mt-16 text-center">
             <Link
               href="/projects"
-              className="text-sm font-overusedGrotesk text-[#ff5941] hover:underline"
+              className="inline-block text-sm font-overusedGrotesk px-6 py-3 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors"
             >
               ← Back to projects
             </Link>

@@ -35,7 +35,7 @@ export default function Navbar() {
       </nav>
 
       <Link
-        href="mailto:luca@example.com"
+        href="mailto:garofololuca7@gmail.com"
         className="fixed top-8 right-8 z-50 text-base font-overusedGrotesk px-6 py-3 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors duration-200 shadow-sm"
       >
         Contact Me

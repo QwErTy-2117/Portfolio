@@ -8,25 +8,25 @@ import Floating, { FloatingElement } from "@/components/fancy/image/parallax-flo
 import { projects } from "@/data/projects"
 
 const positions = [
-  { depth: 1, className: "top-[10%] left-[20%]" },
-  { depth: 2, className: "top-[15%] left-[50%]" },
-  { depth: 1, className: "top-[20%] left-[80%]" },
-  { depth: 0.75, className: "top-[45%] left-[25%]" },
-  { depth: 2, className: "top-[55%] left-[70%]" },
-  { depth: 1, className: "top-[70%] left-[15%]" },
-  { depth: 3, className: "top-[75%] left-[55%]" },
-  { depth: 2, className: "top-[85%] left-[35%]" },
+  { depth: 1.5, className: "top-[16%] left-[22%]" },
+  { depth: 2.5, className: "top-[11%] left-[55%]" },
+  { depth: 1, className: "top-[23%] left-[80%]" },
+  { depth: 2, className: "top-[42%] left-[18%]" },
+  { depth: 3, className: "top-[37%] left-[82%]" },
+  { depth: 1.5, className: "top-[68%] left-[20%]" },
+  { depth: 2, className: "top-[74%] left-[55%]" },
+  { depth: 1, className: "top-[64%] left-[78%]" },
 ]
 
 const sizes = [
-  "w-20 h-20 md:w-28 md:h-28",
-  "w-16 h-16 md:w-20 md:h-20",
+  "w-28 h-28 md:w-36 md:h-36",
+  "w-32 h-20 md:w-40 md:h-28",
   "w-24 h-24 md:w-32 md:h-32",
-  "w-28 h-36 md:w-36 md:h-44",
-  "w-20 h-20 md:w-24 md:h-24",
-  "w-24 h-24 md:w-28 md:h-28",
-  "w-16 h-16 md:w-20 md:h-20",
-  "w-32 h-20 md:w-48 md:h-28",
+  "w-32 h-32 md:w-40 md:h-40",
+  "w-20 h-20 md:w-28 md:h-28",
+  "w-28 h-20 md:w-36 md:h-28",
+  "w-24 h-32 md:w-32 md:h-40",
+  "w-32 h-24 md:w-44 md:h-32",
 ]
 
 export default function Projects() {
@@ -60,15 +60,15 @@ export default function Projects() {
         <div className="flex flex-wrap justify-center gap-4 mt-4">
           <Link
             href="/about"
-            className="text-sm font-overusedGrotesk px-6 py-2.5 bg-white text-black rounded-lg hover:bg-neutral-200 transition-colors"
+            className="text-sm font-overusedGrotesk px-6 py-3 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors"
           >
             About
           </Link>
           <Link
-            href="/#contact"
-            className="text-sm font-overusedGrotesk px-6 py-2.5 border border-white/20 text-white rounded-lg hover:bg-white/10 transition-colors"
+            href="mailto:garofololuca7@gmail.com"
+            className="text-sm font-overusedGrotesk px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] hover:bg-[#ff5941] hover:text-white transition-colors"
           >
-            Contact
+            Contact Me
           </Link>
         </div>
       </motion.div>
@@ -81,7 +81,7 @@ export default function Projects() {
                 initial={{ opacity: 0 }}
                 src={project.images[0]}
                 alt={project.title}
-                className={`${sizes[i % sizes.length]} object-cover hover:scale-105 duration-200 cursor-pointer transition-transform rounded-lg`}
+                className={`${sizes[i % sizes.length]} object-cover hover:scale-105 duration-200 cursor-pointer transition-transform rounded-lg -translate-x-1/2 -translate-y-1/2`}
               />
             </Link>
           </FloatingElement>
