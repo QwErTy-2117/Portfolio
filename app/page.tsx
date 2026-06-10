@@ -98,11 +98,11 @@ export default function Home() {
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
 
   useEffect(() => {
-    const nav = (window as any).navigation
-    if (nav?.currentEntry?.index > 0) {
+    if (sessionStorage.getItem("__intro_complete")) {
       setLoading(false)
       setDismissLoading(true)
     }
+    sessionStorage.setItem("__intro_complete", "true")
   }, [])
 
   useEffect(() => {
