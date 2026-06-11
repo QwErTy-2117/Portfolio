@@ -16,8 +16,15 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 flex items-center px-7 py-3 rounded-full bg-white/30 backdrop-blur-lg border border-white/10">
-        <div className="flex items-center gap-2">
+      <nav
+        className={cn(
+          "fixed top-8 left-1/2 -translate-x-1/2 z-50 flex items-center p-1 rounded-full backdrop-blur-xl",
+          pathname === "/projects"
+            ? "bg-white/10 border border-white/10"
+            : "bg-white/70 border border-black/5"
+        )}
+      >
+        <div className="relative flex items-center gap-1">
           {navLinks.map((link) => {
             const isActive = pathname === link.href
             return (
@@ -25,7 +32,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "relative z-10 px-4 py-1.5 text-base font-overusedGrotesk rounded-full transition-colors duration-200",
+                  "relative z-10 px-4 py-2 text-base font-overusedGrotesk rounded-[40px] transition-colors duration-200",
                   pathname === "/projects"
                     ? isActive
                       ? "text-black"
@@ -38,7 +45,7 @@ export default function Navbar() {
                 {isActive && (
                   <motion.div
                     layoutId="indicator"
-                    className="absolute inset-0 bg-white rounded-full -z-10"
+                    className="absolute inset-0 bg-white rounded-[40px] -z-10"
                     transition={{ type: "spring", stiffness: 380, damping: 30 }}
                   />
                 )}
