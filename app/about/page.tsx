@@ -6,6 +6,7 @@ import Lenis from "lenis"
 
 import { TextHighlighter } from "@/components/fancy/text/text-highlighter"
 import { motion, Transition } from "motion/react"
+import Gravity, { MatterBody } from "@/components/fancy/physics/gravity"
 
 const transition = { type: "spring", duration: 1, bounce: 0 } as Transition
 const highlightClass = "rounded-[0.3em] px-px"
@@ -38,10 +39,110 @@ export default function About() {
       className="w-dvw h-dvh bg-[#fefefe] relative p-0 overflow-y-auto"
       ref={containerRef}
     >
-      <div className="absolute bottom-0 w-full left-0 h-64 bg-gradient-to-t from-[#fefefe] from-10% via-50% via-[#fefefe]/50 to-transparent pointer-events-none isolate z-20" />
+      <div className="relative z-10 bg-[#fefefe] pt-20 min-h-screen">
+        <Gravity gravity={{ x: 0, y: 1 }} className="!absolute !inset-x-0 !top-0 !h-dvh !w-full !z-10" resetOnResize={true}>
+          <MatterBody
+            matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+            x="20%"
+            y="15%"
+          >
+            <a
+              href="mailto:garofololuca7@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-base sm:text-lg bg-[#ff5941] text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk"
+            >
+              garofololuca7@gmail.com
+            </a>
+          </MatterBody>
 
-      <div className="relative z-10 bg-[#fefefe] pt-20">
-        <div className="max-w-3xl mx-auto px-6 sm:px-8 pb-64 text-black pt-24">
+          <MatterBody
+            matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+            x="60%"
+            y="25%"
+          >
+            <a
+              href="https://github.com/QwErTy-2117"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-base sm:text-lg bg-neutral-800 text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk"
+            >
+              GitHub
+            </a>
+          </MatterBody>
+
+          <MatterBody
+            matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+            x="75%"
+            y="35%"
+          >
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-base sm:text-lg bg-[#0a66c2] text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk"
+            >
+              LinkedIn
+            </a>
+          </MatterBody>
+
+          <MatterBody
+            matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+            x="40%"
+            y="20%"
+            angle={5}
+          >
+            <div className="text-base sm:text-lg bg-neutral-100 text-neutral-700 rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk border border-neutral-200">
+              Based in Italy
+            </div>
+          </MatterBody>
+
+          <MatterBody
+            matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+            x="80%"
+            y="15%"
+            angle={-8}
+          >
+            <div className="text-base sm:text-lg bg-white text-[#ff5941] rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk border border-[#ff5941]">
+              5+ Years Experience
+            </div>
+          </MatterBody>
+
+          <MatterBody
+            matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+            x="30%"
+            y="35%"
+            angle={3}
+          >
+            <div className="text-base sm:text-lg bg-[#1f464d] text-white rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk">
+              React · Next.js
+            </div>
+          </MatterBody>
+
+          <MatterBody
+            matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+            x="50%"
+            y="30%"
+            angle={-5}
+          >
+            <div className="text-base sm:text-lg bg-[#e794da] text-white rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk">
+              Design Systems
+            </div>
+          </MatterBody>
+
+          <MatterBody
+            matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+            x="65%"
+            y="45%"
+            angle={7}
+          >
+            <div className="text-base sm:text-lg bg-[#f97316] text-white rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk">
+              UI/UX Design
+            </div>
+          </MatterBody>
+        </Gravity>
+
+        <div className="relative max-w-3xl mx-auto px-6 sm:px-8 pb-16 text-black pt-24">
           <h1 className="text-4xl font-calendas tracking-tight mb-12">
             About Me
           </h1>
