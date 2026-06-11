@@ -11,6 +11,7 @@ import {
   type TextHighlighterRef,
 } from "@/components/fancy/text/text-highlighter"
 import SimpleMarquee from "@/components/fancy/blocks/simple-marquee"
+import AnimatedPathText from "@/components/fancy/text/text-along-path"
 import LoadingScreen from "@/components/loading-screen"
 import { cn } from "@/lib/utils"
 import { projects } from "@/data/projects"
@@ -91,23 +92,22 @@ function MarqueeItem({
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null)
-  const [loading, setLoading] = useState(() => {
-    if (typeof window !== "undefined") {
-      const nav = (window as any).navigation
-      if (nav?.currentEntry?.index > 0) return false
-    }
-    return true
-  })
+  const [loading, setLoading] = useState(true)
   const [dismissLoading, setDismissLoading] = useState(false)
   const [reveal, setReveal] = useState<"idle" | "white" | "fading" | "done">("idle")
   const textRotateRef = useRef<TextRotateRef>(null)
   const heroHighlightRef = useRef<TextHighlighterRef>(null)
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
+  const servicesRef = useRef<HTMLDivElement | null>(null)
 
 
   useEffect(() => {
     const nav = (window as any).navigation
-    if (nav?.currentEntry?.index > 0) setReveal("done")
+    if (nav?.currentEntry?.index > 0) {
+      setReveal("done")
+      setLoading(false)
+      setDismissLoading(true)
+    }
   }, [])
 
   useEffect(() => {
@@ -347,57 +347,54 @@ export default function Home() {
           </div>
 
           {/* Services */}
-          <div className="max-w-3xl mx-auto px-6 sm:px-8 mb-32">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              viewport={{ once: true }}
-            >
-              <h2 className="text-3xl sm:text-5xl md:text-6xl font-calendas tracking-tight text-black mb-12 text-center">
-                My Services
+          <section ref={servicesRef} className="relative h-[300vh] bg-[#fefefe]">
+            <div className="sticky top-0 h-screen overflow-hidden flex flex-col items-center pt-28">
+              <h2 className="text-center text-3xl sm:text-5xl md:text-6xl font-calendas tracking-tight text-black mb-2 z-10">
+                What I Do
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {[
-                  {
-                    title: "Web Development",
-                    description: "Full-stack web applications built with modern frameworks like Next.js, React, and Node.js. Fast, accessible, and scalable.",
-                  },
-                  {
-                    title: "UI/UX Design",
-                    description: "User-centered interfaces that balance aesthetics with usability. From wireframes to polished prototypes.",
-                  },
-                  {
-                    title: "Brand Identity",
-                    description: "Visual identities that communicate your story. Logos, color systems, typography, and design guidelines.",
-                  },
-                  {
-                    title: "Creative Consulting",
-                    description: "Technical and creative direction for your digital projects. Strategy, architecture, and hands-on execution.",
-                  },
-                ].map((service, i) => (
-                  <motion.div
-                    key={service.title}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                    viewport={{ once: true }}
-                    className="border border-neutral-200 rounded-2xl p-6 hover:border-[#ff5941]/30 hover:shadow-sm transition-all duration-300"
-                  >
-                    <div className="w-10 h-10 rounded-full bg-[#ff5941]/10 flex items-center justify-center mb-4">
-                      <span className="text-[#ff5941] text-lg font-calendas">
-                        {["01", "02", "03", "04"][i]}
-                      </span>
-                    </div>
-                    <h3 className="text-xl font-calendas text-black mb-2">{service.title}</h3>
-                    <p className="text-neutral-500 font-overusedGrotesk text-sm leading-relaxed">
-                      {service.description}
-                    </p>
-                  </motion.div>
-                ))}
+              <div className="relative w-full flex-1">
+                <AnimatedPathText
+                  path="M -100 250 C 150 150, 350 350, 600 250 C 850 150, 1000 300, 1100 250"
+                  scrollContainer={containerRef}
+                  scrollTarget={servicesRef}
+                  animationType="scroll"
+                  svgClassName="absolute inset-0 w-full h-full"
+                  viewBox="0 0 1000 600"
+                  text="Web Development  ·  UI/UX Design  ·  Brand Identity"
+                  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-[#ff5941]"
+                  scrollTransformValues={[-130, 95]}
+                  textAnchor="start"
+                  scrollOffset={["start end", "end start"]}
+                />
+                <AnimatedPathText
+                  path="M -100 350 C 150 450, 350 250, 600 350 C 850 450, 1000 200, 1100 350"
+                  scrollContainer={containerRef}
+                  scrollTarget={servicesRef}
+                  animationType="scroll"
+                  svgClassName="absolute inset-0 w-full h-full"
+                  viewBox="0 0 1000 600"
+                  text="Creative Consulting  ·  Full-Stack Development  ·  Performance"
+                  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-black"
+                  scrollTransformValues={[-130, 95]}
+                  textAnchor="start"
+                  scrollOffset={["start end", "end start"]}
+                />
+                <AnimatedPathText
+                  path="M -100 450 C 150 350, 350 550, 600 450 C 850 350, 1000 500, 1100 450"
+                  scrollContainer={containerRef}
+                  scrollTarget={servicesRef}
+                  animationType="scroll"
+                  svgClassName="absolute inset-0 w-full h-full"
+                  viewBox="0 0 1000 600"
+                  text="Custom Applications  ·  Responsive Design  ·  Accessibility"
+                  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-neutral-400"
+                  scrollTransformValues={[-130, 95]}
+                  textAnchor="start"
+                  scrollOffset={["start end", "end start"]}
+                />
               </div>
-            </motion.div>
-          </div>
+            </div>
+          </section>
 
           <div className="max-w-3xl mx-auto px-6 sm:px-8">
             {/* Contact */}

@@ -52,6 +52,7 @@ interface AnimatedPathTextProps {
 
   // Scroll animation properties if animationType is scroll
   scrollContainer?: RefObject<HTMLElement | null>
+  scrollTarget?: RefObject<HTMLElement | null>
   scrollOffset?: UseScrollOptions["offset"]
   scrollTransformValues?: [number, number]
 }
@@ -86,6 +87,8 @@ const AnimatedPathText = ({
 
   // Scroll animation defaults
   scrollContainer,
+  scrollTarget,
+
   scrollOffset = ["start end", "end end"],
   scrollTransformValues = [0, 100],
 }: AnimatedPathTextProps) => {
@@ -96,6 +99,7 @@ const AnimatedPathText = ({
 
   const { scrollYProgress } = useScroll({
     ...(scrollContainer && { container: scrollContainer }),
+    ...(scrollTarget && { target: scrollTarget }),
     offset: scrollOffset,
   })
 
@@ -152,7 +156,7 @@ const AnimatedPathText = ({
         <textPath
           className={textClassName}
           href={`#${id}`}
-          startOffset={"0%"}
+          startOffset={`${t.get()}%`}
           ref={(ref) => {
             if (ref) textPathRefs.current[0] = ref
           }}
