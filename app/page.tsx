@@ -290,14 +290,14 @@ export default function Home() {
           </div>
 
           {/* Projects Marquee */}
-          <div className="relative w-full overflow-hidden h-[700px] mb-52">
+          <div className="relative w-full overflow-x-clip h-[700px] mb-52">
             <h2 className="absolute text-center text-3xl sm:text-5xl md:text-6xl top-[22%] left-1/2 -translate-x-1/2 text-black font-calendas z-10">
               My Projects
             </h2>
 
             {/* Edge fade gradients */}
-            <div className="absolute top-0 left-0 w-64 h-full bg-gradient-to-r from-[#fefefe] to-transparent z-10 pointer-events-none" />
-            <div className="absolute top-0 right-0 w-64 h-full bg-gradient-to-l from-[#fefefe] to-transparent z-10 pointer-events-none" />
+            <div className="absolute top-0 left-0 w-96 h-[1200px] bg-gradient-to-r from-[#fefefe] to-transparent z-10 pointer-events-none" />
+            <div className="absolute top-0 right-0 w-96 h-[1200px] bg-gradient-to-l from-[#fefefe] to-transparent z-10 pointer-events-none" />
 
             <div
               className="absolute h-1/2 sm:h-full w-[150%] -left-[25%] top-56 flex flex-col space-y-2 sm:space-y-3 md:space-y-4"
