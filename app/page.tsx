@@ -203,7 +203,7 @@ export default function Home() {
                     layout
                     transition={{ type: "spring", damping: 30, stiffness: 400 }}
                   >
-                    meet{" "}
+                    I'm{" "}
                   </motion.span>
                   <TextRotate
                     ref={textRotateRef}
