@@ -91,20 +91,23 @@ function MarqueeItem({
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(() => {
+    if (typeof window !== "undefined") {
+      const nav = (window as any).navigation
+      if (nav?.currentEntry?.index > 0) return false
+    }
+    return true
+  })
   const [dismissLoading, setDismissLoading] = useState(false)
   const [reveal, setReveal] = useState<"idle" | "white" | "fading" | "done">("idle")
   const textRotateRef = useRef<TextRotateRef>(null)
   const heroHighlightRef = useRef<TextHighlighterRef>(null)
   const aboutHighlightRef = useRef<TextHighlighterRef>(null)
 
+
   useEffect(() => {
     const nav = (window as any).navigation
-    if (nav?.currentEntry?.index > 0) {
-      setReveal("done")
-      setLoading(false)
-      setDismissLoading(true)
-    }
+    if (nav?.currentEntry?.index > 0) setReveal("done")
   }, [])
 
   useEffect(() => {
@@ -341,6 +344,59 @@ export default function Home() {
                   ))}
                 </SimpleMarquee>
               </div>
+          </div>
+
+          {/* Services */}
+          <div className="max-w-3xl mx-auto px-6 sm:px-8 mb-32">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-3xl sm:text-5xl md:text-6xl font-calendas tracking-tight text-black mb-12 text-center">
+                My Services
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {[
+                  {
+                    title: "Web Development",
+                    description: "Full-stack web applications built with modern frameworks like Next.js, React, and Node.js. Fast, accessible, and scalable.",
+                  },
+                  {
+                    title: "UI/UX Design",
+                    description: "User-centered interfaces that balance aesthetics with usability. From wireframes to polished prototypes.",
+                  },
+                  {
+                    title: "Brand Identity",
+                    description: "Visual identities that communicate your story. Logos, color systems, typography, and design guidelines.",
+                  },
+                  {
+                    title: "Creative Consulting",
+                    description: "Technical and creative direction for your digital projects. Strategy, architecture, and hands-on execution.",
+                  },
+                ].map((service, i) => (
+                  <motion.div
+                    key={service.title}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+                    viewport={{ once: true }}
+                    className="border border-neutral-200 rounded-2xl p-6 hover:border-[#ff5941]/30 hover:shadow-sm transition-all duration-300"
+                  >
+                    <div className="w-10 h-10 rounded-full bg-[#ff5941]/10 flex items-center justify-center mb-4">
+                      <span className="text-[#ff5941] text-lg font-calendas">
+                        {["01", "02", "03", "04"][i]}
+                      </span>
+                    </div>
+                    <h3 className="text-xl font-calendas text-black mb-2">{service.title}</h3>
+                    <p className="text-neutral-500 font-overusedGrotesk text-sm leading-relaxed">
+                      {service.description}
+                    </p>
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
           </div>
 
           <div className="max-w-3xl mx-auto px-6 sm:px-8">

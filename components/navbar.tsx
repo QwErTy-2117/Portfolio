@@ -26,7 +26,7 @@ export default function Navbar() {
       >
         <div className="relative flex items-center gap-1">
           {navLinks.map((link) => {
-            const isActive = pathname === link.href
+            const isActive = pathname === link.href || (link.href === "/projects" && pathname.startsWith("/projects") && pathname !== "/projects")
             return (
               <Link
                 key={link.href}
