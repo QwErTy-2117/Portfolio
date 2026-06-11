@@ -45,45 +45,33 @@ export default function About() {
             matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
             x="20%"
             y="15%"
+            onClick={() => window.open("mailto:garofololuca7@gmail.com")}
           >
-            <a
-              href="mailto:garofololuca7@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-base sm:text-lg bg-[#ff5941] text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk"
-            >
+            <div className="text-base sm:text-lg bg-[#ff5941] text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk">
               garofololuca7@gmail.com
-            </a>
+            </div>
           </MatterBody>
 
           <MatterBody
             matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
             x="60%"
             y="25%"
+            onClick={() => window.open("https://github.com/QwErTy-2117", "_blank")}
           >
-            <a
-              href="https://github.com/QwErTy-2117"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-base sm:text-lg bg-neutral-800 text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk"
-            >
+            <div className="text-base sm:text-lg bg-neutral-800 text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk">
               GitHub
-            </a>
+            </div>
           </MatterBody>
 
           <MatterBody
             matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
             x="75%"
             y="35%"
+            onClick={() => window.open("https://linkedin.com", "_blank")}
           >
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-base sm:text-lg bg-[#0a66c2] text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk"
-            >
+            <div className="text-base sm:text-lg bg-[#0a66c2] text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk">
               LinkedIn
-            </a>
+            </div>
           </MatterBody>
 
           <MatterBody

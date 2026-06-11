@@ -58,6 +58,7 @@ type MatterBodyProps = {
   y?: number | string
   angle?: number
   className?: string
+  onClick?: () => void
 }
 
 export type GravityRef = {
@@ -150,6 +151,8 @@ const Gravity = forwardRef<GravityRef, GravityProps>(
     const frameId = useRef<number>(undefined)
     const mouseConstraint = useRef<Matter.MouseConstraint>(undefined)
     const mouseDown = useRef(false)
+    const clickStartBody = useRef<Matter.Body | null>(null)
+    const clickStartPos = useRef({ x: 0, y: 0 })
     const [canvasSize, setCanvasSize] = useState({ width: 0, height: 0 })
 
     const isRunning = useRef(false)
@@ -390,6 +393,31 @@ const Gravity = forwardRef<GravityRef, GravityProps>(
           }
         })
       }
+
+      // Click detection on MatterBody elements
+      Events.on(mouseConstraint.current, 'mousedown', (event) => {
+        const bodies = Query.point(engine.current.world.bodies, event.mouse.position)
+        if (bodies.length > 0) {
+          clickStartBody.current = bodies[0]
+          clickStartPos.current = { x: event.mouse.position.x, y: event.mouse.position.y }
+        } else {
+          clickStartBody.current = null
+        }
+      })
+
+      Events.on(mouseConstraint.current, 'mouseup', (event) => {
+        if (!clickStartBody.current) return
+        const dx = event.mouse.position.x - clickStartPos.current.x
+        const dy = event.mouse.position.y - clickStartPos.current.y
+        if (Math.sqrt(dx * dx + dy * dy) < 10) {
+          bodiesMap.current.forEach(({ body, props }) => {
+            if (body === clickStartBody.current && props.onClick) {
+              props.onClick()
+            }
+          })
+        }
+        clickStartBody.current = null
+      })
 
       World.add(engine.current.world, [mouseConstraint.current, ...walls])
 
