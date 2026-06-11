@@ -347,7 +347,7 @@ export default function Home() {
           </div>
 
           {/* Services */}
-          <section ref={servicesRef} className="relative h-[150vh] bg-[#fefefe]">
+          <section ref={servicesRef} className="relative h-[300vh] bg-[#fefefe]">
             <div className="sticky top-0 h-screen overflow-hidden flex flex-col items-center pt-28">
               <h2 className="text-center text-3xl sm:text-5xl md:text-6xl font-calendas tracking-tight text-black mb-2 z-10">
                 What I Do
@@ -362,7 +362,7 @@ export default function Home() {
                   viewBox="0 0 1000 600"
                   text="Web Development  ·  UI/UX Design  ·  Brand Identity"
                   textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-[#ff5941]"
-                  scrollTransformValues={[-130, 95]}
+                  scrollTransformValues={[-30, 95]}
                   textAnchor="start"
                   scrollOffset={["start end", "end start"]}
                 />
@@ -375,7 +375,7 @@ export default function Home() {
                   viewBox="0 0 1000 600"
                   text="Creative Consulting  ·  Full-Stack Development  ·  Performance"
                   textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-black"
-                  scrollTransformValues={[-130, 95]}
+                  scrollTransformValues={[-30, 95]}
                   textAnchor="start"
                   scrollOffset={["start end", "end start"]}
                 />
@@ -388,7 +388,7 @@ export default function Home() {
                   viewBox="0 0 1000 600"
                   text="Custom Applications  ·  Responsive Design  ·  Accessibility"
                   textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-neutral-400"
-                  scrollTransformValues={[-130, 95]}
+                  scrollTransformValues={[-30, 95]}
                   textAnchor="start"
                   scrollOffset={["start end", "end start"]}
                 />
