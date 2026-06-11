@@ -31,7 +31,7 @@ export default function Projects() {
           totalCards={projects.length}
           scrollOptions={{ container: container }}
         >
-          <div className="relative font-calendas h-dvh w-full flex flex-col justify-center items-center whitespace-pre">
+          <div className="relative font-calendas h-[60vh] w-full flex flex-col justify-center items-center whitespace-pre">
             <p className="text-5xl md:text-7xl text-white font-calendas italic leading-none mb-4">
               Projects
             </p>
@@ -51,12 +51,6 @@ export default function Projects() {
               >
                 Contact Me
               </Link>
-            </div>
-            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-              <span className="text-sm font-overusedGrotesk text-neutral-500">
-                Scroll down
-              </span>
-              <span className="text-2xl text-neutral-500">↓</span>
             </div>
           </div>
 

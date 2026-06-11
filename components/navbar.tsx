@@ -38,14 +38,17 @@ export default function Navbar() {
                       ? "text-black"
                       : "text-neutral-400 hover:text-white"
                     : isActive
-                      ? "text-black"
+                      ? "text-white"
                       : "text-neutral-500 hover:text-black"
                 )}
               >
                 {isActive && (
                   <motion.div
                     layoutId="indicator"
-                    className="absolute inset-0 bg-white rounded-[40px] -z-10"
+                    className={cn(
+                      "absolute inset-0 rounded-[40px] -z-10",
+                      pathname === "/projects" ? "bg-white" : "bg-black"
+                    )}
                     transition={{ type: "spring", stiffness: 380, damping: 30 }}
                   />
                 )}
