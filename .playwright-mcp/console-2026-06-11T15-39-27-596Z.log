@@ -1,0 +1,170 @@
+[     317ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[     422ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[     878ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   26175ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   26292ms] [LOG] [Fast Refresh] done in 217ms @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   83185ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   83392ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:3318
+[   83515ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   83649ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:3318
+[   83675ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[   83759ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[   83787ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   83995ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0p2h_react-dom_0vsf22y._.js:15305
+[   84072ms] Error: ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:465:9)
+    at Object.getCompilationErrors (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/base-server.js:1753:26)
+[   84072ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   84077ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   84123ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   84155ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   84250ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   84998ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   85067ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   87012ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   87081ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[  102701ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  102759ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0p2h_react-dom_0vsf22y._.js:15305
+[  102778ms] Error: ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:465:9)
+    at Object.getCompilationErrors (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/base-server.js:1753:26)
+[  102781ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[  102784ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[  102818ms] [ERROR] ./app/page.tsx:465:9
+Expected '>', got 'ident'
+  463 |           </div>
+  464 |         </div>
+> 465 |       </div>
+      |         ^^^
+  466 |     </>
+  467 |   )
+  468 | }
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[  102886ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[  117013ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[  117153ms] [LOG] [Fast Refresh] done in 138ms @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[  118033ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  118126ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  146838ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  147738ms] [LOG] [Fast Refresh] done in 999ms @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  149122ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=audTBiQRIjJJAG7P4jZYg' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  150142ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=audTBiQRIjJJAG7P4jZYg' failed: Error during WebSocket handshake: Unexpected response code: 404 @ http://localhost:3000/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  151145ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=audTBiQRIjJJAG7P4jZYg' failed: Error during WebSocket handshake: Unexpected response code: 404 @ http://localhost:3000/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  152152ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=audTBiQRIjJJAG7P4jZYg' failed: Error during WebSocket handshake: Unexpected response code: 404 @ http://localhost:3000/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  153155ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=audTBiQRIjJJAG7P4jZYg' failed: Error during WebSocket handshake: Unexpected response code: 404 @ http://localhost:3000/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  158238ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  158541ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  158603ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477

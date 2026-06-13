@@ -1,0 +1,54 @@
+[    3187ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[    3220ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[    3535ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   27697ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   28738ms] [LOG] [Fast Refresh] done in 1141ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   32750ms] [WARNING] Image with src "https://cdn.cosmos.so/b9909337-7a53-48bc-9672-33fbd0f040a1?format=jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   32761ms] [WARNING] Image with src "https://cdn.cosmos.so/1a18b312-21cd-4484-bce5-9fb7ed1c5e01?format=jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   46317ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   46338ms] [LOG] [Fast Refresh] done in 50ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   65934ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   65964ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   66273ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   69498ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   69521ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   73615ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   73631ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   73876ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   73891ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   79366ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   79376ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   93197ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[   94199ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[   95201ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[   96203ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[   97205ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  102207ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  107209ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  112211ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  117213ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  122217ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  127219ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  132220ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr?id=t-U5as3eRYWlRVXep_uKG' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[ 1965938ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 1965992ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 1966279ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 1968769ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 1968808ms] [LOG] [Fast Refresh] done in 139ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 1991201ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 1991231ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 2039904ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 2040178ms] [LOG] [Fast Refresh] done in 356ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 2062862ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 2062898ms] [LOG] [Fast Refresh] done in 136ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 2175083ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 2175248ms] [LOG] [Fast Refresh] done in 243ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 2179866ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[ 2179896ms] [LOG] [Fast Refresh] done in 48ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[39132906ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[39133044ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[39133099ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[39192251ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[39192432ms] [LOG] [Fast Refresh] done in 280ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[39194166ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[39194180ms] [LOG] [Fast Refresh] done in 115ms @ http://localhost:3001/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477

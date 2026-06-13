@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { cn } from "@/lib/utils"
+import { ArrowUpRight } from "lucide-react"
 import StackingCards, {
   StackingCardItem,
 } from "@/components/fancy/blocks/stacking-cards"
@@ -41,15 +42,21 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <Link
                 href="/about"
-                className="text-sm font-overusedGrotesk px-6 py-3 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors"
+                className="relative inline-flex items-center px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] font-overusedGrotesk text-sm group overflow-hidden hover:text-black transition-colors duration-500"
               >
-                About
+                <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full scale-0 transition-transform duration-700 ease-in-out group-hover:scale-[15] pointer-events-none bg-[#ff5941]" />
+                <span className="relative z-10 transition-colors duration-500">About</span>
               </Link>
               <Link
                 href="mailto:garofololuca7@gmail.com"
-                className="text-sm font-overusedGrotesk px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] hover:bg-[#ff5941] hover:text-white transition-colors"
+                className="relative text-sm font-medium rounded-full h-12 p-1 ps-6 pe-14 group transition-all duration-500 hover:ps-14 hover:pe-6 w-fit overflow-hidden cursor-pointer inline-flex items-center bg-[#ff5941] text-black font-overusedGrotesk"
               >
-                Contact Me
+                <span className="relative z-10 transition-all duration-500">
+                  Contact Me
+                </span>
+                <div className="absolute right-1 w-10 h-10 bg-black text-[#ff5941] rounded-full flex items-center justify-center transition-all duration-500 group-hover:right-[calc(100%-44px)] group-hover:rotate-45">
+                  <ArrowUpRight size={16} />
+                </div>
               </Link>
             </div>
           </div>
@@ -68,7 +75,7 @@ export default function Projects() {
                   </span>
                   <h3 className="font-bold text-2xl mb-5">{project.title}</h3>
                   <p className="font-overusedGrotesk text-sm sm:text-base max-w-md">
-                    {project.description}
+                    {project.description.split("\n\n")[0].replace(/\*\*/g, "")}
                   </p>
                   <Link
                     href={`/projects/${project.slug}`}

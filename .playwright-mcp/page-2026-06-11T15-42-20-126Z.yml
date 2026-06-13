@@ -1,0 +1,1151 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: Home
+      - link "Projects" [ref=e6] [cursor=pointer]:
+        - /url: /projects
+      - link "About" [ref=e7] [cursor=pointer]:
+        - /url: /about
+  - link "Contact Me" [ref=e8] [cursor=pointer]:
+    - /url: mailto:garofololuca7@gmail.com
+  - generic [ref=e109]:
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - heading "hey there," [level=1] [ref=e113]
+          - generic [ref=e114]:
+            - generic [ref=e115]: I'm
+            - paragraph [ref=e116]:
+              - generic [ref=e117]: a developer ⚡
+              - generic [ref=e1114]:
+                - generic [ref=e1117]: a
+                - generic [ref=e1119]:
+                  - generic [ref=e1121]: d
+                  - generic [ref=e1123]: e
+                  - generic [ref=e1125]: v
+                  - generic [ref=e1127]: e
+                  - generic [ref=e1129]: l
+                  - generic [ref=e1131]: o
+                  - generic [ref=e1133]: p
+                  - generic [ref=e1135]: e
+                  - generic [ref=e1137]: r
+                - generic [ref=e1141]: ⚡
+        - paragraph [ref=e142]:
+          - text: I build
+          - generic [ref=e143]: AI-native products and agentic systems
+          - text: . Design-first, human-polished — for people, not just developers.
+        - generic [ref=e144]:
+          - paragraph [ref=e146]:
+            - text: I'm an independent developer and designer based in Rome. I work across AI development, product design, and agentic systems — always with a focus on
+            - generic [ref=e147]: polished interfaces that feel natural
+            - text: for people who don't code.
+          - generic [ref=e148]:
+            - link "My Projects" [ref=e149] [cursor=pointer]:
+              - /url: /projects
+            - link "Learn more about me" [ref=e150] [cursor=pointer]:
+              - /url: /about
+      - generic [ref=e151]:
+        - heading "My Projects" [level=2] [ref=e152]
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - link "Prysm Mobile App Prysm" [ref=e156] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e157]:
+                  - generic [ref=e158]:
+                    - heading "Prysm" [level=3] [ref=e159]
+                    - paragraph [ref=e160]: Mobile App
+                  - img "Prysm" [ref=e161]
+              - link "Dantes AI Desktop App Dantes" [ref=e162] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e163]:
+                  - generic [ref=e164]:
+                    - heading "Dantes" [level=3] [ref=e165]
+                    - paragraph [ref=e166]: AI Desktop App
+                  - img "Dantes" [ref=e167]
+              - link "Qube AI Desktop App Qube" [ref=e168] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e169]:
+                  - generic [ref=e170]:
+                    - heading "Qube" [level=3] [ref=e171]
+                    - paragraph [ref=e172]: AI Desktop App
+                  - img "Qube" [ref=e173]
+            - generic [ref=e174]:
+              - link [ref=e175] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e176]:
+                  - generic [ref=e177]:
+                    - heading [level=3] [ref=e178]: Prysm
+                    - paragraph [ref=e179]: Mobile App
+                  - img [ref=e180]
+              - link [ref=e181] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e182]:
+                  - generic [ref=e183]:
+                    - heading [level=3] [ref=e184]: Dantes
+                    - paragraph [ref=e185]: AI Desktop App
+                  - img [ref=e186]
+              - link [ref=e187] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - heading [level=3] [ref=e190]: Qube
+                    - paragraph [ref=e191]: AI Desktop App
+                  - img [ref=e192]
+            - generic [ref=e193]:
+              - link [ref=e194] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - heading [level=3] [ref=e197]: Prysm
+                    - paragraph [ref=e198]: Mobile App
+                  - img [ref=e199]
+              - link [ref=e200] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - heading [level=3] [ref=e203]: Dantes
+                    - paragraph [ref=e204]: AI Desktop App
+                  - img [ref=e205]
+              - link [ref=e206] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e207]:
+                  - generic [ref=e208]:
+                    - heading [level=3] [ref=e209]: Qube
+                    - paragraph [ref=e210]: AI Desktop App
+                  - img [ref=e211]
+            - generic [ref=e212]:
+              - link [ref=e213] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - heading [level=3] [ref=e216]: Prysm
+                    - paragraph [ref=e217]: Mobile App
+                  - img [ref=e218]
+              - link [ref=e219] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e220]:
+                  - generic [ref=e221]:
+                    - heading [level=3] [ref=e222]: Dantes
+                    - paragraph [ref=e223]: AI Desktop App
+                  - img [ref=e224]
+              - link [ref=e225] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e226]:
+                  - generic [ref=e227]:
+                    - heading [level=3] [ref=e228]: Qube
+                    - paragraph [ref=e229]: AI Desktop App
+                  - img [ref=e230]
+            - generic [ref=e231]:
+              - link [ref=e232] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e233]:
+                  - generic [ref=e234]:
+                    - heading [level=3] [ref=e235]: Prysm
+                    - paragraph [ref=e236]: Mobile App
+                  - img [ref=e237]
+              - link [ref=e238] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e239]:
+                  - generic [ref=e240]:
+                    - heading [level=3] [ref=e241]: Dantes
+                    - paragraph [ref=e242]: AI Desktop App
+                  - img [ref=e243]
+              - link [ref=e244] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e245]:
+                  - generic [ref=e246]:
+                    - heading [level=3] [ref=e247]: Qube
+                    - paragraph [ref=e248]: AI Desktop App
+                  - img [ref=e249]
+            - generic [ref=e250]:
+              - link [ref=e251] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e252]:
+                  - generic [ref=e253]:
+                    - heading [level=3] [ref=e254]: Prysm
+                    - paragraph [ref=e255]: Mobile App
+                  - img [ref=e256]
+              - link [ref=e257] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e258]:
+                  - generic [ref=e259]:
+                    - heading [level=3] [ref=e260]: Dantes
+                    - paragraph [ref=e261]: AI Desktop App
+                  - img [ref=e262]
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e264]:
+                  - generic [ref=e265]:
+                    - heading [level=3] [ref=e266]: Qube
+                    - paragraph [ref=e267]: AI Desktop App
+                  - img [ref=e268]
+            - generic [ref=e269]:
+              - link [ref=e270] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e271]:
+                  - generic [ref=e272]:
+                    - heading [level=3] [ref=e273]: Prysm
+                    - paragraph [ref=e274]: Mobile App
+                  - img [ref=e275]
+              - link [ref=e276] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - heading [level=3] [ref=e279]: Dantes
+                    - paragraph [ref=e280]: AI Desktop App
+                  - img [ref=e281]
+              - link [ref=e282] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e283]:
+                  - generic [ref=e284]:
+                    - heading [level=3] [ref=e285]: Qube
+                    - paragraph [ref=e286]: AI Desktop App
+                  - img [ref=e287]
+            - generic [ref=e288]:
+              - link [ref=e289] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e290]:
+                  - generic [ref=e291]:
+                    - heading [level=3] [ref=e292]: Prysm
+                    - paragraph [ref=e293]: Mobile App
+                  - img [ref=e294]
+              - link [ref=e295] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - heading [level=3] [ref=e298]: Dantes
+                    - paragraph [ref=e299]: AI Desktop App
+                  - img [ref=e300]
+              - link [ref=e301] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e302]:
+                  - generic [ref=e303]:
+                    - heading [level=3] [ref=e304]: Qube
+                    - paragraph [ref=e305]: AI Desktop App
+                  - img [ref=e306]
+            - generic [ref=e307]:
+              - link [ref=e308] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e309]:
+                  - generic [ref=e310]:
+                    - heading [level=3] [ref=e311]: Prysm
+                    - paragraph [ref=e312]: Mobile App
+                  - img [ref=e313]
+              - link [ref=e314] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e315]:
+                  - generic [ref=e316]:
+                    - heading [level=3] [ref=e317]: Dantes
+                    - paragraph [ref=e318]: AI Desktop App
+                  - img [ref=e319]
+              - link [ref=e320] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e321]:
+                  - generic [ref=e322]:
+                    - heading [level=3] [ref=e323]: Qube
+                    - paragraph [ref=e324]: AI Desktop App
+                  - img [ref=e325]
+            - generic [ref=e326]:
+              - link [ref=e327] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e328]:
+                  - generic [ref=e329]:
+                    - heading [level=3] [ref=e330]: Prysm
+                    - paragraph [ref=e331]: Mobile App
+                  - img [ref=e332]
+              - link [ref=e333] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e334]:
+                  - generic [ref=e335]:
+                    - heading [level=3] [ref=e336]: Dantes
+                    - paragraph [ref=e337]: AI Desktop App
+                  - img [ref=e338]
+              - link [ref=e339] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e340]:
+                  - generic [ref=e341]:
+                    - heading [level=3] [ref=e342]: Qube
+                    - paragraph [ref=e343]: AI Desktop App
+                  - img [ref=e344]
+            - generic [ref=e345]:
+              - link [ref=e346] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - heading [level=3] [ref=e349]: Prysm
+                    - paragraph [ref=e350]: Mobile App
+                  - img [ref=e351]
+              - link [ref=e352] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e353]:
+                  - generic [ref=e354]:
+                    - heading [level=3] [ref=e355]: Dantes
+                    - paragraph [ref=e356]: AI Desktop App
+                  - img [ref=e357]
+              - link [ref=e358] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e359]:
+                  - generic [ref=e360]:
+                    - heading [level=3] [ref=e361]: Qube
+                    - paragraph [ref=e362]: AI Desktop App
+                  - img [ref=e363]
+            - generic [ref=e364]:
+              - link [ref=e365] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e366]:
+                  - generic [ref=e367]:
+                    - heading [level=3] [ref=e368]: Prysm
+                    - paragraph [ref=e369]: Mobile App
+                  - img [ref=e370]
+              - link [ref=e371] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - heading [level=3] [ref=e374]: Dantes
+                    - paragraph [ref=e375]: AI Desktop App
+                  - img [ref=e376]
+              - link [ref=e377] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e378]:
+                  - generic [ref=e379]:
+                    - heading [level=3] [ref=e380]: Qube
+                    - paragraph [ref=e381]: AI Desktop App
+                  - img [ref=e382]
+            - generic [ref=e383]:
+              - link [ref=e384] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e385]:
+                  - generic [ref=e386]:
+                    - heading [level=3] [ref=e387]: Prysm
+                    - paragraph [ref=e388]: Mobile App
+                  - img [ref=e389]
+              - link [ref=e390] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e391]:
+                  - generic [ref=e392]:
+                    - heading [level=3] [ref=e393]: Dantes
+                    - paragraph [ref=e394]: AI Desktop App
+                  - img [ref=e395]
+              - link [ref=e396] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e397]:
+                  - generic [ref=e398]:
+                    - heading [level=3] [ref=e399]: Qube
+                    - paragraph [ref=e400]: AI Desktop App
+                  - img [ref=e401]
+            - generic [ref=e402]:
+              - link [ref=e403] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e404]:
+                  - generic [ref=e405]:
+                    - heading [level=3] [ref=e406]: Prysm
+                    - paragraph [ref=e407]: Mobile App
+                  - img [ref=e408]
+              - link [ref=e409] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e410]:
+                  - generic [ref=e411]:
+                    - heading [level=3] [ref=e412]: Dantes
+                    - paragraph [ref=e413]: AI Desktop App
+                  - img [ref=e414]
+              - link [ref=e415] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e416]:
+                  - generic [ref=e417]:
+                    - heading [level=3] [ref=e418]: Qube
+                    - paragraph [ref=e419]: AI Desktop App
+                  - img [ref=e420]
+            - generic [ref=e421]:
+              - link [ref=e422] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e423]:
+                  - generic [ref=e424]:
+                    - heading [level=3] [ref=e425]: Prysm
+                    - paragraph [ref=e426]: Mobile App
+                  - img [ref=e427]
+              - link [ref=e428] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e429]:
+                  - generic [ref=e430]:
+                    - heading [level=3] [ref=e431]: Dantes
+                    - paragraph [ref=e432]: AI Desktop App
+                  - img [ref=e433]
+              - link [ref=e434] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e435]:
+                  - generic [ref=e436]:
+                    - heading [level=3] [ref=e437]: Qube
+                    - paragraph [ref=e438]: AI Desktop App
+                  - img [ref=e439]
+            - generic [ref=e440]:
+              - link [ref=e441] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e442]:
+                  - generic [ref=e443]:
+                    - heading [level=3] [ref=e444]: Prysm
+                    - paragraph [ref=e445]: Mobile App
+                  - img [ref=e446]
+              - link [ref=e447] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e448]:
+                  - generic [ref=e449]:
+                    - heading [level=3] [ref=e450]: Dantes
+                    - paragraph [ref=e451]: AI Desktop App
+                  - img [ref=e452]
+              - link [ref=e453] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e454]:
+                  - generic [ref=e455]:
+                    - heading [level=3] [ref=e456]: Qube
+                    - paragraph [ref=e457]: AI Desktop App
+                  - img [ref=e458]
+            - generic [ref=e459]:
+              - link [ref=e460] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e461]:
+                  - generic [ref=e462]:
+                    - heading [level=3] [ref=e463]: Prysm
+                    - paragraph [ref=e464]: Mobile App
+                  - img [ref=e465]
+              - link [ref=e466] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e467]:
+                  - generic [ref=e468]:
+                    - heading [level=3] [ref=e469]: Dantes
+                    - paragraph [ref=e470]: AI Desktop App
+                  - img [ref=e471]
+              - link [ref=e472] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e473]:
+                  - generic [ref=e474]:
+                    - heading [level=3] [ref=e475]: Qube
+                    - paragraph [ref=e476]: AI Desktop App
+                  - img [ref=e477]
+            - generic [ref=e478]:
+              - link [ref=e479] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e480]:
+                  - generic [ref=e481]:
+                    - heading [level=3] [ref=e482]: Prysm
+                    - paragraph [ref=e483]: Mobile App
+                  - img [ref=e484]
+              - link [ref=e485] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e486]:
+                  - generic [ref=e487]:
+                    - heading [level=3] [ref=e488]: Dantes
+                    - paragraph [ref=e489]: AI Desktop App
+                  - img [ref=e490]
+              - link [ref=e491] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e492]:
+                  - generic [ref=e493]:
+                    - heading [level=3] [ref=e494]: Qube
+                    - paragraph [ref=e495]: AI Desktop App
+                  - img [ref=e496]
+            - generic [ref=e497]:
+              - link [ref=e498] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e499]:
+                  - generic [ref=e500]:
+                    - heading [level=3] [ref=e501]: Prysm
+                    - paragraph [ref=e502]: Mobile App
+                  - img [ref=e503]
+              - link [ref=e504] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e505]:
+                  - generic [ref=e506]:
+                    - heading [level=3] [ref=e507]: Dantes
+                    - paragraph [ref=e508]: AI Desktop App
+                  - img [ref=e509]
+              - link [ref=e510] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e511]:
+                  - generic [ref=e512]:
+                    - heading [level=3] [ref=e513]: Qube
+                    - paragraph [ref=e514]: AI Desktop App
+                  - img [ref=e515]
+            - generic [ref=e516]:
+              - link [ref=e517] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e518]:
+                  - generic [ref=e519]:
+                    - heading [level=3] [ref=e520]: Prysm
+                    - paragraph [ref=e521]: Mobile App
+                  - img [ref=e522]
+              - link [ref=e523] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e524]:
+                  - generic [ref=e525]:
+                    - heading [level=3] [ref=e526]: Dantes
+                    - paragraph [ref=e527]: AI Desktop App
+                  - img [ref=e528]
+              - link [ref=e529] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e530]:
+                  - generic [ref=e531]:
+                    - heading [level=3] [ref=e532]: Qube
+                    - paragraph [ref=e533]: AI Desktop App
+                  - img [ref=e534]
+            - generic [ref=e535]:
+              - link [ref=e536] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e537]:
+                  - generic [ref=e538]:
+                    - heading [level=3] [ref=e539]: Prysm
+                    - paragraph [ref=e540]: Mobile App
+                  - img [ref=e541]
+              - link [ref=e542] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e543]:
+                  - generic [ref=e544]:
+                    - heading [level=3] [ref=e545]: Dantes
+                    - paragraph [ref=e546]: AI Desktop App
+                  - img [ref=e547]
+              - link [ref=e548] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e549]:
+                  - generic [ref=e550]:
+                    - heading [level=3] [ref=e551]: Qube
+                    - paragraph [ref=e552]: AI Desktop App
+                  - img [ref=e553]
+            - generic [ref=e554]:
+              - link [ref=e555] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e556]:
+                  - generic [ref=e557]:
+                    - heading [level=3] [ref=e558]: Prysm
+                    - paragraph [ref=e559]: Mobile App
+                  - img [ref=e560]
+              - link [ref=e561] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e562]:
+                  - generic [ref=e563]:
+                    - heading [level=3] [ref=e564]: Dantes
+                    - paragraph [ref=e565]: AI Desktop App
+                  - img [ref=e566]
+              - link [ref=e567] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e568]:
+                  - generic [ref=e569]:
+                    - heading [level=3] [ref=e570]: Qube
+                    - paragraph [ref=e571]: AI Desktop App
+                  - img [ref=e572]
+            - generic [ref=e573]:
+              - link [ref=e574] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e575]:
+                  - generic [ref=e576]:
+                    - heading [level=3] [ref=e577]: Prysm
+                    - paragraph [ref=e578]: Mobile App
+                  - img [ref=e579]
+              - link [ref=e580] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e581]:
+                  - generic [ref=e582]:
+                    - heading [level=3] [ref=e583]: Dantes
+                    - paragraph [ref=e584]: AI Desktop App
+                  - img [ref=e585]
+              - link [ref=e586] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e587]:
+                  - generic [ref=e588]:
+                    - heading [level=3] [ref=e589]: Qube
+                    - paragraph [ref=e590]: AI Desktop App
+                  - img [ref=e591]
+            - generic [ref=e592]:
+              - link [ref=e593] [cursor=pointer]:
+                - /url: /projects/prysm
+                - generic [ref=e594]:
+                  - generic [ref=e595]:
+                    - heading [level=3] [ref=e596]: Prysm
+                    - paragraph [ref=e597]: Mobile App
+                  - img [ref=e598]
+              - link [ref=e599] [cursor=pointer]:
+                - /url: /projects/dantes
+                - generic [ref=e600]:
+                  - generic [ref=e601]:
+                    - heading [level=3] [ref=e602]: Dantes
+                    - paragraph [ref=e603]: AI Desktop App
+                  - img [ref=e604]
+              - link [ref=e605] [cursor=pointer]:
+                - /url: /projects/qube
+                - generic [ref=e606]:
+                  - generic [ref=e607]:
+                    - heading [level=3] [ref=e608]: Qube
+                    - paragraph [ref=e609]: AI Desktop App
+                  - img [ref=e610]
+          - generic [ref=e611]:
+            - generic [ref=e612]:
+              - link "PixelCat Automation PixelCat" [ref=e613] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e614]:
+                  - generic [ref=e615]:
+                    - heading "PixelCat" [level=3] [ref=e616]
+                    - paragraph [ref=e617]: Automation
+                  - img "PixelCat" [ref=e618]
+              - link "Coco App Concept Coco" [ref=e619] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e620]:
+                  - generic [ref=e621]:
+                    - heading "Coco" [level=3] [ref=e622]
+                    - paragraph [ref=e623]: App Concept
+                  - img "Coco" [ref=e624]
+              - link "OpenPath Protocol OpenPath" [ref=e625] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e626]:
+                  - generic [ref=e627]:
+                    - heading "OpenPath" [level=3] [ref=e628]
+                    - paragraph [ref=e629]: Protocol
+                  - img "OpenPath" [ref=e630]
+            - generic [ref=e631]:
+              - link [ref=e632] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e633]:
+                  - generic [ref=e634]:
+                    - heading [level=3] [ref=e635]: PixelCat
+                    - paragraph [ref=e636]: Automation
+                  - img [ref=e637]
+              - link [ref=e638] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e639]:
+                  - generic [ref=e640]:
+                    - heading [level=3] [ref=e641]: Coco
+                    - paragraph [ref=e642]: App Concept
+                  - img [ref=e643]
+              - link [ref=e644] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e645]:
+                  - generic [ref=e646]:
+                    - heading [level=3] [ref=e647]: OpenPath
+                    - paragraph [ref=e648]: Protocol
+                  - img [ref=e649]
+            - generic [ref=e650]:
+              - link [ref=e651] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e652]:
+                  - generic [ref=e653]:
+                    - heading [level=3] [ref=e654]: PixelCat
+                    - paragraph [ref=e655]: Automation
+                  - img [ref=e656]
+              - link [ref=e657] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e658]:
+                  - generic [ref=e659]:
+                    - heading [level=3] [ref=e660]: Coco
+                    - paragraph [ref=e661]: App Concept
+                  - img [ref=e662]
+              - link [ref=e663] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e664]:
+                  - generic [ref=e665]:
+                    - heading [level=3] [ref=e666]: OpenPath
+                    - paragraph [ref=e667]: Protocol
+                  - img [ref=e668]
+            - generic [ref=e669]:
+              - link [ref=e670] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e671]:
+                  - generic [ref=e672]:
+                    - heading [level=3] [ref=e673]: PixelCat
+                    - paragraph [ref=e674]: Automation
+                  - img [ref=e675]
+              - link [ref=e676] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e677]:
+                  - generic [ref=e678]:
+                    - heading [level=3] [ref=e679]: Coco
+                    - paragraph [ref=e680]: App Concept
+                  - img [ref=e681]
+              - link [ref=e682] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e683]:
+                  - generic [ref=e684]:
+                    - heading [level=3] [ref=e685]: OpenPath
+                    - paragraph [ref=e686]: Protocol
+                  - img [ref=e687]
+            - generic [ref=e688]:
+              - link [ref=e689] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e690]:
+                  - generic [ref=e691]:
+                    - heading [level=3] [ref=e692]: PixelCat
+                    - paragraph [ref=e693]: Automation
+                  - img [ref=e694]
+              - link [ref=e695] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e696]:
+                  - generic [ref=e697]:
+                    - heading [level=3] [ref=e698]: Coco
+                    - paragraph [ref=e699]: App Concept
+                  - img [ref=e700]
+              - link [ref=e701] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e702]:
+                  - generic [ref=e703]:
+                    - heading [level=3] [ref=e704]: OpenPath
+                    - paragraph [ref=e705]: Protocol
+                  - img [ref=e706]
+            - generic [ref=e707]:
+              - link [ref=e708] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e709]:
+                  - generic [ref=e710]:
+                    - heading [level=3] [ref=e711]: PixelCat
+                    - paragraph [ref=e712]: Automation
+                  - img [ref=e713]
+              - link [ref=e714] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e715]:
+                  - generic [ref=e716]:
+                    - heading [level=3] [ref=e717]: Coco
+                    - paragraph [ref=e718]: App Concept
+                  - img [ref=e719]
+              - link [ref=e720] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e721]:
+                  - generic [ref=e722]:
+                    - heading [level=3] [ref=e723]: OpenPath
+                    - paragraph [ref=e724]: Protocol
+                  - img [ref=e725]
+            - generic [ref=e726]:
+              - link [ref=e727] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e728]:
+                  - generic [ref=e729]:
+                    - heading [level=3] [ref=e730]: PixelCat
+                    - paragraph [ref=e731]: Automation
+                  - img [ref=e732]
+              - link [ref=e733] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e734]:
+                  - generic [ref=e735]:
+                    - heading [level=3] [ref=e736]: Coco
+                    - paragraph [ref=e737]: App Concept
+                  - img [ref=e738]
+              - link [ref=e739] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e740]:
+                  - generic [ref=e741]:
+                    - heading [level=3] [ref=e742]: OpenPath
+                    - paragraph [ref=e743]: Protocol
+                  - img [ref=e744]
+            - generic [ref=e745]:
+              - link [ref=e746] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e747]:
+                  - generic [ref=e748]:
+                    - heading [level=3] [ref=e749]: PixelCat
+                    - paragraph [ref=e750]: Automation
+                  - img [ref=e751]
+              - link [ref=e752] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e753]:
+                  - generic [ref=e754]:
+                    - heading [level=3] [ref=e755]: Coco
+                    - paragraph [ref=e756]: App Concept
+                  - img [ref=e757]
+              - link [ref=e758] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e759]:
+                  - generic [ref=e760]:
+                    - heading [level=3] [ref=e761]: OpenPath
+                    - paragraph [ref=e762]: Protocol
+                  - img [ref=e763]
+            - generic [ref=e764]:
+              - link [ref=e765] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e766]:
+                  - generic [ref=e767]:
+                    - heading [level=3] [ref=e768]: PixelCat
+                    - paragraph [ref=e769]: Automation
+                  - img [ref=e770]
+              - link [ref=e771] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e772]:
+                  - generic [ref=e773]:
+                    - heading [level=3] [ref=e774]: Coco
+                    - paragraph [ref=e775]: App Concept
+                  - img [ref=e776]
+              - link [ref=e777] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e778]:
+                  - generic [ref=e779]:
+                    - heading [level=3] [ref=e780]: OpenPath
+                    - paragraph [ref=e781]: Protocol
+                  - img [ref=e782]
+            - generic [ref=e783]:
+              - link [ref=e784] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e785]:
+                  - generic [ref=e786]:
+                    - heading [level=3] [ref=e787]: PixelCat
+                    - paragraph [ref=e788]: Automation
+                  - img [ref=e789]
+              - link [ref=e790] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e791]:
+                  - generic [ref=e792]:
+                    - heading [level=3] [ref=e793]: Coco
+                    - paragraph [ref=e794]: App Concept
+                  - img [ref=e795]
+              - link [ref=e796] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e797]:
+                  - generic [ref=e798]:
+                    - heading [level=3] [ref=e799]: OpenPath
+                    - paragraph [ref=e800]: Protocol
+                  - img [ref=e801]
+            - generic [ref=e802]:
+              - link [ref=e803] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e804]:
+                  - generic [ref=e805]:
+                    - heading [level=3] [ref=e806]: PixelCat
+                    - paragraph [ref=e807]: Automation
+                  - img [ref=e808]
+              - link [ref=e809] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e810]:
+                  - generic [ref=e811]:
+                    - heading [level=3] [ref=e812]: Coco
+                    - paragraph [ref=e813]: App Concept
+                  - img [ref=e814]
+              - link [ref=e815] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e816]:
+                  - generic [ref=e817]:
+                    - heading [level=3] [ref=e818]: OpenPath
+                    - paragraph [ref=e819]: Protocol
+                  - img [ref=e820]
+            - generic [ref=e821]:
+              - link [ref=e822] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e823]:
+                  - generic [ref=e824]:
+                    - heading [level=3] [ref=e825]: PixelCat
+                    - paragraph [ref=e826]: Automation
+                  - img [ref=e827]
+              - link [ref=e828] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e829]:
+                  - generic [ref=e830]:
+                    - heading [level=3] [ref=e831]: Coco
+                    - paragraph [ref=e832]: App Concept
+                  - img [ref=e833]
+              - link [ref=e834] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e835]:
+                  - generic [ref=e836]:
+                    - heading [level=3] [ref=e837]: OpenPath
+                    - paragraph [ref=e838]: Protocol
+                  - img [ref=e839]
+            - generic [ref=e840]:
+              - link [ref=e841] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e842]:
+                  - generic [ref=e843]:
+                    - heading [level=3] [ref=e844]: PixelCat
+                    - paragraph [ref=e845]: Automation
+                  - img [ref=e846]
+              - link [ref=e847] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e848]:
+                  - generic [ref=e849]:
+                    - heading [level=3] [ref=e850]: Coco
+                    - paragraph [ref=e851]: App Concept
+                  - img [ref=e852]
+              - link [ref=e853] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e854]:
+                  - generic [ref=e855]:
+                    - heading [level=3] [ref=e856]: OpenPath
+                    - paragraph [ref=e857]: Protocol
+                  - img [ref=e858]
+            - generic [ref=e859]:
+              - link [ref=e860] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e861]:
+                  - generic [ref=e862]:
+                    - heading [level=3] [ref=e863]: PixelCat
+                    - paragraph [ref=e864]: Automation
+                  - img [ref=e865]
+              - link [ref=e866] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e867]:
+                  - generic [ref=e868]:
+                    - heading [level=3] [ref=e869]: Coco
+                    - paragraph [ref=e870]: App Concept
+                  - img [ref=e871]
+              - link [ref=e872] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e873]:
+                  - generic [ref=e874]:
+                    - heading [level=3] [ref=e875]: OpenPath
+                    - paragraph [ref=e876]: Protocol
+                  - img [ref=e877]
+            - generic [ref=e878]:
+              - link [ref=e879] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e880]:
+                  - generic [ref=e881]:
+                    - heading [level=3] [ref=e882]: PixelCat
+                    - paragraph [ref=e883]: Automation
+                  - img [ref=e884]
+              - link [ref=e885] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e886]:
+                  - generic [ref=e887]:
+                    - heading [level=3] [ref=e888]: Coco
+                    - paragraph [ref=e889]: App Concept
+                  - img [ref=e890]
+              - link [ref=e891] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e892]:
+                  - generic [ref=e893]:
+                    - heading [level=3] [ref=e894]: OpenPath
+                    - paragraph [ref=e895]: Protocol
+                  - img [ref=e896]
+            - generic [ref=e897]:
+              - link [ref=e898] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e899]:
+                  - generic [ref=e900]:
+                    - heading [level=3] [ref=e901]: PixelCat
+                    - paragraph [ref=e902]: Automation
+                  - img [ref=e903]
+              - link [ref=e904] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e905]:
+                  - generic [ref=e906]:
+                    - heading [level=3] [ref=e907]: Coco
+                    - paragraph [ref=e908]: App Concept
+                  - img [ref=e909]
+              - link [ref=e910] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e911]:
+                  - generic [ref=e912]:
+                    - heading [level=3] [ref=e913]: OpenPath
+                    - paragraph [ref=e914]: Protocol
+                  - img [ref=e915]
+            - generic [ref=e916]:
+              - link [ref=e917] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e918]:
+                  - generic [ref=e919]:
+                    - heading [level=3] [ref=e920]: PixelCat
+                    - paragraph [ref=e921]: Automation
+                  - img [ref=e922]
+              - link [ref=e923] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e924]:
+                  - generic [ref=e925]:
+                    - heading [level=3] [ref=e926]: Coco
+                    - paragraph [ref=e927]: App Concept
+                  - img [ref=e928]
+              - link [ref=e929] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e930]:
+                  - generic [ref=e931]:
+                    - heading [level=3] [ref=e932]: OpenPath
+                    - paragraph [ref=e933]: Protocol
+                  - img [ref=e934]
+            - generic [ref=e935]:
+              - link [ref=e936] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e937]:
+                  - generic [ref=e938]:
+                    - heading [level=3] [ref=e939]: PixelCat
+                    - paragraph [ref=e940]: Automation
+                  - img [ref=e941]
+              - link [ref=e942] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e943]:
+                  - generic [ref=e944]:
+                    - heading [level=3] [ref=e945]: Coco
+                    - paragraph [ref=e946]: App Concept
+                  - img [ref=e947]
+              - link [ref=e948] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e949]:
+                  - generic [ref=e950]:
+                    - heading [level=3] [ref=e951]: OpenPath
+                    - paragraph [ref=e952]: Protocol
+                  - img [ref=e953]
+            - generic [ref=e954]:
+              - link [ref=e955] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e956]:
+                  - generic [ref=e957]:
+                    - heading [level=3] [ref=e958]: PixelCat
+                    - paragraph [ref=e959]: Automation
+                  - img [ref=e960]
+              - link [ref=e961] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e962]:
+                  - generic [ref=e963]:
+                    - heading [level=3] [ref=e964]: Coco
+                    - paragraph [ref=e965]: App Concept
+                  - img [ref=e966]
+              - link [ref=e967] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e968]:
+                  - generic [ref=e969]:
+                    - heading [level=3] [ref=e970]: OpenPath
+                    - paragraph [ref=e971]: Protocol
+                  - img [ref=e972]
+            - generic [ref=e973]:
+              - link [ref=e974] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e975]:
+                  - generic [ref=e976]:
+                    - heading [level=3] [ref=e977]: PixelCat
+                    - paragraph [ref=e978]: Automation
+                  - img [ref=e979]
+              - link [ref=e980] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e981]:
+                  - generic [ref=e982]:
+                    - heading [level=3] [ref=e983]: Coco
+                    - paragraph [ref=e984]: App Concept
+                  - img [ref=e985]
+              - link [ref=e986] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e987]:
+                  - generic [ref=e988]:
+                    - heading [level=3] [ref=e989]: OpenPath
+                    - paragraph [ref=e990]: Protocol
+                  - img [ref=e991]
+            - generic [ref=e992]:
+              - link [ref=e993] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e994]:
+                  - generic [ref=e995]:
+                    - heading [level=3] [ref=e996]: PixelCat
+                    - paragraph [ref=e997]: Automation
+                  - img [ref=e998]
+              - link [ref=e999] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e1000]:
+                  - generic [ref=e1001]:
+                    - heading [level=3] [ref=e1002]: Coco
+                    - paragraph [ref=e1003]: App Concept
+                  - img [ref=e1004]
+              - link [ref=e1005] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e1006]:
+                  - generic [ref=e1007]:
+                    - heading [level=3] [ref=e1008]: OpenPath
+                    - paragraph [ref=e1009]: Protocol
+                  - img [ref=e1010]
+            - generic [ref=e1011]:
+              - link [ref=e1012] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e1013]:
+                  - generic [ref=e1014]:
+                    - heading [level=3] [ref=e1015]: PixelCat
+                    - paragraph [ref=e1016]: Automation
+                  - img [ref=e1017]
+              - link [ref=e1018] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e1019]:
+                  - generic [ref=e1020]:
+                    - heading [level=3] [ref=e1021]: Coco
+                    - paragraph [ref=e1022]: App Concept
+                  - img [ref=e1023]
+              - link [ref=e1024] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e1025]:
+                  - generic [ref=e1026]:
+                    - heading [level=3] [ref=e1027]: OpenPath
+                    - paragraph [ref=e1028]: Protocol
+                  - img [ref=e1029]
+            - generic [ref=e1030]:
+              - link [ref=e1031] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e1032]:
+                  - generic [ref=e1033]:
+                    - heading [level=3] [ref=e1034]: PixelCat
+                    - paragraph [ref=e1035]: Automation
+                  - img [ref=e1036]
+              - link [ref=e1037] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e1038]:
+                  - generic [ref=e1039]:
+                    - heading [level=3] [ref=e1040]: Coco
+                    - paragraph [ref=e1041]: App Concept
+                  - img [ref=e1042]
+              - link [ref=e1043] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e1044]:
+                  - generic [ref=e1045]:
+                    - heading [level=3] [ref=e1046]: OpenPath
+                    - paragraph [ref=e1047]: Protocol
+                  - img [ref=e1048]
+            - generic [ref=e1049]:
+              - link [ref=e1050] [cursor=pointer]:
+                - /url: /projects/pixelcat
+                - generic [ref=e1051]:
+                  - generic [ref=e1052]:
+                    - heading [level=3] [ref=e1053]: PixelCat
+                    - paragraph [ref=e1054]: Automation
+                  - img [ref=e1055]
+              - link [ref=e1056] [cursor=pointer]:
+                - /url: /projects/coco
+                - generic [ref=e1057]:
+                  - generic [ref=e1058]:
+                    - heading [level=3] [ref=e1059]: Coco
+                    - paragraph [ref=e1060]: App Concept
+                  - img [ref=e1061]
+              - link [ref=e1062] [cursor=pointer]:
+                - /url: /projects/openpath
+                - generic [ref=e1063]:
+                  - generic [ref=e1064]:
+                    - heading [level=3] [ref=e1065]: OpenPath
+                    - paragraph [ref=e1066]: Protocol
+                  - img [ref=e1067]
+      - generic [ref=e1069]:
+        - heading "What I Do" [level=2] [ref=e1070]
+        - generic [ref=e1071]:
+          - img [ref=e1072]:
+            - generic [ref=e1074]: Web Development · UI/UX Design · Brand Identity
+          - img [ref=e1075]:
+            - generic [ref=e1077]: Creative Consulting · Full-Stack Development · Performance
+          - img [ref=e1078]:
+            - generic [ref=e1080]: Custom Applications · Responsive Design · Accessibility
+      - generic [ref=e1082]:
+        - heading "Let's work together" [level=2] [ref=e1083]
+        - paragraph [ref=e1084]:
+          - generic [ref=e1085]: Have a project in mind?
+          - text: I'd love to hear about it.
+        - link "Get in touch" [ref=e1086] [cursor=pointer]:
+          - /url: mailto:garofololuca7@gmail.com
+    - generic [ref=e1088]:
+      - generic [ref=e1089]:
+        - list [ref=e1090]:
+          - listitem [ref=e1091] [cursor=pointer]:
+            - link "Home" [ref=e1092]:
+              - /url: /
+          - listitem [ref=e1093] [cursor=pointer]:
+            - link "Projects" [ref=e1094]:
+              - /url: /projects
+          - listitem [ref=e1095] [cursor=pointer]:
+            - link "About" [ref=e1096]:
+              - /url: /about
+        - list [ref=e1097]:
+          - listitem [ref=e1098] [cursor=pointer]:
+            - link "GitHub" [ref=e1099]:
+              - /url: https://github.com/QwErTy-2117
+          - listitem [ref=e1100] [cursor=pointer]:
+            - link "Instagram" [ref=e1101]:
+              - /url: https://instagram.com
+          - listitem [ref=e1102] [cursor=pointer]:
+            - link "LinkedIn" [ref=e1103]:
+              - /url: https://linkedin.com
+      - heading "Luca" [level=2] [ref=e1104]
+  - button "Open Next.js Dev Tools" [ref=e1110] [cursor=pointer]:
+    - img [ref=e1111]
+  - alert [ref=e1142]

@@ -1,0 +1,86 @@
+- generic [ref=e1]:
+  - dialog [ref=e2]:
+    - button "Close" [ref=e3] [cursor=pointer]:
+      - img [ref=e4]
+    - paragraph [ref=e6]:
+      - text: Unsplash uses cookies and similar technologies to secure our site, provide useful features to free and paying users, and to ensure optimal performance. By clicking "Accept all cookies" or closing this prompt, you consent to the use of all cookies. By clicking "Accept essential only", you consent only to the use of cookies that are strictly necessary for the site to function. See our
+      - link "Cookie Policy" [ref=e7] [cursor=pointer]:
+        - /url: /cookies
+      - text: for more info.
+    - link "Manage cookies" [ref=e9] [cursor=pointer]:
+      - /url: /cookies#manage-consent
+    - generic [ref=e10]:
+      - button "Accept essential only" [ref=e11] [cursor=pointer]
+      - button "Accept all cookies" [active] [ref=e12] [cursor=pointer]
+  - generic [ref=e16]:
+    - navigation [ref=e17]:
+      - link "Unsplash Home" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img "Unsplash Home" [ref=e21]
+      - generic [ref=e23]:
+        - link "Log in / Sign up" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fminimal-architecture-dark-stillness-monochrome
+          - img [ref=e25]
+        - button "Language" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - button "Menu" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - navigation [ref=e35]:
+          - search "Find visuals sitewide" [ref=e37]:
+            - button "Search Unsplash" [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+            - combobox [ref=e41]:
+              - searchbox "Search Unsplash" [ref=e42]: minimal architecture dark stillness monochrome
+              - listbox
+            - button "Clear" [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+          - button "Filters" [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+        - generic [ref=e50]:
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - link "Photos 13k":
+                - /url: /s/photos/minimal-architecture-dark-stillness-monochrome
+                - text: Photos
+                - generic: 13k
+            - listitem [ref=e59]:
+              - link "Illustrations 14" [ref=e60] [cursor=pointer]:
+                - /url: /s/illustrations/minimal-architecture-dark-stillness-monochrome
+                - text: Illustrations
+                - generic [ref=e61]: "14"
+            - listitem [ref=e62]:
+              - button "More" [ref=e63] [cursor=pointer]
+          - generic [ref=e64]:
+            - heading "Minimal architecture dark stillness monochrome" [level=1] [ref=e66]
+            - generic [ref=e68]:
+              - button "scroll list to the right" [ref=e70] [cursor=pointer]:
+                - img [ref=e71]
+              - generic [ref=e74]:
+                - link "architecture" [ref=e76] [cursor=pointer]:
+                  - /url: /s/photos/architecture
+                - link "minimal" [ref=e78] [cursor=pointer]:
+                  - /url: /s/photos/minimal
+                - link "grey" [ref=e80] [cursor=pointer]:
+                  - /url: /s/photos/grey
+                - link "monochrome" [ref=e82] [cursor=pointer]:
+                  - /url: /s/photos/monochrome
+                - link "building" [ref=e84] [cursor=pointer]:
+                  - /url: /s/photos/building
+                - link "white" [ref=e86] [cursor=pointer]:
+                  - /url: /s/photos/white
+                - link "minimalism" [ref=e88] [cursor=pointer]:
+                  - /url: /s/photos/minimalism
+                - link "modern" [ref=e90] [cursor=pointer]:
+                  - /url: /s/photos/modern
+                - link "black" [ref=e92] [cursor=pointer]:
+                  - /url: /s/photos/black
+                - link "dark" [ref=e94] [cursor=pointer]:
+                  - /url: /s/photos/dark
+                - link "abstract" [ref=e96] [cursor=pointer]:
+                  - /url: /s/photos/abstract
+                - link "shadow" [ref=e98] [cursor=pointer]:
+                  - /url: /s/photos/shadow
+      - generic:
+        - region "Notifications"

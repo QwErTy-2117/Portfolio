@@ -1,0 +1,549 @@
+- generic [ref=e1]:
+  - dialog [ref=e2]:
+    - button "Close" [ref=e3] [cursor=pointer]:
+      - img [ref=e4]
+    - paragraph [ref=e6]:
+      - text: Unsplash uses cookies and similar technologies to secure our site, provide useful features to free and paying users, and to ensure optimal performance. By clicking "Accept all cookies" or closing this prompt, you consent to the use of all cookies. By clicking "Accept essential only", you consent only to the use of cookies that are strictly necessary for the site to function. See our
+      - link "Cookie Policy" [ref=e7] [cursor=pointer]:
+        - /url: /cookies
+      - text: for more info.
+    - link "Manage cookies" [ref=e9] [cursor=pointer]:
+      - /url: /cookies#manage-consent
+    - generic [ref=e10]:
+      - button "Accept essential only" [ref=e11] [cursor=pointer]
+      - button "Accept all cookies" [active] [ref=e12] [cursor=pointer]
+  - generic [ref=e16]:
+    - navigation [ref=e17]:
+      - link "Unsplash Home" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img "Unsplash Home" [ref=e21]
+      - generic [ref=e23]:
+        - link "Log in / Sign up" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fabstract-minimalist
+          - img [ref=e25]
+        - button "Language" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - button "Menu" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - navigation [ref=e35]:
+          - search "Find visuals sitewide" [ref=e37]:
+            - button "Search Unsplash" [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+            - combobox [ref=e41]:
+              - searchbox "Search Unsplash" [ref=e42]: abstract minimalist
+              - listbox
+            - button "Clear" [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+          - button "Filters" [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+        - generic [ref=e50]:
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - link "Photos 27k":
+                - /url: /s/photos/abstract-minimalist
+                - text: Photos
+                - generic: 27k
+            - listitem [ref=e59]:
+              - link "Illustrations 9k" [ref=e60] [cursor=pointer]:
+                - /url: /s/illustrations/abstract-minimalist
+                - text: Illustrations
+                - generic [ref=e61]: 9k
+            - listitem [ref=e62]:
+              - button "More" [ref=e63] [cursor=pointer]
+          - generic [ref=e64]:
+            - heading "Abstract minimalist" [level=1] [ref=e66]
+            - generic [ref=e70]:
+              - link "abstract" [ref=e72] [cursor=pointer]:
+                - /url: /s/photos/abstract
+              - link "minimalist" [ref=e74] [cursor=pointer]:
+                - /url: /s/photos/minimalist
+              - link "wallpaper" [ref=e76] [cursor=pointer]:
+                - /url: /s/photos/wallpaper
+              - link "background" [ref=e78] [cursor=pointer]:
+                - /url: /s/photos/background
+              - link "texture" [ref=e80] [cursor=pointer]:
+                - /url: /s/photos/texture
+              - link "abstract art" [ref=e82] [cursor=pointer]:
+                - /url: /s/photos/abstract-art
+              - link "minimalism" [ref=e84] [cursor=pointer]:
+                - /url: /s/photos/minimalism
+              - link "3d" [ref=e86] [cursor=pointer]:
+                - /url: /s/photos/3d
+              - link "art" [ref=e88] [cursor=pointer]:
+                - /url: /s/photos/art
+              - link "smooth" [ref=e90] [cursor=pointer]:
+                - /url: /s/photos/smooth
+          - generic [ref=e92]:
+            - generic [ref=e95]:
+              - figure [ref=e96]:
+                - generic [ref=e98]:
+                  - link [ref=e99] [cursor=pointer]:
+                    - /url: /@pawel_czerwinski
+                  - generic [ref=e102]:
+                    - link "Pawel Czerwinski" [ref=e103] [cursor=pointer]:
+                      - /url: /@pawel_czerwinski
+                    - generic [ref=e104]:
+                      - text: For
+                      - link "Unsplash+" [ref=e105] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fa-white-circular-object-with-a-white-background-sNdU0jslu2Y
+                - generic [ref=e106]:
+                  - link "a white circular object with a white background" [ref=e107]:
+                    - /url: /photos/a-white-circular-object-with-a-white-background-sNdU0jslu2Y
+                    - img "a white circular object with a white background" [ref=e108]
+                  - link [ref=e109] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-white-circular-object-with-a-white-background-sNdU0jslu2Y
+                    - img [ref=e110]
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - button "Bookmark" [ref=e115] [cursor=pointer]:
+                      - img [ref=e116]
+                    - button "Add to Collection" [ref=e119] [cursor=pointer]:
+                      - img [ref=e120]
+                  - link "Download" [ref=e123] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-white-circular-object-with-a-white-background-sNdU0jslu2Y
+                    - img [ref=e124]
+                    - text: Download
+              - contentinfo [ref=e130]:
+                - generic [ref=e136]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e138]:
+                - generic [ref=e140]:
+                  - link [ref=e141] [cursor=pointer]:
+                    - /url: /@sebastiansvenson
+                  - link "Sebastian Svenson" [ref=e145] [cursor=pointer]:
+                    - /url: /@sebastiansvenson
+                - link "blue and white round illustration" [ref=e147]:
+                  - /url: /photos/blue-and-white-round-illustration-LpbyDENbQQg
+                  - img "blue and white round illustration" [ref=e148]
+                - generic [ref=e150]:
+                  - generic [ref=e151]:
+                    - button "Bookmark" [ref=e152] [cursor=pointer]:
+                      - img [ref=e153]
+                    - button "Add to Collection" [ref=e156] [cursor=pointer]:
+                      - img [ref=e157]
+                  - generic [ref=e160]:
+                    - link "Download" [ref=e161] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/LpbyDENbQQg/download?force=true
+                    - button "Choose download size" [ref=e162] [cursor=pointer]:
+                      - img [ref=e163]
+              - figure [ref=e165]:
+                - generic [ref=e167]:
+                  - link [ref=e168] [cursor=pointer]:
+                    - /url: /@fakurian
+                  - link "Milad Fakurian" [ref=e172] [cursor=pointer]:
+                    - /url: /@fakurian
+                - link "an abstract white background with a drop of water" [ref=e174]:
+                  - /url: /photos/an-abstract-white-background-with-a-drop-of-water-7wUorDiCMSU
+                  - img "an abstract white background with a drop of water" [ref=e175]
+                - generic [ref=e177]:
+                  - generic [ref=e178]:
+                    - button "Bookmark" [ref=e179] [cursor=pointer]:
+                      - img [ref=e180]
+                    - button "Add to Collection" [ref=e183] [cursor=pointer]:
+                      - img [ref=e184]
+                  - generic [ref=e187]:
+                    - link "Download" [ref=e188] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/7wUorDiCMSU/download?force=true
+                    - button "Choose download size" [ref=e189] [cursor=pointer]:
+                      - img [ref=e190]
+              - figure [ref=e192]:
+                - generic [ref=e194]:
+                  - link [ref=e195] [cursor=pointer]:
+                    - /url: /@bad_boy
+                  - link "Anil kumar" [ref=e199] [cursor=pointer]:
+                    - /url: /@bad_boy
+                - link "stacked oval discs on pink" [ref=e201]:
+                  - /url: /photos/stacked-oval-discs-on-pink-SXigdcQPbd8
+                  - img "stacked oval discs on pink" [ref=e202]
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - button "Bookmark" [ref=e206] [cursor=pointer]:
+                      - img [ref=e207]
+                    - button "Add to Collection" [ref=e210] [cursor=pointer]:
+                      - img [ref=e211]
+                  - generic [ref=e214]:
+                    - link "Download" [ref=e215] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/SXigdcQPbd8/download?force=true
+                    - button "Choose download size" [ref=e216] [cursor=pointer]:
+                      - img [ref=e217]
+              - figure [ref=e219]:
+                - generic [ref=e221]:
+                  - link [ref=e222] [cursor=pointer]:
+                    - /url: /@pawel_czerwinski
+                  - generic [ref=e225]:
+                    - link "Pawel Czerwinski" [ref=e226] [cursor=pointer]:
+                      - /url: /@pawel_czerwinski
+                    - generic [ref=e227]:
+                      - text: For
+                      - link "Unsplash+" [ref=e228] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fa-blurry-photo-of-a-white-background-F_lqLaBhjKs
+                - generic [ref=e229]:
+                  - link "a blurry photo of a white background" [ref=e230]:
+                    - /url: /photos/a-blurry-photo-of-a-white-background-F_lqLaBhjKs
+                    - img "a blurry photo of a white background" [ref=e231]
+                  - link [ref=e232] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-blurry-photo-of-a-white-background-F_lqLaBhjKs
+                    - img [ref=e233]
+                - generic [ref=e236]:
+                  - generic [ref=e237]:
+                    - button "Bookmark" [ref=e238] [cursor=pointer]:
+                      - img [ref=e239]
+                    - button "Add to Collection" [ref=e242] [cursor=pointer]:
+                      - img [ref=e243]
+                  - link "Download" [ref=e246] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-blurry-photo-of-a-white-background-F_lqLaBhjKs
+                    - img [ref=e247]
+                    - text: Download
+              - figure [ref=e249]:
+                - generic [ref=e251]:
+                  - link [ref=e252] [cursor=pointer]:
+                    - /url: /@codioful
+                  - link "Codioful (Formerly Gradienta)" [ref=e256] [cursor=pointer]:
+                    - /url: /@codioful
+                - link "blue and yellow digital wallpaper" [ref=e258]:
+                  - /url: /photos/blue-and-yellow-digital-wallpaper-QWutu2BRpOs
+                  - img "blue and yellow digital wallpaper" [ref=e259]
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - button "Bookmark" [ref=e263] [cursor=pointer]:
+                      - img [ref=e264]
+                    - button "Add to Collection" [ref=e267] [cursor=pointer]:
+                      - img [ref=e268]
+                  - generic [ref=e271]:
+                    - link "Download" [ref=e272] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/QWutu2BRpOs/download?force=true
+                    - button "Choose download size" [ref=e273] [cursor=pointer]:
+                      - img [ref=e274]
+              - figure [ref=e276]:
+                - generic [ref=e278]:
+                  - link [ref=e279] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                  - link "Shubham Dhage" [ref=e283] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                - link "a stack of white plates sitting on top of a blue surface" [ref=e285]:
+                  - /url: /photos/a-stack-of-white-plates-sitting-on-top-of-a-blue-surface-NPJF9xPoCHk
+                  - img "a stack of white plates sitting on top of a blue surface" [ref=e286]
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - button "Bookmark" [ref=e290] [cursor=pointer]:
+                      - img [ref=e291]
+                    - button "Add to Collection" [ref=e294] [cursor=pointer]:
+                      - img [ref=e295]
+                  - generic [ref=e298]:
+                    - link "Download" [ref=e299] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/NPJF9xPoCHk/download?force=true
+                    - button "Choose download size" [ref=e300] [cursor=pointer]:
+                      - img [ref=e301]
+              - figure [ref=e303]:
+                - generic [ref=e305]:
+                  - link [ref=e306] [cursor=pointer]:
+                    - /url: /@scottwebb
+                  - link "Scott Webb" [ref=e310] [cursor=pointer]:
+                    - /url: /@scottwebb
+                - link "white and black striped textile" [ref=e312]:
+                  - /url: /photos/white-and-black-striped-textile-mV9-1XjnM4Y
+                  - img "white and black striped textile" [ref=e313]
+                - generic [ref=e315]:
+                  - generic [ref=e316]:
+                    - button "Bookmark" [ref=e317] [cursor=pointer]:
+                      - img [ref=e318]
+                    - button "Add to Collection" [ref=e321] [cursor=pointer]:
+                      - img [ref=e322]
+                  - generic [ref=e325]:
+                    - link "Download" [ref=e326] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/mV9-1XjnM4Y/download?force=true
+                    - button "Choose download size" [ref=e327] [cursor=pointer]:
+                      - img [ref=e328]
+              - figure [ref=e330]:
+                - generic [ref=e332]:
+                  - link [ref=e333] [cursor=pointer]:
+                    - /url: /@pawel_czerwinski
+                  - generic [ref=e336]:
+                    - link "Pawel Czerwinski" [ref=e337] [cursor=pointer]:
+                      - /url: /@pawel_czerwinski
+                    - generic [ref=e338]:
+                      - text: For
+                      - link "Unsplash+" [ref=e339] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fa-white-sculpture-is-shown-against-a-white-background-As9ruviI79Q
+                - generic [ref=e340]:
+                  - link "a white sculpture is shown against a white background" [ref=e341]:
+                    - /url: /photos/a-white-sculpture-is-shown-against-a-white-background-As9ruviI79Q
+                    - img "a white sculpture is shown against a white background" [ref=e342]
+                  - link [ref=e343] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-white-sculpture-is-shown-against-a-white-background-As9ruviI79Q
+                    - img [ref=e344]
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - button "Bookmark" [ref=e349] [cursor=pointer]:
+                      - img [ref=e350]
+                    - button "Add to Collection" [ref=e353] [cursor=pointer]:
+                      - img [ref=e354]
+                  - link "Download" [ref=e357] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-white-sculpture-is-shown-against-a-white-background-As9ruviI79Q
+                    - img [ref=e358]
+                    - text: Download
+              - figure [ref=e360]:
+                - generic [ref=e362]:
+                  - link [ref=e363] [cursor=pointer]:
+                    - /url: /@pawel_czerwinski
+                  - link "Pawel Czerwinski" [ref=e367] [cursor=pointer]:
+                    - /url: /@pawel_czerwinski
+                - link "background pattern" [ref=e369]:
+                  - /url: /photos/background-pattern-GFqo8rVmH30
+                  - img "background pattern" [ref=e370]
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - button "Bookmark" [ref=e374] [cursor=pointer]:
+                      - img [ref=e375]
+                    - button "Add to Collection" [ref=e378] [cursor=pointer]:
+                      - img [ref=e379]
+                  - generic [ref=e382]:
+                    - link "Download" [ref=e383] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/GFqo8rVmH30/download?force=true
+                    - button "Choose download size" [ref=e384] [cursor=pointer]:
+                      - img [ref=e385]
+              - figure [ref=e387]:
+                - generic [ref=e389]:
+                  - link [ref=e390] [cursor=pointer]:
+                    - /url: /@joaccord
+                  - link "Joshua Oluwagbemiga" [ref=e394] [cursor=pointer]:
+                    - /url: /@joaccord
+                - link "a black and white photo of wavy lines" [ref=e396]:
+                  - /url: /photos/a-black-and-white-photo-of-wavy-lines-Z6HQ0EhoD6g
+                  - img "a black and white photo of wavy lines" [ref=e397]
+                - generic [ref=e399]:
+                  - generic [ref=e400]:
+                    - button "Bookmark" [ref=e401] [cursor=pointer]:
+                      - img [ref=e402]
+                    - button "Add to Collection" [ref=e405] [cursor=pointer]:
+                      - img [ref=e406]
+                  - generic [ref=e409]:
+                    - link "Download" [ref=e410] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/Z6HQ0EhoD6g/download?force=true
+                    - button "Choose download size" [ref=e411] [cursor=pointer]:
+                      - img [ref=e412]
+              - figure [ref=e414]:
+                - generic [ref=e416]:
+                  - link [ref=e417] [cursor=pointer]:
+                    - /url: /@martz90
+                  - link "Martin Martz" [ref=e421] [cursor=pointer]:
+                    - /url: /@martz90
+                - link "a black and orange abstract background with curves" [ref=e423]:
+                  - /url: /photos/a-black-and-orange-abstract-background-with-curves-qqyUN78RmgI
+                  - img "a black and orange abstract background with curves" [ref=e424]
+                - generic [ref=e426]:
+                  - generic [ref=e427]:
+                    - button "Bookmark" [ref=e428] [cursor=pointer]:
+                      - img [ref=e429]
+                    - button "Add to Collection" [ref=e432] [cursor=pointer]:
+                      - img [ref=e433]
+                  - generic [ref=e436]:
+                    - link "Download" [ref=e437] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/qqyUN78RmgI/download?force=true
+                    - button "Choose download size" [ref=e438] [cursor=pointer]:
+                      - img [ref=e439]
+              - figure [ref=e441]:
+                - generic [ref=e443]:
+                  - link [ref=e444] [cursor=pointer]:
+                    - /url: /@philipsfuture
+                  - generic [ref=e447]:
+                    - link "Philip Oroni" [ref=e448] [cursor=pointer]:
+                      - /url: /@philipsfuture
+                    - generic [ref=e449]:
+                      - text: For
+                      - link "Unsplash+" [ref=e450] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fa-black-and-gold-abstract-background-with-curves-whLbpZzS-0Y
+                - generic [ref=e451]:
+                  - link "a black and gold abstract background with curves" [ref=e452]:
+                    - /url: /photos/a-black-and-gold-abstract-background-with-curves-whLbpZzS-0Y
+                    - img "a black and gold abstract background with curves" [ref=e453]
+                  - link [ref=e454] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-black-and-gold-abstract-background-with-curves-whLbpZzS-0Y
+                    - img [ref=e455]
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - button "Bookmark" [ref=e460] [cursor=pointer]:
+                      - img [ref=e461]
+                    - button "Add to Collection" [ref=e464] [cursor=pointer]:
+                      - img [ref=e465]
+                  - link "Download" [ref=e468] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-black-and-gold-abstract-background-with-curves-whLbpZzS-0Y
+                    - img [ref=e469]
+                    - text: Download
+              - figure [ref=e471]:
+                - generic [ref=e473]:
+                  - link [ref=e474] [cursor=pointer]:
+                    - /url: /@vimal_saran
+                  - link "Vimal S" [ref=e478] [cursor=pointer]:
+                    - /url: /@vimal_saran
+                - link "diagram" [ref=e480]:
+                  - /url: /photos/diagram-uKPBLsL7Nvs
+                  - img "diagram" [ref=e481]
+                - generic [ref=e483]:
+                  - generic [ref=e484]:
+                    - button "Bookmark" [ref=e485] [cursor=pointer]:
+                      - img [ref=e486]
+                    - button "Add to Collection" [ref=e489] [cursor=pointer]:
+                      - img [ref=e490]
+                  - generic [ref=e493]:
+                    - link "Download" [ref=e494] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/uKPBLsL7Nvs/download?force=true
+                    - button "Choose download size" [ref=e495] [cursor=pointer]:
+                      - img [ref=e496]
+              - figure [ref=e498]:
+                - generic [ref=e500]:
+                  - link [ref=e501] [cursor=pointer]:
+                    - /url: /@martz90
+                  - link "Martin Martz" [ref=e505] [cursor=pointer]:
+                    - /url: /@martz90
+                - link "a dark blue and orange background with circles" [ref=e507]:
+                  - /url: /photos/a-dark-blue-and-orange-background-with-circles-OR8DEvVhym0
+                  - img "a dark blue and orange background with circles" [ref=e508]
+                - generic [ref=e510]:
+                  - generic [ref=e511]:
+                    - button "Bookmark" [ref=e512] [cursor=pointer]:
+                      - img [ref=e513]
+                    - button "Add to Collection" [ref=e516] [cursor=pointer]:
+                      - img [ref=e517]
+                  - generic [ref=e520]:
+                    - link "Download" [ref=e521] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/OR8DEvVhym0/download?force=true
+                    - button "Choose download size" [ref=e522] [cursor=pointer]:
+                      - img [ref=e523]
+              - figure [ref=e525]:
+                - generic [ref=e527]:
+                  - link [ref=e528] [cursor=pointer]:
+                    - /url: /@warrenumoh
+                  - link "Warren Umoh" [ref=e532] [cursor=pointer]:
+                    - /url: /@warrenumoh
+                - link "a bunch of different shapes and sizes of flowers" [ref=e534]:
+                  - /url: /photos/a-bunch-of-different-shapes-and-sizes-of-flowers-mzo02pG77Ms
+                  - img "a bunch of different shapes and sizes of flowers" [ref=e535]
+                - generic [ref=e537]:
+                  - generic [ref=e538]:
+                    - button "Bookmark" [ref=e539] [cursor=pointer]:
+                      - img [ref=e540]
+                    - button "Add to Collection" [ref=e543] [cursor=pointer]:
+                      - img [ref=e544]
+                  - generic [ref=e547]:
+                    - link "Download" [ref=e548] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/mzo02pG77Ms/download?force=true
+                    - button "Choose download size" [ref=e549] [cursor=pointer]:
+                      - img [ref=e550]
+              - figure [ref=e552]:
+                - generic [ref=e554]:
+                  - link [ref=e555] [cursor=pointer]:
+                    - /url: /@alexshuperart
+                  - generic [ref=e558]:
+                    - link "Alex Shuper" [ref=e559] [cursor=pointer]:
+                      - /url: /@alexshuperart
+                    - generic [ref=e560]:
+                      - text: For
+                      - link "Unsplash+" [ref=e561] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fa-living-room-with-a-couch-and-a-painting-on-the-wall-OpuOPflvufU
+                - generic [ref=e562]:
+                  - link "a living room with a couch and a painting on the wall" [ref=e563]:
+                    - /url: /photos/a-living-room-with-a-couch-and-a-painting-on-the-wall-OpuOPflvufU
+                    - img "a living room with a couch and a painting on the wall" [ref=e564]
+                  - link [ref=e565] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-living-room-with-a-couch-and-a-painting-on-the-wall-OpuOPflvufU
+                    - img [ref=e566]
+                - generic [ref=e569]:
+                  - generic [ref=e570]:
+                    - button "Bookmark" [ref=e571] [cursor=pointer]:
+                      - img [ref=e572]
+                    - button "Add to Collection" [ref=e575] [cursor=pointer]:
+                      - img [ref=e576]
+                  - link "Download" [ref=e579] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-living-room-with-a-couch-and-a-painting-on-the-wall-OpuOPflvufU
+                    - img [ref=e580]
+                    - text: Download
+              - figure [ref=e582]:
+                - generic [ref=e584]:
+                  - link [ref=e585] [cursor=pointer]:
+                    - /url: /@artofsinn
+                  - link "sina rezakhani" [ref=e589] [cursor=pointer]:
+                    - /url: /@artofsinn
+                - link "Abstract geometric shapes in a white frame on wall" [ref=e591]:
+                  - /url: /photos/abstract-geometric-shapes-in-a-white-frame-on-wall-mZaoRPhMEUI
+                  - img "Abstract geometric shapes in a white frame on wall" [ref=e592]
+                - generic [ref=e594]:
+                  - generic [ref=e595]:
+                    - button "Bookmark" [ref=e596] [cursor=pointer]:
+                      - img [ref=e597]
+                    - button "Add to Collection" [ref=e600] [cursor=pointer]:
+                      - img [ref=e601]
+                  - generic [ref=e604]:
+                    - link "Download" [ref=e605] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/mZaoRPhMEUI/download?force=true
+                    - button "Choose download size" [ref=e606] [cursor=pointer]:
+                      - img [ref=e607]
+              - figure [ref=e609]:
+                - generic [ref=e611]:
+                  - link [ref=e612] [cursor=pointer]:
+                    - /url: /@boliviainteligente
+                  - link "BoliviaInteligente" [ref=e616] [cursor=pointer]:
+                    - /url: /@boliviainteligente
+                - link "a black background with red and black swirls" [ref=e618]:
+                  - /url: /photos/a-black-background-with-red-and-black-swirls-QBYa7SwPtw8
+                  - img "a black background with red and black swirls" [ref=e619]
+                - generic [ref=e621]:
+                  - generic [ref=e622]:
+                    - button "Bookmark" [ref=e623] [cursor=pointer]:
+                      - img [ref=e624]
+                    - button "Add to Collection" [ref=e627] [cursor=pointer]:
+                      - img [ref=e628]
+                  - generic [ref=e631]:
+                    - link "Download" [ref=e632] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/QBYa7SwPtw8/download?force=true
+                    - button "Choose download size" [ref=e633] [cursor=pointer]:
+                      - img [ref=e634]
+              - figure [ref=e636]:
+                - generic [ref=e638]:
+                  - link [ref=e639] [cursor=pointer]:
+                    - /url: /@steve_j
+                  - link "Steve A Johnson" [ref=e643] [cursor=pointer]:
+                    - /url: /@steve_j
+                - link "a white wall with a white wall" [ref=e645]:
+                  - /url: /photos/a-white-wall-with-a-white-wall-35n5SdsA3eA
+                  - img "a white wall with a white wall" [ref=e646]
+                - generic [ref=e648]:
+                  - generic [ref=e649]:
+                    - button "Bookmark" [ref=e650] [cursor=pointer]:
+                      - img [ref=e651]
+                    - button "Add to Collection" [ref=e654] [cursor=pointer]:
+                      - img [ref=e655]
+                  - generic [ref=e658]:
+                    - link "Download" [ref=e659] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/35n5SdsA3eA/download?force=true
+                    - button "Choose download size" [ref=e660] [cursor=pointer]:
+                      - img [ref=e661]
+            - generic [ref=e665]:
+              - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e666]:
+                - text: Browse premium images on iStock
+                - generic [ref=e667]: "| Claim your discount now"
+              - generic [ref=e669]:
+                - link "Virtual area, abstract modern perspective background" [ref=e670] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/virtual-area-abstract-modern-perspective-background-gm2214657804-631452691?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fabstract-minimalist&utm_term=abstract+minimalist%3A%3A%3A%3A
+                  - img "Virtual area, abstract modern perspective background" [ref=e671]
+                - 'link "Abstract Architectural Detail: Dark Blue Linear Convergence with Geometric Precision" [ref=e672] [cursor=pointer]':
+                  - /url: https://www.istockphoto.com/photo/abstract-architectural-detail-dark-blue-linear-convergence-with-geometric-precision-gm2204897192-622322404?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fabstract-minimalist&utm_term=abstract+minimalist%3A%3A%3A%3A
+                  - 'img "Abstract Architectural Detail: Dark Blue Linear Convergence with Geometric Precision" [ref=e673]'
+                - link "Dark blue grunge background" [ref=e674] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/dark-blue-grunge-background-gm170958625-21510542?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fabstract-minimalist&utm_term=abstract+minimalist%3A%3A%3A%3A
+                  - img "Dark blue grunge background" [ref=e675]
+                - generic [ref=e676]:
+                  - link "Graduated silk from brown to white" [ref=e677] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/graduated-silk-from-brown-to-white-gm97243766-7035507?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fabstract-minimalist&utm_term=abstract+minimalist%3A%3A%3A%3A
+                    - img "Graduated silk from brown to white" [ref=e678]
+                  - link "View more on iStock ↗" [ref=e679] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fabstract-minimalist&utm_term=abstract+minimalist%3A%3A%3A%3A&phrase=abstract+minimalist&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+            - button "Load more" [ref=e683] [cursor=pointer]
+            - generic [ref=e684]:
+              - link [ref=e685] [cursor=pointer]:
+                - /url: /
+                - img [ref=e686]
+              - paragraph [ref=e688]: Make something awesome
+      - generic:
+        - region "Notifications"

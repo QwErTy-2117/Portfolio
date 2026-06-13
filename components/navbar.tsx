@@ -59,12 +59,17 @@ export default function Navbar() {
         </div>
       </nav>
 
-      <Link
-        href="mailto:garofololuca7@gmail.com"
-        className="fixed top-8 right-8 z-50 text-base font-overusedGrotesk px-6 py-3 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors duration-200 shadow-sm"
-      >
-        Contact Me
-      </Link>
+      <div className="fixed top-8 right-8 z-50 w-fit h-fit inline-flex rounded-full overflow-hidden">
+        <span className="absolute inset-0 rounded-full pointer-events-none overflow-hidden">
+          <span className={cn("absolute -inset-full animate-spin [animation-duration:4s]", pathname === "/projects" ? "bg-[conic-gradient(from_0deg,#fff_0deg,#fff_40deg,transparent_60deg)]" : "bg-[conic-gradient(from_0deg,#000_0deg,#000_40deg,transparent_60deg)]")} />
+        </span>
+        <Link
+          href="mailto:garofololuca7@gmail.com"
+          className="relative z-10 m-[1px] rounded-full bg-[#ff5941] text-white px-6 py-3 text-base font-overusedGrotesk transition-colors duration-200 shadow-sm inline-flex items-center"
+        >
+          Contact Me
+        </Link>
+      </div>
     </>
   )
 }

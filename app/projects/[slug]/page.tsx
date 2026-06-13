@@ -1,8 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { useParams } from "next/navigation"
-import Link from "next/link"
+import { useParams, useRouter } from "next/navigation"
 import { motion } from "motion/react"
 import Lenis from "lenis"
 import { notFound } from "next/navigation"
@@ -10,6 +9,7 @@ import { notFound } from "next/navigation"
 import { TextHighlighter } from "@/components/fancy/text/text-highlighter"
 import { projects } from "@/data/projects"
 import { Transition } from "motion"
+import InteractiveHoverButton from "@/components/shadcn-space/button/button-19"
 
 const transition = { type: "spring", duration: 1, delay: 0.4, bounce: 0 } as Transition
 const highlightClass = "rounded-[0.3em] px-px"
@@ -21,6 +21,7 @@ export default function ProjectPage() {
   const slug = params.slug as string
   const project = projects.find((p) => p.slug === slug)
   const containerRef = useRef<HTMLDivElement | null>(null)
+  const router = useRouter()
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -58,32 +59,29 @@ export default function ProjectPage() {
           </motion.h1>
 
           <div className="leading-normal space-y-4 font-overusedGrotesk text-neutral-700">
-            <p>
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                {project.title}
-              </TextHighlighter>{" "}
-              is a {project.tag} project from {project.year}. {project.description}
-            </p>
+            {project.description.split("\n\n").map((para, i) => (
+              <p key={i}>
+                {para.split(/(\*\*.*?\*\*)/).map((part, j) => {
+                  if (part.startsWith("**") && part.endsWith("**")) {
+                    return (
+                      <TextHighlighter
+                        key={j}
+                        className={highlightClass}
+                        transition={transition}
+                        highlightColor={highlightColor}
+                        highlightTextColor="#fff"
+                        useInViewOptions={inViewOptions}
+                      >
+                        {part.slice(2, -2)}
+                      </TextHighlighter>
+                    )
+                  }
+                  return part
+                })}
+              </p>
+            ))}
 
-            <p>
-              This project was built with a focus on{" "}
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                performance, accessibility, and clean code
-              </TextHighlighter>
-              . Every decision was made with the end user in mind.
-            </p>
-
-            {project.images.slice(1, 2).map((img, i) => (
+            {project.slug === "kitchen-unit" && project.images.slice(1, 2).map((img, i) => (
               <div key={i} className="my-8">
                 <img
                   src={img}
@@ -93,21 +91,7 @@ export default function ProjectPage() {
               </div>
             ))}
 
-            <p>
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                The result
-              </TextHighlighter>{" "}
-              is a product that feels intuitive and responsive, designed to
-              scale and adapt to future needs. The approach combines modern
-              tooling with timeless design principles.
-            </p>
-
-            {project.images.slice(2).map((img, i) => (
+            {project.slug === "kitchen-unit" && project.images.slice(2).map((img, i) => (
               <div key={i} className="my-8">
                 <img
                   src={img}
@@ -116,29 +100,14 @@ export default function ProjectPage() {
                 />
               </div>
             ))}
-
-            <p>
-              Every project is an opportunity to{" "}
-              <TextHighlighter
-                className={highlightClass}
-                transition={transition}
-                highlightColor={highlightColor}
-                useInViewOptions={inViewOptions}
-              >
-                learn something new and push boundaries
-              </TextHighlighter>
-              . This one was no different — it challenged conventions and
-              delivered something meaningful.
-            </p>
           </div>
 
           <div className="mt-16 text-center">
-            <Link
-              href="/projects"
-              className="inline-block text-sm font-overusedGrotesk px-6 py-3 rounded-full bg-[#ff5941] text-white hover:bg-[#ff5941]/90 transition-colors"
-            >
-              ← Back to projects
-            </Link>
+            <InteractiveHoverButton
+              text="Back to projects"
+              onClick={() => router.push("/projects")}
+              className="text-sm font-overusedGrotesk !border-[#ff5941] text-[#ff5941] hover:!border-[#ff5941] hover:text-[#ff5941]"
+            />
           </div>
         </div>
       </div>

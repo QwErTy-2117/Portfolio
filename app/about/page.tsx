@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import Link from "next/link"
 import Lenis from "lenis"
 
-import { TextHighlighter } from "@/components/fancy/text/text-highlighter"
+import { TextHighlighter, type TextHighlighterRef } from "@/components/fancy/text/text-highlighter"
 import { motion, Transition } from "motion/react"
 import Gravity, { MatterBody } from "@/components/fancy/physics/gravity"
 
@@ -15,6 +15,8 @@ const inViewOptions = { once: true, amount: 0.1 }
 
 export default function About() {
   const containerRef = useRef<HTMLDivElement | null>(null)
+  const aiHighlightRef = useRef<TextHighlighterRef>(null)
+  const designHighlightRef = useRef<TextHighlighterRef>(null)
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -32,6 +34,14 @@ export default function About() {
     return () => {
       lenis.destroy()
     }
+  }, [])
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      aiHighlightRef.current?.animate()
+      designHighlightRef.current?.animate()
+    }, 500)
+    return () => clearTimeout(timer)
   }, [])
 
   return (
@@ -67,10 +77,9 @@ export default function About() {
             matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
             x="75%"
             y="35%"
-            onClick={() => window.open("https://linkedin.com", "_blank")}
           >
             <div className="text-base sm:text-lg bg-[#0a66c2] text-white rounded-full px-6 py-3 hover:cursor-grab select-none font-overusedGrotesk">
-              LinkedIn
+              Endless Curiosity
             </div>
           </MatterBody>
 
@@ -137,7 +146,7 @@ export default function About() {
 
           <div className="mb-12">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+              src="/images/profile.svg"
               alt="Luca Garofolo"
               className="w-32 h-32 rounded-full object-cover float-left mr-6 mb-4"
             />
@@ -151,18 +160,19 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p>
-                I&apos;m Luca Garofolo, a{" "}
+                I help people improve the efficiency and productivity of their work by{" "}
                 <TextHighlighter
+                  ref={aiHighlightRef}
+                  triggerType="ref"
                   className={highlightClass}
                   transition={transition}
                   highlightColor={highlightColor}
+                  highlightTextColor="#fff"
                   useInViewOptions={inViewOptions}
                 >
-                  full-stack developer and designer
-                </TextHighlighter>{" "}
-                based in Italy. I&apos;ve been building for the web for over 5 years,
-                working with startups, agencies, and direct clients to create
-                digital experiences that are both functional and delightful.
+                  introducing AI into it
+                </TextHighlighter>
+                , through agentic systems or automated workflows. If you&apos;re completely new to this space, I&apos;ll guide you through everything you need to know.
               </p>
             </motion.div>
 
@@ -173,17 +183,19 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p>
-                My approach is rooted in{" "}
+                For me, the experience is as vital as the technology—if it isn&apos;t designed well, it doesn&apos;t matter how clean the code is. I approach every project with a{" "}
                 <TextHighlighter
+                  ref={designHighlightRef}
+                  triggerType="ref"
                   className={highlightClass}
                   transition={transition}
                   highlightColor={highlightColor}
+                  highlightTextColor="#fff"
                   useInViewOptions={inViewOptions}
                 >
-                  simplicity, clarity, and purpose
+                  design-first sensibility
                 </TextHighlighter>
-                . I believe the best interfaces are invisible — they let users
-                focus on what matters without getting in the way.
+                , ensuring that the output is actually intuitive.
               </p>
             </motion.div>
 
@@ -194,19 +206,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p>
-                I specialize in{" "}
-                <TextHighlighter
-                  className={highlightClass}
-                  transition={transition}
-                  highlightColor={highlightColor}
-                  useInViewOptions={inViewOptions}
-                >
-                  React, Next.js, and design systems
-                </TextHighlighter>
-                , but I&apos;m always exploring new tools and techniques. I love
-                the intersection of code and creativity, and I&apos;m constantly
-                pushing myself to make things that are a little bit better than
-                yesterday.
+                My curiosity is probably too broad for my own good. I&apos;m as likely to be reading Deleuze, Plato, or Pirandello as I am to be digging into design history or mathematics. I find that the best systems are often inspired by the most unrelated disciplines.
               </p>
             </motion.div>
 
@@ -217,36 +217,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p>
-                When I&apos;m not coding, you&apos;ll find me{" "}
-                <TextHighlighter
-                  className={highlightClass}
-                  transition={transition}
-                  highlightColor={highlightColor}
-                  useInViewOptions={inViewOptions}
-                >
-                  experimenting with type design, photography, or reading about
-                  cognitive science
-                </TextHighlighter>
-                . I think the best designers are curious about everything.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              viewport={{ once: true }}
-            >
-              <p>
-                <TextHighlighter
-                  className={highlightClass}
-                  transition={transition}
-                  highlightColor={highlightColor}
-                  useInViewOptions={inViewOptions}
-                >
-                  Every project is a chance to learn something new
-                </TextHighlighter>
-                . If that sounds like your kind of collaboration,{" "}
+                I think long, move fast, and prefer building things that actually work over talking about how they might work. If you&apos;re looking for someone to ship a vision without the corporate friction,{" "}
                 <a
                   href="mailto:garofololuca7@gmail.com"
                   className="text-[#ff5941] hover:underline"

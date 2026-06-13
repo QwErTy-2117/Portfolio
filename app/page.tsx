@@ -14,6 +14,7 @@ import SimpleMarquee from "@/components/fancy/blocks/simple-marquee"
 import AnimatedPathText from "@/components/fancy/text/text-along-path"
 import LoadingScreen from "@/components/loading-screen"
 import { cn } from "@/lib/utils"
+import { ArrowUpRight } from "lucide-react"
 import { projects } from "@/data/projects"
 
 const highlightTransition = { type: "spring", duration: 1, bounce: 0 } as const
@@ -229,8 +230,8 @@ export default function Home() {
               </LayoutGroup>
             </div>
 
-            <p className="text-neutral-500 text-base sm:text-lg font-overusedGrotesk max-w-xl leading-relaxed mt-8 mb-24">
-              I build things for the web that are{" "}
+            <p className="text-neutral-500 text-base sm:text-lg font-overusedGrotesk max-w-xl leading-relaxed mt-8 mb-6">
+              I&apos;ll help you improve the efficiency and productivity of your work by{" "}
               <TextHighlighter
                 ref={heroHighlightRef}
                 triggerType="ref"
@@ -240,9 +241,45 @@ export default function Home() {
                 highlightTextColor="#fff"
                 useInViewOptions={inViewOptions}
               >
-                functional, playful, and human-centered
+                introducing AI into it
               </TextHighlighter>
-              . Based in Italy, making ideas come to life.
+              , through agentic systems or automated workflows. Or, if you&apos;re completely new to this space,{" "}
+              <TextHighlighter
+                className={highlightClass}
+                transition={highlightTransition}
+                highlightColor={highlightColor}
+                highlightTextColor="#fff"
+                useInViewOptions={inViewOptions}
+                triggerType="auto"
+              >
+                I&apos;ll guide you
+              </TextHighlighter>{" "}
+              through everything you need to know about this strange new world.
+            </p>
+            <p className="text-neutral-500 text-base sm:text-lg font-overusedGrotesk max-w-xl leading-relaxed mb-8">
+              I&apos;m a full-time creator: I constantly try to{" "}
+              <TextHighlighter
+                className={highlightClass}
+                transition={highlightTransition}
+                highlightColor={highlightColor}
+                highlightTextColor="#fff"
+                useInViewOptions={inViewOptions}
+                triggerType="auto"
+              >
+                let my dreams become reality
+              </TextHighlighter>{" "}
+              through the most diverse ways, from 3D designing to vibe coding and writing. And I might as well{" "}
+              <TextHighlighter
+                className={highlightClass}
+                transition={highlightTransition}
+                highlightColor={highlightColor}
+                highlightTextColor="#fff"
+                useInViewOptions={inViewOptions}
+                triggerType="auto"
+              >
+                build your idea
+              </TextHighlighter>{" "}
+              — want to share it with me?
             </p>
 
             {/* About */}
@@ -253,37 +290,26 @@ export default function Home() {
               viewport={{ once: true }}
               className="mb-6"
             >
-              <div className="leading-relaxed space-y-4 font-overusedGrotesk text-neutral-600 text-base sm:text-lg max-w-xl">
-                <p>
-                  I&apos;m a developer and designer with a passion for creating
-                  digital experiences that are{" "}
-                  <TextHighlighter
-                    ref={aboutHighlightRef}
-                    triggerType="ref"
-                    className={highlightClass}
-                    transition={highlightTransition}
-                    highlightColor={highlightColor}
-                    highlightTextColor="#fff"
-                    useInViewOptions={inViewOptions}
-                  >
-                    minimal, playful, human-centered design
-                  </TextHighlighter>
-                  . Whether I&apos;m building a web app, a brand identity, or a
-                  design system, I care deeply about the details.
-                </p>
-              </div>
               <div className="mt-8 flex gap-4">
                 <Link
                   href="/projects"
-                  className="inline-block px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] font-overusedGrotesk text-sm hover:bg-[#ff5941] hover:text-white transition-colors"
+                  className="relative inline-flex items-center px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] font-overusedGrotesk text-sm group overflow-hidden hover:text-white transition-colors duration-500"
                 >
-                  My Projects
+                  <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full scale-0 transition-transform duration-700 ease-in-out group-hover:scale-[15] pointer-events-none bg-[#ff5941]" />
+                  <span className="relative z-10 transition-colors duration-500">
+                    My Projects
+                  </span>
                 </Link>
                 <Link
                   href="/about"
-                  className="inline-block px-6 py-3 rounded-full bg-[#ff5941] text-white font-overusedGrotesk text-sm hover:bg-[#ff5941]/90 transition-colors"
+                  className="relative text-sm font-medium rounded-full h-12 p-1 ps-6 pe-14 group transition-all duration-500 hover:ps-14 hover:pe-6 w-fit overflow-hidden cursor-pointer inline-flex items-center bg-[#ff5941] text-white font-overusedGrotesk"
                 >
-                  Learn more about me
+                  <span className="relative z-10 transition-all duration-500">
+                    Learn more about me
+                  </span>
+                  <div className="absolute right-1 w-10 h-10 bg-white text-[#ff5941] rounded-full flex items-center justify-center transition-all duration-500 group-hover:right-[calc(100%-44px)] group-hover:rotate-45">
+                    <ArrowUpRight size={16} />
+                  </div>
                 </Link>
               </div>
             </motion.div>
@@ -353,45 +379,45 @@ export default function Home() {
                 What I Do
               </h2>
               <div className="relative w-full flex-1">
-                <AnimatedPathText
-                  path="M -100 250 C 150 150, 350 350, 600 250 C 850 150, 1000 300, 1100 250"
-                  scrollContainer={containerRef}
-                  scrollTarget={servicesRef}
-                  animationType="scroll"
-                  svgClassName="absolute inset-0 w-full h-full"
-                  viewBox="0 0 1000 600"
-                  text="Web Development  ·  UI/UX Design  ·  Brand Identity"
-                  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-[#ff5941]"
-                  scrollTransformValues={[-30, 95]}
-                  textAnchor="start"
-                  scrollOffset={["start end", "end start"]}
-                />
-                <AnimatedPathText
-                  path="M -100 350 C 150 450, 350 250, 600 350 C 850 450, 1000 200, 1100 350"
-                  scrollContainer={containerRef}
-                  scrollTarget={servicesRef}
-                  animationType="scroll"
-                  svgClassName="absolute inset-0 w-full h-full"
-                  viewBox="0 0 1000 600"
-                  text="Creative Consulting  ·  Full-Stack Development  ·  Performance"
-                  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-black"
-                  scrollTransformValues={[-30, 95]}
-                  textAnchor="start"
-                  scrollOffset={["start end", "end start"]}
-                />
-                <AnimatedPathText
-                  path="M -100 450 C 150 350, 350 550, 600 450 C 850 350, 1000 500, 1100 450"
-                  scrollContainer={containerRef}
-                  scrollTarget={servicesRef}
-                  animationType="scroll"
-                  svgClassName="absolute inset-0 w-full h-full"
-                  viewBox="0 0 1000 600"
-                  text="Custom Applications  ·  Responsive Design  ·  Accessibility"
-                  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-neutral-400"
-                  scrollTransformValues={[-30, 95]}
-                  textAnchor="start"
-                  scrollOffset={["start end", "end start"]}
-                />
+<AnimatedPathText
+  path="M -100 250 C 150 150, 350 350, 600 250 C 850 150, 1000 300, 1100 250"
+  scrollContainer={containerRef}
+  scrollTarget={servicesRef}
+  animationType="scroll"
+  svgClassName="absolute inset-0 w-full h-full"
+  viewBox="0 0 1000 600"
+   text="AI Integration · Agentic Systems · Workflow Automation"
+  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-[#ff5941]"
+  scrollTransformValues={[-30, 95]}
+  textAnchor="start"
+  scrollOffset={["start end", "end start"]}
+/>
+<AnimatedPathText
+  path="M -100 350 C 150 450, 350 250, 600 350 C 850 450, 1000 200, 1100 350"
+  scrollContainer={containerRef}
+  scrollTarget={servicesRef}
+  animationType="scroll"
+  svgClassName="absolute inset-0 w-full h-full"
+  viewBox="0 0 1000 600"
+   text="Vibe Coding · Product Development · Technical Writing"
+  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-black"
+  scrollTransformValues={[-30, 95]}
+  textAnchor="start"
+  scrollOffset={["start end", "end start"]}
+/>
+<AnimatedPathText
+  path="M -100 450 C 150 350, 350 550, 600 450 C 850 350, 1000 500, 1100 450"
+  scrollContainer={containerRef}
+  scrollTarget={servicesRef}
+  animationType="scroll"
+  svgClassName="absolute inset-0 w-full h-full"
+  viewBox="0 0 1000 600"
+   text="AI Consulting · AI Education · Custom AI Solutions"
+  textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-neutral-400"
+  scrollTransformValues={[-30, 95]}
+  textAnchor="start"
+  scrollOffset={["start end", "end start"]}
+/>
               </div>
             </div>
           </section>
@@ -422,9 +448,12 @@ export default function Home() {
               </p>
               <a
                 href="mailto:garofololuca7@gmail.com"
-                className="inline-block px-6 py-3 rounded-full bg-[#ff5941] text-white font-overusedGrotesk text-sm hover:bg-[#ff5941]/90 transition-colors"
+                className="relative inline-flex items-center px-6 py-3 rounded-full border border-[#ff5941] text-[#ff5941] font-overusedGrotesk text-sm group overflow-hidden hover:text-white transition-colors duration-500"
               >
-                Get in touch
+                <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full scale-0 transition-transform duration-700 ease-in-out group-hover:scale-[15] pointer-events-none bg-[#ff5941]" />
+                <span className="relative z-10 transition-colors duration-500">
+                  Get in touch
+                </span>
               </a>
             </motion.div>
           </div>

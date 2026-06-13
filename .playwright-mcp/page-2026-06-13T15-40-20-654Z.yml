@@ -1,0 +1,966 @@
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "ShadcnSpace" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "ShadcnSpace" [ref=e8]
+          - separator [ref=e9]
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - button "Toggle theme" [ref=e12] [cursor=pointer]:
+              - img
+              - generic [ref=e13]: Toggle theme
+            - link [ref=e14] [cursor=pointer]:
+              - /url: https://x.com/ShadcnSpace
+              - img [ref=e15]
+            - button "Github 0" [ref=e17] [cursor=pointer]:
+              - img
+              - generic [ref=e18]:
+                - generic [ref=e19]: Github
+                - generic [ref=e25]: "0"
+          - button [ref=e27] [cursor=pointer]:
+            - img [ref=e28]
+  - generic [ref=e32]:
+    - generic [ref=e34]:
+      - link "Home" [ref=e35] [cursor=pointer]:
+        - /url: /
+        - img [ref=e36]
+        - generic [ref=e39]: Home
+      - generic [ref=e40]:
+        - img [ref=e41]
+        - generic [ref=e43]: Components
+    - heading "Shadcn UI Components" [level=1] [ref=e45]
+    - paragraph [ref=e46]: Explore 320+ open-source Shadcn UI components you can preview, copy, and customize. Build modern React and Next.js apps faster with production-ready components.
+  - generic [ref=e48]:
+    - generic [ref=e50]:
+      - textbox "Search Components..." [ref=e51]
+      - img [ref=e52]
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - link "Accordion" [ref=e57] [cursor=pointer]:
+          - /url: /components/accordion
+          - img "Accordion" [ref=e58]
+        - generic [ref=e59]:
+          - generic [ref=e61]:
+            - heading "Accordion" [level=2] [ref=e62]
+            - paragraph [ref=e64]: "8"
+          - link "View All" [ref=e65] [cursor=pointer]:
+            - /url: /components/accordion
+            - text: View All
+      - generic [ref=e66]:
+        - link "Alert" [ref=e67] [cursor=pointer]:
+          - /url: /components/alert
+          - img "Alert" [ref=e68]
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - heading "Alert" [level=2] [ref=e72]
+            - paragraph [ref=e74]: "6"
+          - link "View All" [ref=e75] [cursor=pointer]:
+            - /url: /components/alert
+            - text: View All
+      - generic [ref=e76]:
+        - link "Animated List" [ref=e77] [cursor=pointer]:
+          - /url: /components/animated-list
+          - img "Animated List" [ref=e78]
+        - generic [ref=e79]:
+          - generic [ref=e81]:
+            - heading "Animated List" [level=2] [ref=e82]
+            - paragraph [ref=e84]: "3"
+          - link "View All" [ref=e85] [cursor=pointer]:
+            - /url: /components/animated-list
+            - text: View All
+      - generic [ref=e86]:
+        - link "Animated Text" [ref=e87] [cursor=pointer]:
+          - /url: /components/animated-text
+          - img "Animated Text" [ref=e88]
+        - generic [ref=e89]:
+          - generic [ref=e91]:
+            - heading "Animated Text" [level=2] [ref=e92]
+            - paragraph [ref=e94]: "7"
+          - link "View All" [ref=e95] [cursor=pointer]:
+            - /url: /components/animated-text
+            - text: View All
+      - generic [ref=e96]:
+        - link "Apple Dock" [ref=e97] [cursor=pointer]:
+          - /url: /components/apple-dock
+          - img "Apple Dock" [ref=e98]
+        - generic [ref=e99]:
+          - generic [ref=e101]:
+            - heading "Apple Dock" [level=2] [ref=e102]
+            - paragraph [ref=e104]: "2"
+          - link "View All" [ref=e105] [cursor=pointer]:
+            - /url: /components/apple-dock
+            - text: View All
+      - generic [ref=e106]:
+        - link "Autocomplete" [ref=e107] [cursor=pointer]:
+          - /url: /components/autocomplete
+          - img "Autocomplete" [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e111]:
+            - heading "Autocomplete" [level=2] [ref=e112]
+            - generic [ref=e114]: New
+          - link "View All" [ref=e115] [cursor=pointer]:
+            - /url: /components/autocomplete
+            - text: View All
+      - generic [ref=e116]:
+        - link "Avatar" [ref=e117] [cursor=pointer]:
+          - /url: /components/avatar
+          - img "Avatar" [ref=e118]
+        - generic [ref=e119]:
+          - generic [ref=e121]:
+            - heading "Avatar" [level=2] [ref=e122]
+            - paragraph [ref=e124]: "8"
+          - link "View All" [ref=e125] [cursor=pointer]:
+            - /url: /components/avatar
+            - text: View All
+      - generic [ref=e126]:
+        - link "Badge" [ref=e127] [cursor=pointer]:
+          - /url: /components/badge
+          - img "Badge" [ref=e128]
+        - generic [ref=e129]:
+          - generic [ref=e131]:
+            - heading "Badge" [level=2] [ref=e132]
+            - generic [ref=e133]:
+              - paragraph [ref=e134]: "9"
+              - generic [ref=e135]: +3 New
+          - link "View All" [ref=e136] [cursor=pointer]:
+            - /url: /components/badge
+            - text: View All
+      - generic [ref=e137]:
+        - link "Breadcrumb" [ref=e138] [cursor=pointer]:
+          - /url: /components/breadcrumb
+          - img "Breadcrumb" [ref=e139]
+        - generic [ref=e140]:
+          - generic [ref=e142]:
+            - heading "Breadcrumb" [level=2] [ref=e143]
+            - paragraph [ref=e145]: "6"
+          - link "View All" [ref=e146] [cursor=pointer]:
+            - /url: /components/breadcrumb
+            - text: View All
+      - generic [ref=e147]:
+        - link "Button" [ref=e148] [cursor=pointer]:
+          - /url: /components/button
+          - img "Button" [ref=e149]
+        - generic [ref=e150]:
+          - generic [ref=e152]:
+            - heading "Button" [level=2] [ref=e153]
+            - generic [ref=e154]:
+              - paragraph [ref=e155]: "19"
+              - generic [ref=e156]: +1 New
+          - link "View All" [ref=e157] [cursor=pointer]:
+            - /url: /components/button
+            - text: View All
+      - generic [ref=e158]:
+        - link "Button Group" [ref=e159] [cursor=pointer]:
+          - /url: /components/button-group
+          - img "Button Group" [ref=e160]
+        - generic [ref=e161]:
+          - generic [ref=e163]:
+            - heading "Button Group" [level=2] [ref=e164]
+            - paragraph [ref=e166]: "6"
+          - link "View All" [ref=e167] [cursor=pointer]:
+            - /url: /components/button-group
+            - text: View All
+      - generic [ref=e168]:
+        - link "Calendar" [ref=e169] [cursor=pointer]:
+          - /url: /components/calendar
+          - img "Calendar" [ref=e170]
+        - generic [ref=e171]:
+          - generic [ref=e173]:
+            - heading "Calendar" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - paragraph [ref=e176]: "15"
+              - generic [ref=e177]: +10 New
+          - link "View All" [ref=e178] [cursor=pointer]:
+            - /url: /components/calendar
+            - text: View All
+      - generic [ref=e179]:
+        - link "Card" [ref=e180] [cursor=pointer]:
+          - /url: /components/card
+          - img "Card" [ref=e181]
+        - generic [ref=e182]:
+          - generic [ref=e184]:
+            - heading "Card" [level=2] [ref=e185]
+            - generic [ref=e186]:
+              - paragraph [ref=e187]: "18"
+              - generic [ref=e188]: +3 New
+          - link "View All" [ref=e189] [cursor=pointer]:
+            - /url: /components/card
+            - text: View All
+      - generic [ref=e190]:
+        - link "Carousel" [ref=e191] [cursor=pointer]:
+          - /url: /components/carousel
+          - img "Carousel" [ref=e192]
+        - generic [ref=e193]:
+          - generic [ref=e195]:
+            - heading "Carousel" [level=2] [ref=e196]
+            - paragraph [ref=e198]: "7"
+          - link "View All" [ref=e199] [cursor=pointer]:
+            - /url: /components/carousel
+            - text: View All
+      - generic [ref=e200]:
+        - link "Checkbox" [ref=e201] [cursor=pointer]:
+          - /url: /components/checkbox
+          - img "Checkbox" [ref=e202]
+        - generic [ref=e203]:
+          - generic [ref=e205]:
+            - heading "Checkbox" [level=2] [ref=e206]
+            - paragraph [ref=e208]: "9"
+          - link "View All" [ref=e209] [cursor=pointer]:
+            - /url: /components/checkbox
+            - text: View All
+      - generic [ref=e210]:
+        - link "Code Block" [ref=e211] [cursor=pointer]:
+          - /url: /components/code-block
+          - img "Code Block" [ref=e212]
+        - generic [ref=e213]:
+          - generic [ref=e215]:
+            - heading "Code Block" [level=2] [ref=e216]
+            - generic [ref=e218]: New
+          - link "View All" [ref=e219] [cursor=pointer]:
+            - /url: /components/code-block
+            - text: View All
+      - generic [ref=e220]:
+        - link "Collapsible" [ref=e221] [cursor=pointer]:
+          - /url: /components/collapsible
+          - img "Collapsible" [ref=e222]
+        - generic [ref=e223]:
+          - generic [ref=e225]:
+            - heading "Collapsible" [level=2] [ref=e226]
+            - paragraph [ref=e228]: "3"
+          - link "View All" [ref=e229] [cursor=pointer]:
+            - /url: /components/collapsible
+            - text: View All
+      - generic [ref=e230]:
+        - link "Combobox" [ref=e231] [cursor=pointer]:
+          - /url: /components/combobox
+          - img "Combobox" [ref=e232]
+        - generic [ref=e233]:
+          - generic [ref=e235]:
+            - heading "Combobox" [level=2] [ref=e236]
+            - paragraph [ref=e238]: "9"
+          - link "View All" [ref=e239] [cursor=pointer]:
+            - /url: /components/combobox
+            - text: View All
+      - generic [ref=e240]:
+        - link "Command" [ref=e241] [cursor=pointer]:
+          - /url: /components/command
+          - img "Command" [ref=e242]
+        - generic [ref=e243]:
+          - generic [ref=e245]:
+            - heading "Command" [level=2] [ref=e246]
+            - generic [ref=e248]: New
+          - link "View All" [ref=e249] [cursor=pointer]:
+            - /url: /components/command
+            - text: View All
+      - generic [ref=e250]:
+        - link "Context Menu" [ref=e251] [cursor=pointer]:
+          - /url: /components/context-menu
+          - img "Context Menu" [ref=e252]
+        - generic [ref=e253]:
+          - generic [ref=e255]:
+            - heading "Context Menu" [level=2] [ref=e256]
+            - generic [ref=e258]: New
+          - link "View All" [ref=e259] [cursor=pointer]:
+            - /url: /components/context-menu
+            - text: View All
+      - generic [ref=e260]:
+        - link "Date Picker" [ref=e261] [cursor=pointer]:
+          - /url: /components/date-picker
+          - img "Date Picker" [ref=e262]
+        - generic [ref=e263]:
+          - generic [ref=e265]:
+            - heading "Date Picker" [level=2] [ref=e266]
+            - paragraph [ref=e268]: "2"
+          - link "View All" [ref=e269] [cursor=pointer]:
+            - /url: /components/date-picker
+            - text: View All
+      - generic [ref=e270]:
+        - link "Dialog" [ref=e271] [cursor=pointer]:
+          - /url: /components/dialog
+          - img "Dialog" [ref=e272]
+        - generic [ref=e273]:
+          - generic [ref=e275]:
+            - heading "Dialog" [level=2] [ref=e276]
+            - paragraph [ref=e278]: "6"
+          - link "View All" [ref=e279] [cursor=pointer]:
+            - /url: /components/dialog
+            - text: View All
+      - generic [ref=e280]:
+        - link "Dropdown Menu" [ref=e281] [cursor=pointer]:
+          - /url: /components/dropdown-menu
+          - img "Dropdown Menu" [ref=e282]
+        - generic [ref=e283]:
+          - generic [ref=e285]:
+            - heading "Dropdown Menu" [level=2] [ref=e286]
+            - paragraph [ref=e288]: "5"
+          - link "View All" [ref=e289] [cursor=pointer]:
+            - /url: /components/dropdown-menu
+            - text: View All
+      - generic [ref=e290]:
+        - link "File Upload" [ref=e291] [cursor=pointer]:
+          - /url: /components/file-upload
+          - img "File Upload" [ref=e292]
+        - generic [ref=e293]:
+          - generic [ref=e295]:
+            - heading "File Upload" [level=2] [ref=e296]
+            - paragraph [ref=e298]: "3"
+          - link "View All" [ref=e299] [cursor=pointer]:
+            - /url: /components/file-upload
+            - text: View All
+      - generic [ref=e300]:
+        - link "Form" [ref=e301] [cursor=pointer]:
+          - /url: /blocks/dashboard-ui/forms
+          - img "Form" [ref=e302]
+        - generic [ref=e303]:
+          - generic [ref=e305]:
+            - heading "Form" [level=2] [ref=e306]
+            - paragraph [ref=e308]: "5"
+          - link "View All" [ref=e309] [cursor=pointer]:
+            - /url: /blocks/dashboard-ui/forms
+            - text: View All
+      - generic [ref=e310]:
+        - link "Input" [ref=e311] [cursor=pointer]:
+          - /url: /components/input
+          - img "Input" [ref=e312]
+        - generic [ref=e313]:
+          - generic [ref=e315]:
+            - heading "Input" [level=2] [ref=e316]
+            - paragraph [ref=e318]: "19"
+          - link "View All" [ref=e319] [cursor=pointer]:
+            - /url: /components/input
+            - text: View All
+      - generic [ref=e320]:
+        - link "Input Mask" [ref=e321] [cursor=pointer]:
+          - /url: /components/input-mask
+          - img "Input Mask" [ref=e322]
+        - generic [ref=e323]:
+          - generic [ref=e325]:
+            - heading "Input Mask" [level=2] [ref=e326]
+            - paragraph [ref=e328]: "3"
+          - link "View All" [ref=e329] [cursor=pointer]:
+            - /url: /components/input-mask
+            - text: View All
+      - generic [ref=e330]:
+        - link "Input OTP" [ref=e331] [cursor=pointer]:
+          - /url: /components/input-otp
+          - img "Input OTP" [ref=e332]
+        - generic [ref=e333]:
+          - generic [ref=e335]:
+            - heading "Input OTP" [level=2] [ref=e336]
+            - paragraph [ref=e338]: "9"
+          - link "View All" [ref=e339] [cursor=pointer]:
+            - /url: /components/input-otp
+            - text: View All
+      - generic [ref=e340]:
+        - link "KBD" [ref=e341] [cursor=pointer]:
+          - /url: /components/kbd
+          - img "KBD" [ref=e342]
+        - generic [ref=e343]:
+          - generic [ref=e345]:
+            - heading "KBD" [level=2] [ref=e346]
+            - generic [ref=e348]: New
+          - link "View All" [ref=e349] [cursor=pointer]:
+            - /url: /components/kbd
+            - text: View All
+      - generic [ref=e350]:
+        - link "Label" [ref=e351] [cursor=pointer]:
+          - /url: /components/label
+          - img "Label" [ref=e352]
+        - generic [ref=e353]:
+          - generic [ref=e355]:
+            - heading "Label" [level=2] [ref=e356]
+            - generic [ref=e358]: New
+          - link "View All" [ref=e359] [cursor=pointer]:
+            - /url: /components/label
+            - text: View All
+      - generic [ref=e360]:
+        - link "Marquee" [ref=e361] [cursor=pointer]:
+          - /url: /components/marquee
+          - img "Marquee" [ref=e362]
+        - generic [ref=e363]:
+          - generic [ref=e365]:
+            - heading "Marquee" [level=2] [ref=e366]
+            - paragraph [ref=e368]: "2"
+          - link "View All" [ref=e369] [cursor=pointer]:
+            - /url: /components/marquee
+            - text: View All
+      - generic [ref=e370]:
+        - link "Navbar" [ref=e371] [cursor=pointer]:
+          - /url: /blocks/marketing/navbar-section
+          - img "Navbar" [ref=e372]
+        - generic [ref=e373]:
+          - generic [ref=e375]:
+            - heading "Navbar" [level=2] [ref=e376]
+            - paragraph [ref=e378]: "11"
+          - link "View All" [ref=e379] [cursor=pointer]:
+            - /url: /blocks/marketing/navbar-section
+            - text: View All
+      - generic [ref=e380]:
+        - link "Number Ticker" [ref=e381] [cursor=pointer]:
+          - /url: /components/number-ticker
+          - img "Number Ticker" [ref=e382]
+        - generic [ref=e383]:
+          - generic [ref=e385]:
+            - heading "Number Ticker" [level=2] [ref=e386]
+            - paragraph [ref=e388]: "5"
+          - link "View All" [ref=e389] [cursor=pointer]:
+            - /url: /components/number-ticker
+            - text: View All
+      - generic [ref=e390]:
+        - link "Orbiting Circles" [ref=e391] [cursor=pointer]:
+          - /url: /components/orbiting-circles
+          - img "Orbiting Circles" [ref=e392]
+        - generic [ref=e393]:
+          - generic [ref=e395]:
+            - heading "Orbiting Circles" [level=2] [ref=e396]
+            - paragraph [ref=e398]: "2"
+          - link "View All" [ref=e399] [cursor=pointer]:
+            - /url: /components/orbiting-circles
+            - text: View All
+      - generic [ref=e400]:
+        - link "Pagination" [ref=e401] [cursor=pointer]:
+          - /url: /components/pagination
+          - img "Pagination" [ref=e402]
+        - generic [ref=e403]:
+          - generic [ref=e405]:
+            - heading "Pagination" [level=2] [ref=e406]
+            - paragraph [ref=e408]: "3"
+          - link "View All" [ref=e409] [cursor=pointer]:
+            - /url: /components/pagination
+            - text: View All
+      - generic [ref=e410]:
+        - link "Popover" [ref=e411] [cursor=pointer]:
+          - /url: /components/popover
+          - img "Popover" [ref=e412]
+        - generic [ref=e413]:
+          - generic [ref=e415]:
+            - heading "Popover" [level=2] [ref=e416]
+            - paragraph [ref=e418]: "6"
+          - link "View All" [ref=e419] [cursor=pointer]:
+            - /url: /components/popover
+            - text: View All
+      - generic [ref=e420]:
+        - link "Progress" [ref=e421] [cursor=pointer]:
+          - /url: /components/progress
+          - img "Progress" [ref=e422]
+        - generic [ref=e423]:
+          - generic [ref=e425]:
+            - heading "Progress" [level=2] [ref=e426]
+            - paragraph [ref=e428]: "4"
+          - link "View All" [ref=e429] [cursor=pointer]:
+            - /url: /components/progress
+            - text: View All
+      - generic [ref=e430]:
+        - link "Radio Group" [ref=e431] [cursor=pointer]:
+          - /url: /components/radio-group
+          - img "Radio Group" [ref=e432]
+        - generic [ref=e433]:
+          - generic [ref=e435]:
+            - heading "Radio Group" [level=2] [ref=e436]
+            - paragraph [ref=e438]: "6"
+          - link "View All" [ref=e439] [cursor=pointer]:
+            - /url: /components/radio-group
+            - text: View All
+      - generic [ref=e440]:
+        - link "Scroll Area" [ref=e441] [cursor=pointer]:
+          - /url: /components/scroll-area
+          - img "Scroll Area" [ref=e442]
+        - generic [ref=e443]:
+          - generic [ref=e445]:
+            - heading "Scroll Area" [level=2] [ref=e446]
+            - paragraph [ref=e448]: "3"
+          - link "View All" [ref=e449] [cursor=pointer]:
+            - /url: /components/scroll-area
+            - text: View All
+      - generic [ref=e450]:
+        - link "Select" [ref=e451] [cursor=pointer]:
+          - /url: /components/select
+          - img "Select" [ref=e452]
+        - generic [ref=e453]:
+          - generic [ref=e455]:
+            - heading "Select" [level=2] [ref=e456]
+            - paragraph [ref=e458]: "9"
+          - link "View All" [ref=e459] [cursor=pointer]:
+            - /url: /components/select
+            - text: View All
+      - generic [ref=e460]:
+        - link "Separator" [ref=e461] [cursor=pointer]:
+          - /url: /components/separator
+          - img "Separator" [ref=e462]
+        - generic [ref=e463]:
+          - generic [ref=e465]:
+            - heading "Separator" [level=2] [ref=e466]
+            - generic [ref=e468]: New
+          - link "View All" [ref=e469] [cursor=pointer]:
+            - /url: /components/separator
+            - text: View All
+      - generic [ref=e470]:
+        - link "Shine Border" [ref=e471] [cursor=pointer]:
+          - /url: /components/shine-border
+          - img "Shine Border" [ref=e472]
+        - generic [ref=e473]:
+          - generic [ref=e475]:
+            - heading "Shine Border" [level=2] [ref=e476]
+            - paragraph [ref=e478]: "4"
+          - link "View All" [ref=e479] [cursor=pointer]:
+            - /url: /components/shine-border
+            - text: View All
+      - generic [ref=e480]:
+        - link "Sidebar" [ref=e481] [cursor=pointer]:
+          - /url: /blocks/dashboard-ui/sidebars
+          - img "Sidebar" [ref=e482]
+        - generic [ref=e483]:
+          - generic [ref=e485]:
+            - heading "Sidebar" [level=2] [ref=e486]
+            - generic [ref=e487]:
+              - paragraph [ref=e488]: "7"
+              - generic [ref=e489]: +1 New
+          - link "View All" [ref=e490] [cursor=pointer]:
+            - /url: /blocks/dashboard-ui/sidebars
+            - text: View All
+      - generic [ref=e491]:
+        - link "Skeleton" [ref=e492] [cursor=pointer]:
+          - /url: /components/skeleton
+          - img "Skeleton" [ref=e493]
+        - generic [ref=e494]:
+          - generic [ref=e496]:
+            - heading "Skeleton" [level=2] [ref=e497]
+            - paragraph [ref=e499]: "3"
+          - link "View All" [ref=e500] [cursor=pointer]:
+            - /url: /components/skeleton
+            - text: View All
+      - generic [ref=e501]:
+        - link "Slider" [ref=e502] [cursor=pointer]:
+          - /url: /components/slider
+          - img "Slider" [ref=e503]
+        - generic [ref=e504]:
+          - generic [ref=e506]:
+            - heading "Slider" [level=2] [ref=e507]
+            - paragraph [ref=e509]: "5"
+          - link "View All" [ref=e510] [cursor=pointer]:
+            - /url: /components/slider
+            - text: View All
+      - generic [ref=e511]:
+        - link "Sonner" [ref=e512] [cursor=pointer]:
+          - /url: /components/sonner
+          - img "Sonner" [ref=e513]
+        - generic [ref=e514]:
+          - generic [ref=e516]:
+            - heading "Sonner" [level=2] [ref=e517]
+            - generic [ref=e518]:
+              - paragraph [ref=e519]: "7"
+              - generic [ref=e520]: +2 New
+          - link "View All" [ref=e521] [cursor=pointer]:
+            - /url: /components/sonner
+            - text: View All
+      - generic [ref=e522]:
+        - link "Spinner" [ref=e523] [cursor=pointer]:
+          - /url: /components/spinner
+          - img "Spinner" [ref=e524]
+        - generic [ref=e525]:
+          - generic [ref=e527]:
+            - heading "Spinner" [level=2] [ref=e528]
+            - paragraph [ref=e530]: "7"
+          - link "View All" [ref=e531] [cursor=pointer]:
+            - /url: /components/spinner
+            - text: View All
+      - generic [ref=e532]:
+        - link "Spinning Text" [ref=e533] [cursor=pointer]:
+          - /url: /components/spinning-text
+          - img "Spinning Text" [ref=e534]
+        - generic [ref=e535]:
+          - generic [ref=e537]:
+            - heading "Spinning Text" [level=2] [ref=e538]
+            - paragraph [ref=e540]: "2"
+          - link "View All" [ref=e541] [cursor=pointer]:
+            - /url: /components/spinning-text
+            - text: View All
+      - generic [ref=e542]:
+        - link "Switch" [ref=e543] [cursor=pointer]:
+          - /url: /components/switch
+          - img "Switch" [ref=e544]
+        - generic [ref=e545]:
+          - generic [ref=e547]:
+            - heading "Switch" [level=2] [ref=e548]
+            - paragraph [ref=e550]: "6"
+          - link "View All" [ref=e551] [cursor=pointer]:
+            - /url: /components/switch
+            - text: View All
+      - generic [ref=e552]:
+        - link "Table" [ref=e553] [cursor=pointer]:
+          - /url: /blocks/dashboard-ui/tables
+          - img "Table" [ref=e554]
+        - generic [ref=e555]:
+          - generic [ref=e557]:
+            - heading "Table" [level=2] [ref=e558]
+            - paragraph [ref=e560]: "11"
+          - link "View All" [ref=e561] [cursor=pointer]:
+            - /url: /blocks/dashboard-ui/tables
+            - text: View All
+      - generic [ref=e562]:
+        - link "Tabs" [ref=e563] [cursor=pointer]:
+          - /url: /components/tabs
+          - img "Tabs" [ref=e564]
+        - generic [ref=e565]:
+          - generic [ref=e567]:
+            - heading "Tabs" [level=2] [ref=e568]
+            - generic [ref=e569]:
+              - paragraph [ref=e570]: "7"
+              - generic [ref=e571]: +3 New
+          - link "View All" [ref=e572] [cursor=pointer]:
+            - /url: /components/tabs
+            - text: View All
+      - generic [ref=e573]:
+        - link "Textarea" [ref=e574] [cursor=pointer]:
+          - /url: /components/textarea
+          - img "Textarea" [ref=e575]
+        - generic [ref=e576]:
+          - generic [ref=e578]:
+            - heading "Textarea" [level=2] [ref=e579]
+            - paragraph [ref=e581]: "9"
+          - link "View All" [ref=e582] [cursor=pointer]:
+            - /url: /components/textarea
+            - text: View All
+      - generic [ref=e583]:
+        - link "Tooltip" [ref=e584] [cursor=pointer]:
+          - /url: /components/tooltip
+          - img "Tooltip" [ref=e585]
+        - generic [ref=e586]:
+          - generic [ref=e588]:
+            - heading "Tooltip" [level=2] [ref=e589]
+            - paragraph [ref=e591]: "7"
+          - link "View All" [ref=e592] [cursor=pointer]:
+            - /url: /components/tooltip
+            - text: View All
+      - generic [ref=e593]:
+        - link "Topbar" [ref=e594] [cursor=pointer]:
+          - /url: /blocks/dashboard-ui/topbars
+          - img "Topbar" [ref=e595]
+        - generic [ref=e596]:
+          - generic [ref=e598]:
+            - heading "Topbar" [level=2] [ref=e599]
+            - paragraph [ref=e601]: "6"
+          - link "View All" [ref=e602] [cursor=pointer]:
+            - /url: /blocks/dashboard-ui/topbars
+            - text: View All
+  - generic [ref=e605]:
+    - generic [ref=e607]:
+      - generic [ref=e608]:
+        - heading "Open-Source and Premium UI Components for Modern Apps" [level=2] [ref=e609]
+        - paragraph [ref=e610]: A growing collection of beautifully designed, clean, and modern shadcn/ui components built for React and Next.js projects. These components focus on behavior, interaction, and reuse, helping teams build consistent interfaces, scalable design systems, and production-ready applications faster. Start with open-source components or use premium-ready patterns designed for real-world apps.
+      - heading "Key Features" [level=3] [ref=e611]
+      - list [ref=e612]:
+        - listitem [ref=e613]: "Preview, copy, or install: Preview components live, copy and paste the code, or install directly using the Shadcn CLI and registry."
+        - listitem [ref=e614]: "Easy to customize: Modify and extend layout, styles, and behavior directly in code without breaking structure, making them suitable for both open-source and production apps."
+        - listitem [ref=e615]: "Structured components: Components follow common UI and interaction patterns for consistent use across forms, dashboards, landing pages, and applications."
+        - listitem [ref=e616]: "Composable components: Combine multiple components without layout, spacing, or style conflicts across pages, templates, and scalable interfaces."
+        - listitem [ref=e617]: "Variants and states included: Components include common variants and states such as hover, active, disabled, and loading, ensuring production-ready behavior."
+        - listitem [ref=e618]: "Figma design alignment: Shadcn Figma UI Kit mirrors components and variants to support seamless design-to-code workflows."
+        - listitem [ref=e619]: "Built with modern primitives: Developed using React, shadcn/ui, Tailwind CSS, and flexible UI primitives with support for both Base UI and Radix UI, ensuring a clear and consistent structure."
+        - listitem [ref=e620]: "Works across React frameworks: Fully compatible with Next.js and modern React frameworks used in SaaS, admin dashboards, and production apps."
+        - listitem [ref=e621]: "Accessibility focused: Includes responsive behavior, keyboard accessibility, and support for light and dark themes."
+        - listitem [ref=e622]: "MCP Server integration: Browse, generate, and extend components directly within your development environment."
+      - generic [ref=e623]:
+        - heading "Designed to Work Within Existing Workflows" [level=3] [ref=e624]
+        - paragraph [ref=e625]:
+          - text: Shadcn Space provides
+          - generic [ref=e626]:
+            - text: open-source and premium-ready components,
+            - link "templates" [ref=e627] [cursor=pointer]:
+              - /url: /templates
+            - text: "&"
+            - link "UI blocks" [ref=e628] [cursor=pointer]:
+              - /url: /blocks
+          - text: built on shadcn/ui with support for both Base UI and Radix UI primitives. It includes reusable UI components and patterns that help developers build scalable, accessible, and modern interfaces using React and Tailwind CSS.
+        - paragraph [ref=e629]: The library integrates seamlessly into existing workflows and design systems. Every component is fully customizable, giving developers complete control over layout, styling, and behavior. Install components using npm, reuse navigation menus, dashboards, forms, and interactive UI elements, and accelerate development with production-grade foundations.
+        - paragraph [ref=e630]: Shadcn Space also includes open-source and premium Shadcn UI templates, blocks, and Figma UI kits. These resources help developers move faster from prototype to production while maintaining consistency, performance, and scalability.
+    - generic [ref=e632]:
+      - heading "Highlights" [level=2] [ref=e633]
+      - list [ref=e634]:
+        - listitem [ref=e635]:
+          - img [ref=e637]
+          - text: Preview, copy, and customize with ease
+        - listitem [ref=e639]:
+          - img [ref=e641]
+          - text: 320+ Free & Premium Shadcn UI components
+        - listitem [ref=e643]:
+          - img [ref=e645]
+          - generic [ref=e647]: Built with Base UI and Radix UI Primitives
+        - listitem [ref=e648]:
+          - img [ref=e650]
+          - text: 54+ component categories for common UI patterns
+        - listitem [ref=e652]:
+          - img [ref=e654]
+          - text: Components for forms, navigation, and interaction
+        - listitem [ref=e656]:
+          - img [ref=e658]
+          - generic [ref=e660]: CLI and MCP tools for faster setup and extension
+  - generic [ref=e663]:
+    - heading "Frequently asked questions" [level=2] [ref=e664]
+    - generic [ref=e665]:
+      - region [ref=e666]:
+        - generic [ref=e667]:
+          - heading "What are the components in Shadcn Space?" [level=3] [ref=e668]:
+            - button "What are the components in Shadcn Space?" [ref=e669] [cursor=pointer]:
+              - text: What are the components in Shadcn Space?
+              - img [ref=e671]
+          - region "What are the components in Shadcn Space?"
+        - generic [ref=e673]:
+          - heading "How are components different from blocks?" [level=3] [ref=e674]:
+            - button "How are components different from blocks?" [ref=e675] [cursor=pointer]:
+              - text: How are components different from blocks?
+              - img [ref=e677]
+          - region "How are components different from blocks?"
+        - generic [ref=e679]:
+          - heading "How is Shadcn Space different from shadcn/ui?" [level=3] [ref=e680]:
+            - button "How is Shadcn Space different from shadcn/ui?" [ref=e681] [cursor=pointer]:
+              - text: How is Shadcn Space different from shadcn/ui?
+              - img [ref=e683]
+          - region "How is Shadcn Space different from shadcn/ui?"
+        - generic [ref=e685]:
+          - heading "Are Shadcn Components open source and free to use?" [level=3] [ref=e686]:
+            - button "Are Shadcn Components open source and free to use?" [ref=e687] [cursor=pointer]:
+              - text: Are Shadcn Components open source and free to use?
+              - img [ref=e689]
+          - region "Are Shadcn Components open source and free to use?"
+        - generic [ref=e691]:
+          - heading "Can I use Shadcn Components in commercial projects?" [level=3] [ref=e692]:
+            - button "Can I use Shadcn Components in commercial projects?" [ref=e693] [cursor=pointer]:
+              - text: Can I use Shadcn Components in commercial projects?
+              - img [ref=e695]
+          - region "Can I use Shadcn Components in commercial projects?"
+      - region [ref=e697]:
+        - generic [ref=e698]:
+          - heading "Do I need to replace my existing shadcn/ui setup?" [level=3] [ref=e699]:
+            - button "Do I need to replace my existing shadcn/ui setup?" [ref=e700] [cursor=pointer]:
+              - text: Do I need to replace my existing shadcn/ui setup?
+              - img [ref=e702]
+          - region "Do I need to replace my existing shadcn/ui setup?"
+        - generic [ref=e704]:
+          - heading "What types of components are included?" [level=3] [ref=e705]:
+            - button "What types of components are included?" [ref=e706] [cursor=pointer]:
+              - text: What types of components are included?
+              - img [ref=e708]
+          - region "What types of components are included?"
+        - generic [ref=e710]:
+          - heading "What React frameworks are supported?" [level=3] [ref=e711]:
+            - button "What React frameworks are supported?" [ref=e712] [cursor=pointer]:
+              - text: What React frameworks are supported?
+              - img [ref=e714]
+          - region "What React frameworks are supported?"
+        - generic [ref=e716]:
+          - heading "Can I customize components to fit my design system?" [level=3] [ref=e717]:
+            - button "Can I customize components to fit my design system?" [ref=e718] [cursor=pointer]:
+              - text: Can I customize components to fit my design system?
+              - img [ref=e720]
+          - region "Can I customize components to fit my design system?"
+        - generic [ref=e722]:
+          - heading "What tools are available for developers?" [level=3] [ref=e723]:
+            - button "What tools are available for developers?" [ref=e724] [cursor=pointer]:
+              - text: What tools are available for developers?
+              - img [ref=e726]
+          - region "What tools are available for developers?"
+  - contentinfo [ref=e728]:
+    - generic [ref=e729]:
+      - generic [ref=e730]:
+        - generic [ref=e732]:
+          - link "ShadcnSpace" [ref=e733] [cursor=pointer]:
+            - /url: /
+            - img "ShadcnSpace" [ref=e734]
+          - paragraph [ref=e735]: An open-source and Pro collection of copy-paste shadcn/ui components, blocks, templates, and dashboard layouts. Choose your UI primitive library for consistency and customization. Ship faster.
+        - generic [ref=e737]:
+          - generic [ref=e738]:
+            - paragraph [ref=e739]: Resources
+            - list [ref=e740]:
+              - listitem [ref=e741]:
+                - link "Roadmap" [ref=e742] [cursor=pointer]:
+                  - /url: https://github.com/orgs/shadcnspace/projects/1
+              - listitem [ref=e743]:
+                - link "Docs" [ref=e744] [cursor=pointer]:
+                  - /url: /docs/getting-started/introduction
+              - listitem [ref=e745]:
+                - link "Blog" [ref=e746] [cursor=pointer]:
+                  - /url: /blog
+          - generic [ref=e747]:
+            - paragraph [ref=e748]: Legal
+            - list [ref=e749]:
+              - listitem [ref=e750]:
+                - link "License" [ref=e751] [cursor=pointer]:
+                  - /url: /license
+              - listitem [ref=e752]:
+                - link "Privacy Policy" [ref=e753] [cursor=pointer]:
+                  - /url: /privacy-policy
+              - listitem [ref=e754]:
+                - link "Terms of Use" [ref=e755] [cursor=pointer]:
+                  - /url: /terms-and-condition
+          - generic [ref=e756]:
+            - paragraph [ref=e757]: Help & Support
+            - list [ref=e758]:
+              - listitem [ref=e759]:
+                - link "Change Log" [ref=e760] [cursor=pointer]:
+                  - /url: /changelog
+              - listitem [ref=e761]:
+                - link "Support" [ref=e762] [cursor=pointer]:
+                  - /url: /support
+        - generic [ref=e764]:
+          - generic [ref=e765]:
+            - paragraph [ref=e766]: Components
+            - list [ref=e767]:
+              - listitem [ref=e768]:
+                - link "Accordion" [ref=e769] [cursor=pointer]:
+                  - /url: /components/accordion
+              - listitem [ref=e770]:
+                - link "Avatar" [ref=e771] [cursor=pointer]:
+                  - /url: /components/avatar
+              - listitem [ref=e772]:
+                - link "Marquee" [ref=e773] [cursor=pointer]:
+                  - /url: /components/marquee
+              - listitem [ref=e774]:
+                - link "Animated List" [ref=e775] [cursor=pointer]:
+                  - /url: /components/animated-list
+              - listitem [ref=e776]:
+                - link "Apple Dock" [ref=e777] [cursor=pointer]:
+                  - /url: /components/apple-dock
+              - listitem [ref=e778]:
+                - link "Animated Text" [ref=e779] [cursor=pointer]:
+                  - /url: /components/animated-text
+              - listitem [ref=e780]:
+                - link "Button" [ref=e781] [cursor=pointer]:
+                  - /url: /components/button
+              - listitem [ref=e782]:
+                - link "Badge" [ref=e783] [cursor=pointer]:
+                  - /url: /components/badge
+              - listitem [ref=e784]:
+                - link "Calendar" [ref=e785] [cursor=pointer]:
+                  - /url: /components/calendar
+          - generic [ref=e786]:
+            - paragraph [ref=e787]: Marketing Blocks
+            - list [ref=e788]:
+              - listitem [ref=e789]:
+                - link "Feature Section" [ref=e790] [cursor=pointer]:
+                  - /url: /blocks/marketing/feature-section
+              - listitem [ref=e791]:
+                - link "Footer Section" [ref=e792] [cursor=pointer]:
+                  - /url: /blocks/marketing/footer-section
+              - listitem [ref=e793]:
+                - link "Hero Section" [ref=e794] [cursor=pointer]:
+                  - /url: /blocks/marketing/hero-section
+              - listitem [ref=e795]:
+                - link "Login" [ref=e796] [cursor=pointer]:
+                  - /url: /blocks/marketing/login
+              - listitem [ref=e797]:
+                - link "Portfolio" [ref=e798] [cursor=pointer]:
+                  - /url: /blocks/marketing/portfolio-section
+              - listitem [ref=e799]:
+                - link "Pricing Section" [ref=e800] [cursor=pointer]:
+                  - /url: /blocks/marketing/pricing-section
+              - listitem [ref=e801]:
+                - link "Testimonials" [ref=e802] [cursor=pointer]:
+                  - /url: /blocks/marketing/testimonials-section
+              - listitem [ref=e803]:
+                - link "About Us Section" [ref=e804] [cursor=pointer]:
+                  - /url: /blocks/marketing/about-us-section
+              - listitem [ref=e805]:
+                - link "Bento Grid Section" [ref=e806] [cursor=pointer]:
+                  - /url: /blocks/marketing/bento-grid-section
+          - generic [ref=e807]:
+            - paragraph [ref=e808]: Dashboard Blocks
+            - list [ref=e809]:
+              - listitem [ref=e810]:
+                - link "Charts Component" [ref=e811] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/charts-component
+              - listitem [ref=e812]:
+                - link "Dashboard Shell" [ref=e813] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/dashboard-shell
+              - listitem [ref=e814]:
+                - link "Dialog" [ref=e815] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/dialog
+              - listitem [ref=e816]:
+                - link "Sidebars" [ref=e817] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/sidebars
+              - listitem [ref=e818]:
+                - link "Widgets Component" [ref=e819] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/widgets-component
+              - listitem [ref=e820]:
+                - link "Forms" [ref=e821] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/forms
+              - listitem [ref=e822]:
+                - link "Statistics Component" [ref=e823] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/statistics-component
+              - listitem [ref=e824]:
+                - link "Tables" [ref=e825] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/tables
+              - listitem [ref=e826]:
+                - link "Topbars" [ref=e827] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/topbars
+          - generic [ref=e828]:
+            - paragraph [ref=e829]: Ecommerce Blocks
+            - list [ref=e830]:
+              - listitem [ref=e831]:
+                - link "Checkout" [ref=e832] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/checkout
+              - listitem [ref=e833]:
+                - link "Product Category" [ref=e834] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/product-category
+              - listitem [ref=e835]:
+                - link "Product Listing" [ref=e836] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/product-listing
+              - listitem [ref=e837]:
+                - link "Product Overview" [ref=e838] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/product-overview
+              - listitem [ref=e839]:
+                - link "Product Quick View" [ref=e840] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/product-quick-view
+          - generic [ref=e841]:
+            - paragraph [ref=e842]: Pages
+            - list [ref=e843]:
+              - listitem [ref=e844]:
+                - link "Blog" [ref=e845] [cursor=pointer]:
+                  - /url: /pages#blog-page
+              - listitem [ref=e846]:
+                - link "Blog Details" [ref=e847] [cursor=pointer]:
+                  - /url: /pages#blog-details-page
+              - listitem [ref=e848]:
+                - link "Pricing" [ref=e849] [cursor=pointer]:
+                  - /url: /pages#pricing-page
+              - listitem [ref=e850]:
+                - link "FAQ" [ref=e851] [cursor=pointer]:
+                  - /url: /pages#faq-page
+              - listitem [ref=e852]:
+                - link "Changelog" [ref=e853] [cursor=pointer]:
+                  - /url: /pages#changelog-page
+              - listitem [ref=e854]:
+                - link "Contact" [ref=e855] [cursor=pointer]:
+                  - /url: /pages#contact-page
+              - listitem [ref=e856]:
+                - link "Integrations" [ref=e857] [cursor=pointer]:
+                  - /url: /pages#integration-page
+              - listitem [ref=e858]:
+                - link "Error" [ref=e859] [cursor=pointer]:
+                  - /url: /pages#error-page
+              - listitem [ref=e860]:
+                - link "About Us" [ref=e861] [cursor=pointer]:
+                  - /url: /pages#about-us-page
+      - generic [ref=e862]:
+        - generic [ref=e863]:
+          - generic [ref=e864]:
+            - link "github" [ref=e865] [cursor=pointer]:
+              - /url: https://github.com/shadcnspace/shadcnspace
+              - generic [ref=e866]: github
+            - link "twitter" [ref=e867] [cursor=pointer]:
+              - /url: https://x.com/ShadcnSpace
+              - generic [ref=e868]: twitter
+            - link "discord" [ref=e869] [cursor=pointer]:
+              - /url: https://discord.com/invite/eMzE8F6Wqs
+              - generic [ref=e870]: discord
+          - paragraph [ref=e871]:
+            - text: © 2026 Shadcn Space. Product by
+            - link "WrapPixel" [ref=e872] [cursor=pointer]:
+              - /url: https://wrappixel.com/
+            - text: .
+        - img "footer_logo"
+  - alert [ref=e873]

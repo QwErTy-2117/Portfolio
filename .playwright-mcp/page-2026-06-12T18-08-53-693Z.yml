@@ -1,0 +1,577 @@
+- generic [ref=e1]:
+  - dialog [ref=e2]:
+    - button "Close" [ref=e3] [cursor=pointer]:
+      - img [ref=e4]
+    - paragraph [ref=e6]:
+      - text: Unsplash uses cookies and similar technologies to secure our site, provide useful features to free and paying users, and to ensure optimal performance. By clicking "Accept all cookies" or closing this prompt, you consent to the use of all cookies. By clicking "Accept essential only", you consent only to the use of cookies that are strictly necessary for the site to function. See our
+      - link "Cookie Policy" [ref=e7] [cursor=pointer]:
+        - /url: /cookies
+      - text: for more info.
+    - link "Manage cookies" [ref=e9] [cursor=pointer]:
+      - /url: /cookies#manage-consent
+    - generic [ref=e10]:
+      - button "Accept essential only" [ref=e11] [cursor=pointer]
+      - button "Accept all cookies" [active] [ref=e12] [cursor=pointer]
+  - generic [ref=e16]:
+    - navigation [ref=e17]:
+      - link "Unsplash Home" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img "Unsplash Home" [ref=e21]
+      - generic [ref=e23]:
+        - link "Log in / Sign up" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist
+          - img [ref=e25]
+        - button "Language" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - button "Menu" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - navigation [ref=e35]:
+          - search "Find visuals sitewide" [ref=e37]:
+            - button "Search Unsplash" [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+            - combobox [ref=e41]:
+              - searchbox "Search Unsplash" [ref=e42]: distributed network abstract dark minimalist
+              - listbox
+            - button "Clear" [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+          - button "Filters" [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+        - generic [ref=e50]:
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - link "Photos 9.4k":
+                - /url: /s/photos/distributed-network-abstract-dark-minimalist
+                - text: Photos
+                - generic: 9.4k
+            - listitem [ref=e59]:
+              - link "Illustrations 400" [ref=e60] [cursor=pointer]:
+                - /url: /s/illustrations/distributed-network-abstract-dark-minimalist
+                - text: Illustrations
+                - generic [ref=e61]: "400"
+            - listitem [ref=e62]:
+              - button "More" [ref=e63] [cursor=pointer]
+          - generic [ref=e64]:
+            - heading "Distributed network abstract dark minimalist" [level=1] [ref=e66]
+            - generic [ref=e68]:
+              - button "scroll list to the right" [ref=e70] [cursor=pointer]:
+                - img [ref=e71]
+              - generic [ref=e74]:
+                - link "network" [ref=e76] [cursor=pointer]:
+                  - /url: /s/photos/network
+                - link "connection" [ref=e78] [cursor=pointer]:
+                  - /url: /s/photos/connection
+                - link "technology" [ref=e80] [cursor=pointer]:
+                  - /url: /s/photos/technology
+                - link "abstract" [ref=e82] [cursor=pointer]:
+                  - /url: /s/photos/abstract
+                - link "big datum" [ref=e84] [cursor=pointer]:
+                  - /url: /s/photos/big-datum
+                - link "abstract background" [ref=e86] [cursor=pointer]:
+                  - /url: /s/photos/abstract-background
+                - link "digital" [ref=e88] [cursor=pointer]:
+                  - /url: /s/photos/digital
+                - link "data visualization" [ref=e90] [cursor=pointer]:
+                  - /url: /s/photos/data-visualization
+                - link "global network" [ref=e92] [cursor=pointer]:
+                  - /url: /s/photos/global-network
+                - link "node" [ref=e94] [cursor=pointer]:
+                  - /url: /s/photos/node
+                - link "science" [ref=e96] [cursor=pointer]:
+                  - /url: /s/photos/science
+                - link "communication" [ref=e98] [cursor=pointer]:
+                  - /url: /s/photos/communication
+          - generic [ref=e100]:
+            - generic [ref=e103]:
+              - figure [ref=e104]:
+                - generic [ref=e106]:
+                  - link [ref=e107] [cursor=pointer]:
+                    - /url: /@gettyimages
+                  - generic [ref=e110]:
+                    - link "Getty Images" [ref=e111] [cursor=pointer]:
+                      - /url: /@gettyimages
+                    - generic [ref=e112]:
+                      - text: For
+                      - link "Unsplash+" [ref=e113] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fdefocus-dots-and-lines-connection-on-abstract-technology-background3d-illustration-WXl3cPupXOw
+                - generic [ref=e114]:
+                  - link "defocus dots and lines connection on abstract technology background.3d illustration" [ref=e115]:
+                    - /url: /photos/defocus-dots-and-lines-connection-on-abstract-technology-background3d-illustration-WXl3cPupXOw
+                    - img "defocus dots and lines connection on abstract technology background.3d illustration" [ref=e116]
+                  - link [ref=e117] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fdefocus-dots-and-lines-connection-on-abstract-technology-background3d-illustration-WXl3cPupXOw
+                    - img [ref=e118]
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - button "Bookmark" [ref=e123] [cursor=pointer]:
+                      - img [ref=e124]
+                    - button "Add to Collection" [ref=e127] [cursor=pointer]:
+                      - img [ref=e128]
+                  - link "Download" [ref=e131] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fdefocus-dots-and-lines-connection-on-abstract-technology-background3d-illustration-WXl3cPupXOw
+                    - img [ref=e132]
+                    - text: Download
+              - contentinfo [ref=e138]:
+                - generic [ref=e144]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e146]:
+                - generic [ref=e148]:
+                  - link [ref=e149] [cursor=pointer]:
+                    - /url: /@urielsc26
+                  - link "Uriel SC" [ref=e153] [cursor=pointer]:
+                    - /url: /@urielsc26
+                - link "blue and white floral textile" [ref=e155]:
+                  - /url: /photos/blue-and-white-floral-textile-11KDtiUWRq4
+                  - img "blue and white floral textile" [ref=e156]
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - button "Bookmark" [ref=e160] [cursor=pointer]:
+                      - img [ref=e161]
+                    - button "Add to Collection" [ref=e164] [cursor=pointer]:
+                      - img [ref=e165]
+                  - generic [ref=e168]:
+                    - link "Download" [ref=e169] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/11KDtiUWRq4/download?force=true
+                    - button "Choose download size" [ref=e170] [cursor=pointer]:
+                      - img [ref=e171]
+              - generic [ref=e173]:
+                - heading "Sponsored images" [level=4] [ref=e174]:
+                  - generic [ref=e175]: Sponsored images
+                  - link [ref=e176] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A&phrase=distributed+network+abstract+dark+minimalist&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e177]
+                - generic [ref=e179]:
+                  - link "Abstract technological background texture" [ref=e180] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/abstract-technological-background-texture-gm1178751790-329577806?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A
+                    - img "Abstract technological background texture" [ref=e181]
+                  - link "Science background. Abstract digital background plexus made of dots and lines. Big data visualization. Network connection structure." [ref=e182] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/science-background-abstract-digital-background-plexus-made-of-dots-and-lines-big-gm1329175201-412999301?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A
+                    - img "Science background. Abstract digital background plexus made of dots and lines. Big data visualization. Network connection structure." [ref=e183]
+                  - link "Abstract network molecular block chain structure" [ref=e184] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/abstract-network-molecular-block-chain-structure-gm974104916-265026883?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A
+                    - img "Abstract network molecular block chain structure" [ref=e185]
+                  - link "Connection" [ref=e186] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/connection-gm514934428-88338105?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A
+                    - img "Connection" [ref=e187]
+                - link "Get 20% off with code UNSPLASH20" [ref=e188] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A&phrase=distributed+network+abstract+dark+minimalist&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e189]:
+                - generic [ref=e191]:
+                  - link [ref=e192] [cursor=pointer]:
+                    - /url: /@alinnnaaaa
+                  - link "Alina Grubnyak" [ref=e196] [cursor=pointer]:
+                    - /url: /@alinnnaaaa
+                - link "low-angle photography of metal structure" [ref=e198]:
+                  - /url: /photos/low-angle-photography-of-metal-structure-ZiQkhI7417A
+                  - img "low-angle photography of metal structure" [ref=e199]
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - button "Bookmark" [ref=e203] [cursor=pointer]:
+                      - img [ref=e204]
+                    - button "Add to Collection" [ref=e207] [cursor=pointer]:
+                      - img [ref=e208]
+                  - generic [ref=e211]:
+                    - link "Download" [ref=e212] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/ZiQkhI7417A/download?force=true
+                    - button "Choose download size" [ref=e213] [cursor=pointer]:
+                      - img [ref=e214]
+              - figure [ref=e216]:
+                - generic [ref=e218]:
+                  - link [ref=e219] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                  - link "Shubham Dhage" [ref=e223] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                - link "a group of cubes that are on a black surface" [ref=e225]:
+                  - /url: /photos/a-group-of-cubes-that-are-on-a-black-surface-T9rKvI3N0NM
+                  - img "a group of cubes that are on a black surface" [ref=e226]
+                - generic [ref=e228]:
+                  - generic [ref=e229]:
+                    - button "Bookmark" [ref=e230] [cursor=pointer]:
+                      - img [ref=e231]
+                    - button "Add to Collection" [ref=e234] [cursor=pointer]:
+                      - img [ref=e235]
+                  - generic [ref=e238]:
+                    - link "Download" [ref=e239] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/T9rKvI3N0NM/download?force=true
+                    - button "Choose download size" [ref=e240] [cursor=pointer]:
+                      - img [ref=e241]
+              - figure [ref=e243]:
+                - generic [ref=e245]:
+                  - link [ref=e246] [cursor=pointer]:
+                    - /url: /@cashmacanaya
+                  - generic [ref=e249]:
+                    - link "Cash Macanaya" [ref=e250] [cursor=pointer]:
+                      - /url: /@cashmacanaya
+                    - generic [ref=e251]:
+                      - text: For
+                      - link "Unsplash+" [ref=e252] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fa-black-and-white-photo-of-a-network-of-dots-nv3Z-1Nsd3g
+                - generic [ref=e253]:
+                  - link "a black and white photo of a network of dots" [ref=e254]:
+                    - /url: /photos/a-black-and-white-photo-of-a-network-of-dots-nv3Z-1Nsd3g
+                    - img "a black and white photo of a network of dots" [ref=e255]
+                  - link [ref=e256] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-black-and-white-photo-of-a-network-of-dots-nv3Z-1Nsd3g
+                    - img [ref=e257]
+                - generic [ref=e260]:
+                  - generic [ref=e261]:
+                    - button "Bookmark" [ref=e262] [cursor=pointer]:
+                      - img [ref=e263]
+                    - button "Add to Collection" [ref=e266] [cursor=pointer]:
+                      - img [ref=e267]
+                  - link "Download" [ref=e270] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-black-and-white-photo-of-a-network-of-dots-nv3Z-1Nsd3g
+                    - img [ref=e271]
+                    - text: Download
+              - figure [ref=e273]:
+                - generic [ref=e275]:
+                  - link [ref=e276] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                  - link "Shubham Dhage" [ref=e280] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                - link "a group of cubes that are connected to each other" [ref=e282]:
+                  - /url: /photos/a-group-of-cubes-that-are-connected-to-each-other-R2HtYWs5-QA
+                  - img "a group of cubes that are connected to each other" [ref=e283]
+                - generic [ref=e285]:
+                  - generic [ref=e286]:
+                    - button "Bookmark" [ref=e287] [cursor=pointer]:
+                      - img [ref=e288]
+                    - button "Add to Collection" [ref=e291] [cursor=pointer]:
+                      - img [ref=e292]
+                  - generic [ref=e295]:
+                    - link "Download" [ref=e296] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/R2HtYWs5-QA/download?force=true
+                    - button "Choose download size" [ref=e297] [cursor=pointer]:
+                      - img [ref=e298]
+              - figure [ref=e300]:
+                - generic [ref=e302]:
+                  - link [ref=e303] [cursor=pointer]:
+                    - /url: /@a_chosensoul
+                  - link "A Chosen Soul" [ref=e307] [cursor=pointer]:
+                    - /url: /@a_chosensoul
+                - link "a black and white photo of a network of dots" [ref=e309]:
+                  - /url: /photos/a-black-and-white-photo-of-a-network-of-dots-EoxXApH1UKI
+                  - img "a black and white photo of a network of dots" [ref=e310]
+                - generic [ref=e312]:
+                  - generic [ref=e313]:
+                    - button "Bookmark" [ref=e314] [cursor=pointer]:
+                      - img [ref=e315]
+                    - button "Add to Collection" [ref=e318] [cursor=pointer]:
+                      - img [ref=e319]
+                  - generic [ref=e322]:
+                    - link "Download" [ref=e323] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/EoxXApH1UKI/download?force=true
+                    - button "Choose download size" [ref=e324] [cursor=pointer]:
+                      - img [ref=e325]
+              - figure [ref=e327]:
+                - generic [ref=e329]:
+                  - link [ref=e330] [cursor=pointer]:
+                    - /url: /@davidvondiemar
+                  - link "David von Diemar" [ref=e334] [cursor=pointer]:
+                    - /url: /@davidvondiemar
+                - link "low-angle photo of turned on brown pendant lamps" [ref=e336]:
+                  - /url: /photos/low-angle-photo-of-turned-on-brown-pendant-lamps-aeaakiJziLs
+                  - img "low-angle photo of turned on brown pendant lamps" [ref=e337]
+                - generic [ref=e339]:
+                  - generic [ref=e340]:
+                    - button "Bookmark" [ref=e341] [cursor=pointer]:
+                      - img [ref=e342]
+                    - button "Add to Collection" [ref=e345] [cursor=pointer]:
+                      - img [ref=e346]
+                  - generic [ref=e349]:
+                    - link "Download" [ref=e350] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/aeaakiJziLs/download?force=true
+                    - button "Choose download size" [ref=e351] [cursor=pointer]:
+                      - img [ref=e352]
+              - figure [ref=e354]:
+                - generic [ref=e356]:
+                  - link [ref=e357] [cursor=pointer]:
+                    - /url: /@gettyimages
+                  - generic [ref=e360]:
+                    - link "Getty Images" [ref=e361] [cursor=pointer]:
+                      - /url: /@gettyimages
+                    - generic [ref=e362]:
+                      - text: For
+                      - link "Unsplash+" [ref=e363] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fdots-and-lines-connection-on-white-abstract-technology-background3d-illustration-P3Qccih8VGE
+                - generic [ref=e364]:
+                  - link "dots and lines connection on white abstract technology background.3d illustration" [ref=e365]:
+                    - /url: /photos/dots-and-lines-connection-on-white-abstract-technology-background3d-illustration-P3Qccih8VGE
+                    - img "dots and lines connection on white abstract technology background.3d illustration" [ref=e366]
+                  - link [ref=e367] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fdots-and-lines-connection-on-white-abstract-technology-background3d-illustration-P3Qccih8VGE
+                    - img [ref=e368]
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - button "Bookmark" [ref=e373] [cursor=pointer]:
+                      - img [ref=e374]
+                    - button "Add to Collection" [ref=e377] [cursor=pointer]:
+                      - img [ref=e378]
+                  - link "Download" [ref=e381] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fdots-and-lines-connection-on-white-abstract-technology-background3d-illustration-P3Qccih8VGE
+                    - img [ref=e382]
+                    - text: Download
+              - figure [ref=e384]:
+                - generic [ref=e386]:
+                  - link [ref=e387] [cursor=pointer]:
+                    - /url: /@aashish_27
+                  - link "Aashish Yadav" [ref=e391] [cursor=pointer]:
+                    - /url: /@aashish_27
+                - link "diagram" [ref=e393]:
+                  - /url: /photos/diagram-O9FajGVJLn0
+                  - img "diagram" [ref=e394]
+                - generic [ref=e396]:
+                  - generic [ref=e397]:
+                    - button "Bookmark" [ref=e398] [cursor=pointer]:
+                      - img [ref=e399]
+                    - button "Add to Collection" [ref=e402] [cursor=pointer]:
+                      - img [ref=e403]
+                  - generic [ref=e406]:
+                    - link "Download" [ref=e407] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/O9FajGVJLn0/download?force=true
+                    - button "Choose download size" [ref=e408] [cursor=pointer]:
+                      - img [ref=e409]
+              - figure [ref=e411]:
+                - generic [ref=e413]:
+                  - link [ref=e414] [cursor=pointer]:
+                    - /url: /@justmejuliee
+                  - link "Julia Taubitz" [ref=e418] [cursor=pointer]:
+                    - /url: /@justmejuliee
+                - link "Abstract geometric pattern of illuminated lights." [ref=e420]:
+                  - /url: /photos/abstract-geometric-pattern-of-illuminated-lights-fYOCiHbHLQ8
+                  - img "Abstract geometric pattern of illuminated lights." [ref=e421]
+                - generic [ref=e423]:
+                  - generic [ref=e424]:
+                    - button "Bookmark" [ref=e425] [cursor=pointer]:
+                      - img [ref=e426]
+                    - button "Add to Collection" [ref=e429] [cursor=pointer]:
+                      - img [ref=e430]
+                  - generic [ref=e433]:
+                    - link "Download" [ref=e434] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/fYOCiHbHLQ8/download?force=true
+                    - button "Choose download size" [ref=e435] [cursor=pointer]:
+                      - img [ref=e436]
+              - figure [ref=e438]:
+                - generic [ref=e440]:
+                  - link [ref=e441] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                  - link "Shubham Dhage" [ref=e445] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                - link "a black and white photo of cubes on a black background" [ref=e447]:
+                  - /url: /photos/a-black-and-white-photo-of-cubes-on-a-black-background-IlUq1ruyv0Q
+                  - img "a black and white photo of cubes on a black background" [ref=e448]
+                - generic [ref=e450]:
+                  - generic [ref=e451]:
+                    - button "Bookmark" [ref=e452] [cursor=pointer]:
+                      - img [ref=e453]
+                    - button "Add to Collection" [ref=e456] [cursor=pointer]:
+                      - img [ref=e457]
+                  - generic [ref=e460]:
+                    - link "Download" [ref=e461] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/IlUq1ruyv0Q/download?force=true
+                    - button "Choose download size" [ref=e462] [cursor=pointer]:
+                      - img [ref=e463]
+              - figure [ref=e465]:
+                - generic [ref=e467]:
+                  - link [ref=e468] [cursor=pointer]:
+                    - /url: /@gettyimages
+                  - generic [ref=e471]:
+                    - link "Getty Images" [ref=e472] [cursor=pointer]:
+                      - /url: /@gettyimages
+                    - generic [ref=e473]:
+                      - text: For
+                      - link "Unsplash+" [ref=e474] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fdefocus-dots-and-lines-connection-on-abstract-technology-background3d-illustration-6DMo9-gGYNI
+                - generic [ref=e475]:
+                  - link "defocus dots and lines connection on abstract technology background.3d illustration" [ref=e476]:
+                    - /url: /photos/defocus-dots-and-lines-connection-on-abstract-technology-background3d-illustration-6DMo9-gGYNI
+                    - img "defocus dots and lines connection on abstract technology background.3d illustration" [ref=e477]
+                  - link [ref=e478] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fdefocus-dots-and-lines-connection-on-abstract-technology-background3d-illustration-6DMo9-gGYNI
+                    - img [ref=e479]
+                - generic [ref=e482]:
+                  - generic [ref=e483]:
+                    - button "Bookmark" [ref=e484] [cursor=pointer]:
+                      - img [ref=e485]
+                    - button "Add to Collection" [ref=e488] [cursor=pointer]:
+                      - img [ref=e489]
+                  - link "Download" [ref=e492] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fdefocus-dots-and-lines-connection-on-abstract-technology-background3d-illustration-6DMo9-gGYNI
+                    - img [ref=e493]
+                    - text: Download
+              - figure [ref=e495]:
+                - generic [ref=e497]:
+                  - link [ref=e498] [cursor=pointer]:
+                    - /url: /@boliviainteligente
+                  - link "BoliviaInteligente" [ref=e502] [cursor=pointer]:
+                    - /url: /@boliviainteligente
+                - link "a dark room filled with red and blue lights" [ref=e504]:
+                  - /url: /photos/a-dark-room-filled-with-red-and-blue-lights-PVIX0Df46eM
+                  - img "a dark room filled with red and blue lights" [ref=e505]
+                - generic [ref=e507]:
+                  - generic [ref=e508]:
+                    - button "Bookmark" [ref=e509] [cursor=pointer]:
+                      - img [ref=e510]
+                    - button "Add to Collection" [ref=e513] [cursor=pointer]:
+                      - img [ref=e514]
+                  - generic [ref=e517]:
+                    - link "Download" [ref=e518] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/PVIX0Df46eM/download?force=true
+                    - button "Choose download size" [ref=e519] [cursor=pointer]:
+                      - img [ref=e520]
+              - figure [ref=e522]:
+                - generic [ref=e524]:
+                  - link [ref=e525] [cursor=pointer]:
+                    - /url: /@mirzaie
+                  - link "Mehdi Mirzaie" [ref=e529] [cursor=pointer]:
+                    - /url: /@mirzaie
+                - link "a black and white photo of a bunch of balls" [ref=e531]:
+                  - /url: /photos/a-black-and-white-photo-of-a-bunch-of-balls-6yU_W4Hd8Gk
+                  - img "a black and white photo of a bunch of balls" [ref=e532]
+                - generic [ref=e534]:
+                  - generic [ref=e535]:
+                    - button "Bookmark" [ref=e536] [cursor=pointer]:
+                      - img [ref=e537]
+                    - button "Add to Collection" [ref=e540] [cursor=pointer]:
+                      - img [ref=e541]
+                  - generic [ref=e544]:
+                    - link "Download" [ref=e545] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/6yU_W4Hd8Gk/download?force=true
+                    - button "Choose download size" [ref=e546] [cursor=pointer]:
+                      - img [ref=e547]
+              - figure [ref=e549]:
+                - generic [ref=e551]:
+                  - link [ref=e552] [cursor=pointer]:
+                    - /url: /@mirzaie
+                  - link "Mehdi Mirzaie" [ref=e556] [cursor=pointer]:
+                    - /url: /@mirzaie
+                - link "a black and white photo of a cluster of lights" [ref=e558]:
+                  - /url: /photos/a-black-and-white-photo-of-a-cluster-of-lights-eHBkHD9_cn0
+                  - img "a black and white photo of a cluster of lights" [ref=e559]
+                - generic [ref=e561]:
+                  - generic [ref=e562]:
+                    - button "Bookmark" [ref=e563] [cursor=pointer]:
+                      - img [ref=e564]
+                    - button "Add to Collection" [ref=e567] [cursor=pointer]:
+                      - img [ref=e568]
+                  - generic [ref=e571]:
+                    - link "Download" [ref=e572] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/eHBkHD9_cn0/download?force=true
+                    - button "Choose download size" [ref=e573] [cursor=pointer]:
+                      - img [ref=e574]
+              - figure [ref=e576]:
+                - generic [ref=e578]:
+                  - link [ref=e579] [cursor=pointer]:
+                    - /url: /@osarugue
+                  - generic [ref=e582]:
+                    - link "Osarugue Igbinoba" [ref=e583] [cursor=pointer]:
+                      - /url: /@osarugue
+                    - generic [ref=e584]:
+                      - text: For
+                      - link "Unsplash+" [ref=e585] [cursor=pointer]:
+                        - /url: /plus?referrer=%2Fphotos%2Fa-bunch-of-red-and-black-balls-connected-to-each-other-Xrb-Z4blCts
+                - generic [ref=e586]:
+                  - link "a bunch of red and black balls connected to each other" [ref=e587]:
+                    - /url: /photos/a-bunch-of-red-and-black-balls-connected-to-each-other-Xrb-Z4blCts
+                    - img "a bunch of red and black balls connected to each other" [ref=e588]
+                  - link [ref=e589] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-bunch-of-red-and-black-balls-connected-to-each-other-Xrb-Z4blCts
+                    - img [ref=e590]
+                - generic [ref=e593]:
+                  - generic [ref=e594]:
+                    - button "Bookmark" [ref=e595] [cursor=pointer]:
+                      - img [ref=e596]
+                    - button "Add to Collection" [ref=e599] [cursor=pointer]:
+                      - img [ref=e600]
+                  - link "Download" [ref=e603] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-bunch-of-red-and-black-balls-connected-to-each-other-Xrb-Z4blCts
+                    - img [ref=e604]
+                    - text: Download
+              - figure [ref=e606]:
+                - generic [ref=e608]:
+                  - link [ref=e609] [cursor=pointer]:
+                    - /url: /@mirzaie
+                  - link "Mehdi Mirzaie" [ref=e613] [cursor=pointer]:
+                    - /url: /@mirzaie
+                - link "a black and white photo of a group of spheres" [ref=e615]:
+                  - /url: /photos/a-black-and-white-photo-of-a-group-of-spheres-ll_wD-jUHoA
+                  - img "a black and white photo of a group of spheres" [ref=e616]
+                - generic [ref=e618]:
+                  - generic [ref=e619]:
+                    - button "Bookmark" [ref=e620] [cursor=pointer]:
+                      - img [ref=e621]
+                    - button "Add to Collection" [ref=e624] [cursor=pointer]:
+                      - img [ref=e625]
+                  - generic [ref=e628]:
+                    - link "Download" [ref=e629] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/ll_wD-jUHoA/download?force=true
+                    - button "Choose download size" [ref=e630] [cursor=pointer]:
+                      - img [ref=e631]
+              - figure [ref=e633]:
+                - generic [ref=e635]:
+                  - link [ref=e636] [cursor=pointer]:
+                    - /url: /@lunarpig
+                  - link "Ed Stone" [ref=e640] [cursor=pointer]:
+                    - /url: /@lunarpig
+                - link "Dewdrops on a spiderweb in grayscale." [ref=e642]:
+                  - /url: /photos/dewdrops-on-a-spiderweb-in-grayscale-60LGvQih8No
+                  - img "Dewdrops on a spiderweb in grayscale." [ref=e643]
+                - generic [ref=e645]:
+                  - generic [ref=e646]:
+                    - button "Bookmark" [ref=e647] [cursor=pointer]:
+                      - img [ref=e648]
+                    - button "Add to Collection" [ref=e651] [cursor=pointer]:
+                      - img [ref=e652]
+                  - generic [ref=e655]:
+                    - link "Download" [ref=e656] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/60LGvQih8No/download?force=true
+                    - button "Choose download size" [ref=e657] [cursor=pointer]:
+                      - img [ref=e658]
+              - figure [ref=e660]:
+                - generic [ref=e662]:
+                  - link [ref=e663] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                  - link "Shubham Dhage" [ref=e667] [cursor=pointer]:
+                    - /url: /@theshubhamdhage
+                - link "a black and white photo of a bunch of cubes" [ref=e669]:
+                  - /url: /photos/a-black-and-white-photo-of-a-bunch-of-cubes-gC_aoAjQl2Q
+                  - img "a black and white photo of a bunch of cubes" [ref=e670]
+                - generic [ref=e672]:
+                  - generic [ref=e673]:
+                    - button "Bookmark" [ref=e674] [cursor=pointer]:
+                      - img [ref=e675]
+                    - button "Add to Collection" [ref=e678] [cursor=pointer]:
+                      - img [ref=e679]
+                  - generic [ref=e682]:
+                    - link "Download" [ref=e683] [cursor=pointer]:
+                      - /url: https://unsplash.com/photos/gC_aoAjQl2Q/download?force=true
+                    - button "Choose download size" [ref=e684] [cursor=pointer]:
+                      - img [ref=e685]
+            - generic [ref=e689]:
+              - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e690]:
+                - text: Browse premium images on iStock
+                - generic [ref=e691]: "| Claim your discount now"
+              - generic [ref=e693]:
+                - link "Circuit board particle technology background" [ref=e694] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/circuit-board-particle-technology-background-gm2181596864-600607445?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A
+                  - img "Circuit board particle technology background" [ref=e695]
+                - link "Glowing blue triangular grid surface on a dark background, with many small light spheres connecting and copy space." [ref=e696] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/glowing-blue-triangular-grid-surface-on-a-dark-background-with-many-small-light-gm1413837381-462772948?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A
+                  - img "Glowing blue triangular grid surface on a dark background, with many small light spheres connecting and copy space." [ref=e697]
+                - link "Abstract geometric background. Plexus mesh backdrop." [ref=e698] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/abstract-geometric-background-plexus-mesh-backdrop-gm1630426748-532447622?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A
+                  - img "Abstract geometric background. Plexus mesh backdrop." [ref=e699]
+                - generic [ref=e700]:
+                  - link "Abstract plexus structure of many glowing lines and particles. Connection concept. Creative technological background with digital composition and optical flares. 3d rendering" [ref=e701] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/abstract-plexus-structure-of-many-glowing-lines-and-particles-connection-concept-gm1209104579-349756254?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A
+                    - img "Abstract plexus structure of many glowing lines and particles. Connection concept. Creative technological background with digital composition and optical flares. 3d rendering" [ref=e702]
+                  - link "View more on iStock ↗" [ref=e703] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdistributed-network-abstract-dark-minimalist&utm_term=distributed+network+abstract+dark+minimalist%3A%3A%3A%3A&phrase=distributed+network+abstract+dark+minimalist&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+            - button "Load more" [ref=e707] [cursor=pointer]
+            - generic [ref=e708]:
+              - link [ref=e709] [cursor=pointer]:
+                - /url: /
+                - img [ref=e710]
+              - paragraph [ref=e712]: Make something awesome
+      - generic:
+        - region "Notifications"

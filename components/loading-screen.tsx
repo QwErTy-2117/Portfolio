@@ -6,8 +6,7 @@ import TextRotate from "@/components/fancy/text/text-rotate"
 import type { TextRotateRef } from "@/components/fancy/text/text-rotate"
 
 const quotes = [
-  "The problem isn't how to make the world more technological. It's about how to make the world more humane again.",
-  "When you use other people's software you live in somebody else's dream.",
+  "Perfection is finally obtained when there is no longer anything to add, but when there is no longer anything to take away.",
 ]
 
 interface LoadingScreenProps {

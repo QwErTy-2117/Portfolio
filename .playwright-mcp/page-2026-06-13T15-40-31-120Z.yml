@@ -1,0 +1,490 @@
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "ShadcnSpace" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "ShadcnSpace" [ref=e8]
+          - separator [ref=e9]
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - button "Toggle theme" [ref=e12] [cursor=pointer]:
+              - img
+              - generic [ref=e13]: Toggle theme
+            - link [ref=e14] [cursor=pointer]:
+              - /url: https://x.com/ShadcnSpace
+              - img [ref=e15]
+            - button "Github 5 9 3" [ref=e17] [cursor=pointer]:
+              - img
+              - generic [ref=e18]:
+                - generic [ref=e19]: Github
+                - generic [ref=e23]:
+                  - generic [ref=e25]: "5"
+                  - generic [ref=e27]: "9"
+                  - generic [ref=e29]: "3"
+          - button [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+  - main [ref=e33]:
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - button "Toggle Sidebar" [ref=e39] [cursor=pointer]:
+            - img
+            - generic [ref=e40]: Toggle Sidebar
+          - generic [ref=e42]:
+            - heading "Shadcn Button" [level=1] [ref=e43]
+            - paragraph [ref=e44]: Browse a collection of Shadcn Button components featuring 11+ responsive and customizable button variants built with React and Tailwind CSS.
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - paragraph [ref=e48]: Button-01 - With Icon
+              - button [ref=e52] [cursor=pointer]:
+                - img
+            - button "Let's Collaborate" [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]: Let's Collaborate
+              - generic [ref=e57]:
+                - img
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - paragraph [ref=e60]: Button-02 - Shiny Text
+              - button [ref=e64] [cursor=pointer]:
+                - img
+            - button "Shiny Button Text" [ref=e67] [cursor=pointer]:
+              - generic [ref=e68]: Shiny Button Text
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - paragraph [ref=e71]: Button-03 - Shine Hover
+              - button [ref=e75] [cursor=pointer]:
+                - img
+            - button "Shine Hover" [ref=e78] [cursor=pointer]
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: Button-04 - Heartbeat Effect
+              - button [ref=e85] [cursor=pointer]:
+                - img
+            - button "Heartbeat Effect" [ref=e88] [cursor=pointer]
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - paragraph [ref=e91]: Button-05 - Get Figma File
+              - button [ref=e95] [cursor=pointer]:
+                - img
+            - button "figma Get Figma File" [ref=e99] [cursor=pointer]:
+              - img "figma" [ref=e100]
+              - text: Get Figma File
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - paragraph [ref=e103]: Button-06 - Animated Border
+              - button [ref=e107] [cursor=pointer]:
+                - img
+            - button "Get Pro" [ref=e111] [cursor=pointer]:
+              - img
+              - text: Get Pro
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - paragraph [ref=e114]: Button-07 - Social
+              - button [ref=e118] [cursor=pointer]:
+                - img
+            - generic [ref=e121]:
+              - button "google icon Sign in with Google" [ref=e122] [cursor=pointer]:
+                - img "google icon" [ref=e123]
+                - text: Sign in with Google
+              - button "github icon Sign in with Github" [ref=e124] [cursor=pointer]:
+                - img "github icon" [ref=e125]
+                - text: Sign in with Github
+              - button "linkedin icon Continue with Linkedin" [ref=e126] [cursor=pointer]:
+                - img "linkedin icon" [ref=e127]
+                - text: Continue with Linkedin
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - paragraph [ref=e130]: Button-08 - Social Icon
+              - button [ref=e134] [cursor=pointer]:
+                - img
+            - generic [ref=e137]:
+              - button "google icon" [ref=e138] [cursor=pointer]:
+                - img "google icon" [ref=e139]
+              - button "github icon" [ref=e140] [cursor=pointer]:
+                - img "github icon" [ref=e141]
+              - button "linkedin icon" [ref=e142] [cursor=pointer]:
+                - img "linkedin icon" [ref=e143]
+              - button "facebook icon" [ref=e144] [cursor=pointer]:
+                - img "facebook icon" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - paragraph [ref=e148]: Button-09 - Outline With Icon
+              - button [ref=e152] [cursor=pointer]:
+                - img
+            - generic [ref=e155]:
+              - button "Undo" [ref=e156] [cursor=pointer]:
+                - img
+                - text: Undo
+              - button "Redo" [ref=e157] [cursor=pointer]:
+                - text: Redo
+                - img
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - paragraph [ref=e160]: Button-10 - Save
+              - button [ref=e164] [cursor=pointer]:
+                - img
+            - button "Save Changes" [ref=e167] [cursor=pointer]:
+              - img
+              - text: Save Changes
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - paragraph [ref=e170]: Button-11 - Cancel
+              - button [ref=e174] [cursor=pointer]:
+                - img
+            - button "Cancel" [ref=e177] [cursor=pointer]:
+              - img
+              - text: Cancel
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - paragraph [ref=e180]: Button-12 - Default
+              - button [ref=e184] [cursor=pointer]:
+                - img
+            - button "Default" [ref=e187] [cursor=pointer]
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - paragraph [ref=e190]: Button-13 - Size xs
+              - button [ref=e194] [cursor=pointer]:
+                - img
+            - 'button "Button Size: xs" [ref=e197] [cursor=pointer]'
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - paragraph [ref=e200]: Button-14 - Size sm
+              - button [ref=e204] [cursor=pointer]:
+                - img
+            - 'button "Button Size: sm" [ref=e207] [cursor=pointer]'
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - paragraph [ref=e210]: Button-15 - Size lg
+              - button [ref=e214] [cursor=pointer]:
+                - img
+            - 'button "Button Size: lg" [ref=e217] [cursor=pointer]'
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - paragraph [ref=e220]: Button-16 - Ripple Spotlight
+              - button [ref=e224] [cursor=pointer]:
+                - img
+            - button "Get Started" [ref=e227] [cursor=pointer]:
+              - generic: Get Started
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - paragraph [ref=e230]: Button-17 - Blob Fill
+              - button [ref=e234] [cursor=pointer]:
+                - img
+            - button "Get Started" [ref=e237] [cursor=pointer]:
+              - generic [ref=e238]: Get Started
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - paragraph [ref=e241]: Button-18 - Promo Code Copy
+              - button [ref=e245] [cursor=pointer]:
+                - img
+            - generic [ref=e248]:
+              - generic [ref=e249]:
+                - generic [ref=e250]: SHADCN-PRO
+                - button "Copy" [ref=e251] [cursor=pointer]:
+                  - img
+                  - text: Copy
+              - generic:
+                - generic:
+                  - img
+                - generic: Copied to clipboard!
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - paragraph [ref=e254]: Button-19 - Interactive Hover
+              - generic [ref=e255]:
+                - generic [ref=e256]: New
+                - button [ref=e259] [cursor=pointer]:
+                  - img
+            - button "Button Button" [ref=e262] [cursor=pointer]:
+              - generic [ref=e263]: Button
+              - generic [ref=e264]:
+                - generic [ref=e265]: Button
+                - img
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - paragraph [ref=e270]: Shadcn Buttons are ready-to-use button components made for React and Next.js apps. They help you build clean, responsive, and interactive actions without overthinking styles or behavior.
+            - paragraph [ref=e271]: Buttons are where users interact the most - submitting forms, opening dialogs, moving between pages. These buttons are built to feel fast, reliable, and familiar.
+            - paragraph [ref=e272]:
+              - text: Built with
+              - strong [ref=e273]: React, Next.js, and Tailwind CSS
+              - text: ", Shadcn Buttons start simple and stay flexible."
+            - paragraph [ref=e274]: What you get is sensible defaults, clear states, and complete control over styling. No hidden logic, no magic. Whether your looking for a simple button or complete interactions, they fit naturally into modern web projects.
+          - generic [ref=e275]:
+            - heading "What Are Shadcn Buttons?" [level=2] [ref=e276]
+            - paragraph [ref=e277]: Shadcn Buttons are reusable React components for common user actions. They support various styles, sizes, icons, and states (hover/focus/disabled/and loading).
+            - paragraph [ref=e278]: Instead of restyling buttons over and over again, you style them once and use them everywhere. It means your UI is kept consistent and would be much easier to maintain.
+          - generic [ref=e279]:
+            - heading "Why Developers Use Shadcn Buttons" [level=2] [ref=e280]
+            - list [ref=e281]:
+              - listitem [ref=e282]: Easy to understand – Click, focus, shoot. Buttons behave as the user expects.
+              - listitem [ref=e283]: Uniform UI – Same spacing, colors and working method in App.
+              - listitem [ref=e284]: "Accessible by default: – Keyboard support, focus rings and good contrast are included out of the box."
+              - listitem [ref=e285]: Optional animations – Include a tiny amount of movement to provide the user with feedback without impacting speed.
+              - listitem [ref=e286]: Completely customizable – Adjust size, color, shape or motion with Tailwind classes.
+            - heading "Key Features of Buttons" [level=3] [ref=e287]
+            - list [ref=e288]:
+              - listitem [ref=e289]: "Multiple styles: solid, outline, ghost, link, destructive"
+              - listitem [ref=e290]: "Sizes that are compatible great together: small, default, large, icon-only."
+              - listitem [ref=e291]: "Icon support : icons in front / behind text"
+              - listitem [ref=e292]: Keyboard & screen-reader friendly
+              - listitem [ref=e293]: Tailwind-first styling for full control
+            - heading "Button Usage Tips" [level=4] [ref=e294]
+            - list [ref=e295]:
+              - listitem [ref=e296]: "Keep primary actions clear: The main buttons need to pop."
+              - listitem [ref=e297]: "Use lightweight animations: Micro hover, or press effects are good."
+              - listitem [ref=e298]: "Consider touch: Buttons need to be easy to tap on mobile."
+              - listitem [ref=e299]: "Variants reuse: Define styles once and keep using it."
+          - generic [ref=e300]:
+            - heading "Works Well With Other Components" [level=2] [ref=e301]
+            - paragraph [ref=e302]: Shadcn Buttons fit perfectly with the rest of the Shadcn UI ecosystem.
+            - paragraph [ref=e303]:
+              - text: Use them in
+              - strong [ref=e304]: Cards, Dialogs, Forms,
+              - text: and
+              - strong [ref=e305]: Tables.
+              - text: Pair icon-only buttons with
+              - strong [ref=e306]: Tooltips
+              - text: ", or combine them with"
+              - strong [ref=e307]: Badges
+              - text: to show counts or status.
+            - paragraph [ref=e308]: They are a solid foundation for building UI across your whole application.
+          - generic [ref=e310]:
+            - heading "FAQs" [level=2] [ref=e311]
+            - region [ref=e312]:
+              - heading "When should I use Buttons ?" [level=3] [ref=e314]:
+                - button "When should I use Buttons ?" [ref=e315] [cursor=pointer]:
+                  - text: When should I use Buttons ?
+                  - img [ref=e317]
+              - heading "Can I match my brand style with your shadcn buttons?" [level=3] [ref=e320]:
+                - button "Can I match my brand style with your shadcn buttons?" [ref=e321] [cursor=pointer]:
+                  - text: Can I match my brand style with your shadcn buttons?
+                  - img [ref=e323]
+              - heading "Are icon-only buttons supported?" [level=3] [ref=e326]:
+                - button "Are icon-only buttons supported?" [ref=e327] [cursor=pointer]:
+                  - text: Are icon-only buttons supported?
+                  - img [ref=e329]
+              - heading "How do I show loading feedback?" [level=3] [ref=e332]:
+                - button "How do I show loading feedback?" [ref=e333] [cursor=pointer]:
+                  - text: How do I show loading feedback?
+                  - img [ref=e335]
+              - heading "Are these buttons keyboard friendly?" [level=3] [ref=e338]:
+                - button "Are these buttons keyboard friendly?" [ref=e339] [cursor=pointer]:
+                  - text: Are these buttons keyboard friendly?
+                  - img [ref=e341]
+              - heading "Can I use buttons for navigation?" [level=3] [ref=e344]:
+                - button "Can I use buttons for navigation?" [ref=e345] [cursor=pointer]:
+                  - text: Can I use buttons for navigation?
+                  - img [ref=e347]
+              - heading "Do Shadcn Buttons affect performance?" [level=3] [ref=e350]:
+                - button "Do Shadcn Buttons affect performance?" [ref=e351] [cursor=pointer]:
+                  - text: Do Shadcn Buttons affect performance?
+                  - img [ref=e353]
+          - generic [ref=e355]:
+            - heading "Shadcn Button Components for Free" [level=4] [ref=e356]
+            - paragraph [ref=e357]: Our Shadcn button components are free to use. You can install them through the shadcn CLI or pick up local code directly and plug it into your project, then customize according to your design.
+  - contentinfo [ref=e358]:
+    - generic [ref=e359]:
+      - generic [ref=e360]:
+        - generic [ref=e362]:
+          - link "ShadcnSpace" [ref=e363] [cursor=pointer]:
+            - /url: /
+            - img "ShadcnSpace" [ref=e364]
+          - paragraph [ref=e365]: An open-source and Pro collection of copy-paste shadcn/ui components, blocks, templates, and dashboard layouts. Choose your UI primitive library for consistency and customization. Ship faster.
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - paragraph [ref=e369]: Resources
+            - list [ref=e370]:
+              - listitem [ref=e371]:
+                - link "Roadmap" [ref=e372] [cursor=pointer]:
+                  - /url: https://github.com/orgs/shadcnspace/projects/1
+              - listitem [ref=e373]:
+                - link "Docs" [ref=e374] [cursor=pointer]:
+                  - /url: /docs/getting-started/introduction
+              - listitem [ref=e375]:
+                - link "Blog" [ref=e376] [cursor=pointer]:
+                  - /url: /blog
+          - generic [ref=e377]:
+            - paragraph [ref=e378]: Legal
+            - list [ref=e379]:
+              - listitem [ref=e380]:
+                - link "License" [ref=e381] [cursor=pointer]:
+                  - /url: /license
+              - listitem [ref=e382]:
+                - link "Privacy Policy" [ref=e383] [cursor=pointer]:
+                  - /url: /privacy-policy
+              - listitem [ref=e384]:
+                - link "Terms of Use" [ref=e385] [cursor=pointer]:
+                  - /url: /terms-and-condition
+          - generic [ref=e386]:
+            - paragraph [ref=e387]: Help & Support
+            - list [ref=e388]:
+              - listitem [ref=e389]:
+                - link "Change Log" [ref=e390] [cursor=pointer]:
+                  - /url: /changelog
+              - listitem [ref=e391]:
+                - link "Support" [ref=e392] [cursor=pointer]:
+                  - /url: /support
+        - generic [ref=e394]:
+          - generic [ref=e395]:
+            - paragraph [ref=e396]: Components
+            - list [ref=e397]:
+              - listitem [ref=e398]:
+                - link "Accordion" [ref=e399] [cursor=pointer]:
+                  - /url: /components/accordion
+              - listitem [ref=e400]:
+                - link "Avatar" [ref=e401] [cursor=pointer]:
+                  - /url: /components/avatar
+              - listitem [ref=e402]:
+                - link "Marquee" [ref=e403] [cursor=pointer]:
+                  - /url: /components/marquee
+              - listitem [ref=e404]:
+                - link "Animated List" [ref=e405] [cursor=pointer]:
+                  - /url: /components/animated-list
+              - listitem [ref=e406]:
+                - link "Apple Dock" [ref=e407] [cursor=pointer]:
+                  - /url: /components/apple-dock
+              - listitem [ref=e408]:
+                - link "Animated Text" [ref=e409] [cursor=pointer]:
+                  - /url: /components/animated-text
+              - listitem [ref=e410]:
+                - link "Button" [ref=e411] [cursor=pointer]:
+                  - /url: /components/button
+              - listitem [ref=e412]:
+                - link "Badge" [ref=e413] [cursor=pointer]:
+                  - /url: /components/badge
+              - listitem [ref=e414]:
+                - link "Calendar" [ref=e415] [cursor=pointer]:
+                  - /url: /components/calendar
+          - generic [ref=e416]:
+            - paragraph [ref=e417]: Marketing Blocks
+            - list [ref=e418]:
+              - listitem [ref=e419]:
+                - link "Feature Section" [ref=e420] [cursor=pointer]:
+                  - /url: /blocks/marketing/feature-section
+              - listitem [ref=e421]:
+                - link "Footer Section" [ref=e422] [cursor=pointer]:
+                  - /url: /blocks/marketing/footer-section
+              - listitem [ref=e423]:
+                - link "Hero Section" [ref=e424] [cursor=pointer]:
+                  - /url: /blocks/marketing/hero-section
+              - listitem [ref=e425]:
+                - link "Login" [ref=e426] [cursor=pointer]:
+                  - /url: /blocks/marketing/login
+              - listitem [ref=e427]:
+                - link "Portfolio" [ref=e428] [cursor=pointer]:
+                  - /url: /blocks/marketing/portfolio-section
+              - listitem [ref=e429]:
+                - link "Pricing Section" [ref=e430] [cursor=pointer]:
+                  - /url: /blocks/marketing/pricing-section
+              - listitem [ref=e431]:
+                - link "Testimonials" [ref=e432] [cursor=pointer]:
+                  - /url: /blocks/marketing/testimonials-section
+              - listitem [ref=e433]:
+                - link "About Us Section" [ref=e434] [cursor=pointer]:
+                  - /url: /blocks/marketing/about-us-section
+              - listitem [ref=e435]:
+                - link "Bento Grid Section" [ref=e436] [cursor=pointer]:
+                  - /url: /blocks/marketing/bento-grid-section
+          - generic [ref=e437]:
+            - paragraph [ref=e438]: Dashboard Blocks
+            - list [ref=e439]:
+              - listitem [ref=e440]:
+                - link "Charts Component" [ref=e441] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/charts-component
+              - listitem [ref=e442]:
+                - link "Dashboard Shell" [ref=e443] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/dashboard-shell
+              - listitem [ref=e444]:
+                - link "Dialog" [ref=e445] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/dialog
+              - listitem [ref=e446]:
+                - link "Sidebars" [ref=e447] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/sidebars
+              - listitem [ref=e448]:
+                - link "Widgets Component" [ref=e449] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/widgets-component
+              - listitem [ref=e450]:
+                - link "Forms" [ref=e451] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/forms
+              - listitem [ref=e452]:
+                - link "Statistics Component" [ref=e453] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/statistics-component
+              - listitem [ref=e454]:
+                - link "Tables" [ref=e455] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/tables
+              - listitem [ref=e456]:
+                - link "Topbars" [ref=e457] [cursor=pointer]:
+                  - /url: /blocks/dashboard-ui/topbars
+          - generic [ref=e458]:
+            - paragraph [ref=e459]: Ecommerce Blocks
+            - list [ref=e460]:
+              - listitem [ref=e461]:
+                - link "Checkout" [ref=e462] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/checkout
+              - listitem [ref=e463]:
+                - link "Product Category" [ref=e464] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/product-category
+              - listitem [ref=e465]:
+                - link "Product Listing" [ref=e466] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/product-listing
+              - listitem [ref=e467]:
+                - link "Product Overview" [ref=e468] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/product-overview
+              - listitem [ref=e469]:
+                - link "Product Quick View" [ref=e470] [cursor=pointer]:
+                  - /url: /blocks/ecommerce/product-quick-view
+          - generic [ref=e471]:
+            - paragraph [ref=e472]: Pages
+            - list [ref=e473]:
+              - listitem [ref=e474]:
+                - link "Blog" [ref=e475] [cursor=pointer]:
+                  - /url: /pages#blog-page
+              - listitem [ref=e476]:
+                - link "Blog Details" [ref=e477] [cursor=pointer]:
+                  - /url: /pages#blog-details-page
+              - listitem [ref=e478]:
+                - link "Pricing" [ref=e479] [cursor=pointer]:
+                  - /url: /pages#pricing-page
+              - listitem [ref=e480]:
+                - link "FAQ" [ref=e481] [cursor=pointer]:
+                  - /url: /pages#faq-page
+              - listitem [ref=e482]:
+                - link "Changelog" [ref=e483] [cursor=pointer]:
+                  - /url: /pages#changelog-page
+              - listitem [ref=e484]:
+                - link "Contact" [ref=e485] [cursor=pointer]:
+                  - /url: /pages#contact-page
+              - listitem [ref=e486]:
+                - link "Integrations" [ref=e487] [cursor=pointer]:
+                  - /url: /pages#integration-page
+              - listitem [ref=e488]:
+                - link "Error" [ref=e489] [cursor=pointer]:
+                  - /url: /pages#error-page
+              - listitem [ref=e490]:
+                - link "About Us" [ref=e491] [cursor=pointer]:
+                  - /url: /pages#about-us-page
+      - generic [ref=e492]:
+        - generic [ref=e493]:
+          - generic [ref=e494]:
+            - link "github" [ref=e495] [cursor=pointer]:
+              - /url: https://github.com/shadcnspace/shadcnspace
+              - img [ref=e496]
+              - generic [ref=e501]: github
+            - link "twitter" [ref=e502] [cursor=pointer]:
+              - /url: https://x.com/ShadcnSpace
+              - img [ref=e503]
+              - generic [ref=e507]: twitter
+            - link "discord" [ref=e508] [cursor=pointer]:
+              - /url: https://discord.com/invite/eMzE8F6Wqs
+              - img [ref=e509]
+              - generic [ref=e513]: discord
+          - paragraph [ref=e514]:
+            - text: © 2026 Shadcn Space. Product by
+            - link "WrapPixel" [ref=e515] [cursor=pointer]:
+              - /url: https://wrappixel.com/
+            - text: .
+        - img "footer_logo"
+  - alert [ref=e516]

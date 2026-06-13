@@ -1,0 +1,122 @@
+[     112ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[     130ms] [LOG] [Fast Refresh] done in 119ms @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[     239ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[     266ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   78201ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   78261ms] [ERROR] ./app/page.tsx:466:7
+Expression expected
+  464 |         </div>
+  465 |       </div>
+> 466 |     </>
+      |       ^
+  467 |   )
+  468 | }
+  469 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:3318
+[   78396ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   78515ms] [ERROR] ./app/page.tsx:466:7
+Expression expected
+  464 |         </div>
+  465 |       </div>
+> 466 |     </>
+      |       ^
+  467 |   )
+  468 | }
+  469 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:3318
+[   78516ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[   78574ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[   78599ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   78697ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0p2h_react-dom_0vsf22y._.js:15305
+[   78708ms] Error: ./app/page.tsx:466:7
+Expression expected
+  464 |         </div>
+  465 |       </div>
+> 466 |     </>
+      |       ^
+  467 |   )
+  468 | }
+  469 |
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:466:7)
+    at Object.getCompilationErrors (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/luca/Projects/Portfolio/Portfolio/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/server/base-server.js:1753:26)
+[   78727ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   78769ms] [ERROR] ./app/page.tsx:466:7
+Expression expected
+  464 |         </div>
+  465 |       </div>
+> 466 |     </>
+      |       ^
+  467 |   )
+  468 | }
+  469 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   78823ms] [ERROR] ./app/page.tsx:466:7
+Expression expected
+  464 |         </div>
+  465 |       </div>
+> 466 |     </>
+      |       ^
+  467 |   )
+  468 | }
+  469 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   78866ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   78931ms] [ERROR] ./app/page.tsx:466:7
+Expression expected
+  464 |         </div>
+  465 |       </div>
+> 466 |     </>
+      |       ^
+  467 |   )
+  468 | }
+  469 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   78999ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   79856ms] [ERROR] ./app/page.tsx:466:7
+Expression expected
+  464 |         </div>
+  465 |       </div>
+> 466 |     </>
+      |       ^
+  467 |   )
+  468 | }
+  469 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   79924ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   81869ms] [ERROR] ./app/page.tsx:466:7
+Expression expected
+  464 |         </div>
+  465 |       </div>
+> 466 |     </>
+      |       ^
+  467 |   )
+  468 | }
+  469 |
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1945
+[   81938ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   91094ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   91194ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   91729ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   91762ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0f.3z~m._.js:1226
+[   91980ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   92069ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[   92405ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  127001ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=hcnoOyoncSe1l-wX2GVOH' failed:  @ http://localhost:3000/_next/static/chunks/01vs_next_dist_client_10-2.sc._.js:13322
+[  128015ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  134114ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
+[  134153ms] [LOG] [Fast Refresh] done in 139ms @ http://localhost:3000/_next/static/chunks/01vs_next_dist_0z7rf41._.js:2477
