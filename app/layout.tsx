@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import Navbar from "@/components/navbar"
 import PageTransition from "@/components/page-transition"
+import MobileGateWrapper from "@/components/mobile-gate-wrapper"
 
 const calendas = Playfair_Display({
   subsets: ["latin"],
@@ -35,10 +36,12 @@ export default function RootLayout({
       )}
     >
       <body>
-        <ThemeProvider>
-          <Navbar />
-          <PageTransition>{children}</PageTransition>
-        </ThemeProvider>
+        <MobileGateWrapper>
+          <ThemeProvider>
+            <Navbar />
+            <PageTransition>{children}</PageTransition>
+          </ThemeProvider>
+        </MobileGateWrapper>
       </body>
     </html>
   )
