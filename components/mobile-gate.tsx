@@ -7,7 +7,7 @@ export default function MobileGate() {
     <div className="fixed inset-0 flex items-center justify-center bg-white" style={{ zIndex: 9999 }}>
       <div className="max-w-xl px-8 text-center" style={{ color: "#000" }}>
         <TextRotate
-          texts={["Nice phone. This portfolio needs a bigger screen. See you on desktop."]}
+          texts={["Nice phone. This portfolio needs a bigger screen. SEE YOU ON DESKTOP."]}
           mainClassName="md:leading-10 flex whitespace-pre text-lg sm:text-xl md:text-5xl max-w-xl text-center"
           staggerFrom="random"
           animatePresenceMode="wait"
