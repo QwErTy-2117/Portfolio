@@ -1,0 +1,1255 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e9]:
+        - button "Toggle navigation" [ref=e11] [cursor=pointer]
+        - link "Homepage" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+        - generic [ref=e20]:
+          - link "Sign in" [ref=e21] [cursor=pointer]:
+            - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FQwErTY-2117%2FPortfolio%2Fcommits%2Fmaster
+          - button "Appearance settings" [ref=e24] [cursor=pointer]:
+            - img
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - link "QwErTy-2117" [ref=e36] [cursor=pointer]:
+          - /url: /QwErTy-2117
+        - generic [ref=e37]: /
+        - strong [ref=e38]:
+          - link "Portfolio" [ref=e39] [cursor=pointer]:
+            - /url: /QwErTy-2117/Portfolio
+        - generic [ref=e40]: Public
+      - navigation "Repository" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - link "Code" [ref=e44] [cursor=pointer]:
+              - /url: /QwErTy-2117/Portfolio
+              - img [ref=e45]
+              - generic [ref=e47]: Code
+          - listitem [ref=e48]:
+            - link "Issues" [ref=e49] [cursor=pointer]:
+              - /url: /QwErTy-2117/Portfolio/issues
+              - img [ref=e50]
+              - generic [ref=e53]: Issues
+          - listitem [ref=e54]:
+            - link "Pull requests" [ref=e55] [cursor=pointer]:
+              - /url: /QwErTy-2117/Portfolio/pulls
+              - img [ref=e56]
+              - generic [ref=e58]: Pull requests
+          - listitem [ref=e59]:
+            - link "Actions" [ref=e60] [cursor=pointer]:
+              - /url: /QwErTy-2117/Portfolio/actions
+              - img [ref=e61]
+              - generic [ref=e63]: Actions
+          - listitem [ref=e64]:
+            - link "Projects" [ref=e65] [cursor=pointer]:
+              - /url: /QwErTy-2117/Portfolio/projects
+              - img [ref=e66]
+              - generic [ref=e68]: Projects
+          - listitem [ref=e69]
+          - listitem [ref=e70]
+        - button "Additional navigation options" [ref=e74] [cursor=pointer]:
+          - img
+    - generic [ref=e80]:
+      - heading "Commits" [level=1] [ref=e84]
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - heading "Branch selector" [level=2] [ref=e91]
+          - button "master branch" [ref=e92] [cursor=pointer]:
+            - generic [ref=e93]:
+              - generic [ref=e95]:
+                - img [ref=e97]
+                - generic [ref=e100]: master
+              - generic:
+                - img
+          - generic [ref=e101]:
+            - heading "User selector" [level=2] [ref=e102]
+            - button "All users" [ref=e104] [cursor=pointer]:
+              - generic [ref=e107]:
+                - img [ref=e109]
+                - generic [ref=e111]: All users
+              - generic:
+                - img
+            - heading "Datepicker" [level=2] [ref=e112]
+            - button "All time" [ref=e113] [cursor=pointer]:
+              - generic [ref=e114]:
+                - generic:
+                  - img
+                - generic [ref=e115]: All time
+                - generic:
+                  - img
+        - generic [ref=e116]:
+          - heading "Commit History" [level=2] [ref=e117]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - img [ref=e122]
+              - generic [ref=e124]:
+                - heading "Commits on Jun 14, 2026" [level=3] [ref=e125]
+                - list "Commits on Jun 14, 2026" [ref=e128]:
+                  - 'listitem "update services: conceptual 3d designing, mvp building. More information available below." [ref=e129]':
+                    - 'heading "update services: conceptual 3d designing, mvp building" [level=4] [ref=e131]':
+                      - 'link "update services: conceptual 3d designing, mvp building" [ref=e133] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/bcb0a8a2b385686111c6cf44bdef96a6d966464b
+                    - generic [ref=e138]:
+                      - generic [ref=e139]:
+                        - link "QwErTy-2117" [ref=e140] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e141]
+                        - link "commits by QwErTy-2117" [ref=e142] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e143]: committed
+                      - generic "Jun 14, 2026, 2:57 PM GMT+2" [ref=e144]: Jun 14, 20261 hour ago
+                      - generic [ref=e1427]: ·
+                      - 'button "Status checks: success" [ref=e1429] [cursor=pointer]':
+                        - generic [ref=e1430]:
+                          - generic:
+                            - img
+                          - generic [ref=e1431]: 1 / 1
+                    - generic [ref=e149]:
+                      - generic [ref=e150]:
+                        - tooltip "View commit details" [ref=e151]:
+                          - link "bcb0a8a" [ref=e152] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/bcb0a8a2b385686111c6cf44bdef96a6d966464b
+                            - generic [ref=e154]: bcb0a8a
+                        - button "Copy full SHA for bcb0a8a" [ref=e156] [cursor=pointer]:
+                          - img [ref=e157]
+                      - tooltip "Browse repository at this point" [ref=e160]:
+                        - link "Browse repository at this point" [ref=e161] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/bcb0a8a2b385686111c6cf44bdef96a6d966464b
+                          - img [ref=e162]
+            - generic [ref=e164]:
+              - img [ref=e167]
+              - generic [ref=e169]:
+                - heading "Commits on Jun 13, 2026" [level=3] [ref=e170]
+                - list "Commits on Jun 13, 2026" [ref=e173]:
+                  - 'listitem "refine portfolio content: update project descriptions, hero text, services, and about page. More information available below." [ref=e174]':
+                    - 'heading "refine portfolio content: update project descriptions, hero text, services, and about page" [level=4] [ref=e176]':
+                      - 'link "refine portfolio content: update project descriptions, hero text, services, and about page" [ref=e178] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/1cfffbc2fc7bc4bb987a8087bce00feeffa5c510
+                    - generic [ref=e183]:
+                      - generic [ref=e184]:
+                        - link "QwErTy-2117" [ref=e185] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e186]
+                        - link "commits by QwErTy-2117" [ref=e187] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e188]: committed
+                      - generic "Jun 13, 2026, 8:20 PM GMT+2" [ref=e189]: Jun 13, 202620 hours ago
+                      - generic [ref=e1432]: ·
+                      - 'button "Status checks: success" [ref=e1434] [cursor=pointer]':
+                        - generic [ref=e1435]:
+                          - generic:
+                            - img
+                          - generic [ref=e1436]: 1 / 1
+                    - generic [ref=e194]:
+                      - generic [ref=e195]:
+                        - tooltip "View commit details" [ref=e196]:
+                          - link "1cfffbc" [ref=e197] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/1cfffbc2fc7bc4bb987a8087bce00feeffa5c510
+                            - generic [ref=e199]: 1cfffbc
+                        - button "Copy full SHA for 1cfffbc" [ref=e201] [cursor=pointer]:
+                          - img [ref=e202]
+                      - tooltip "Browse repository at this point" [ref=e205]:
+                        - link "Browse repository at this point" [ref=e206] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/1cfffbc2fc7bc4bb987a8087bce00feeffa5c510
+                          - img [ref=e207]
+            - generic [ref=e209]:
+              - img [ref=e212]
+              - generic [ref=e214]:
+                - heading "Commits on Jun 11, 2026" [level=3] [ref=e215]
+                - list "Commits on Jun 11, 2026" [ref=e218]:
+                  - 'listitem "services: text starts visible (-30), ends at right border (95%). More information available below." [ref=e219]':
+                    - 'heading "services: text starts visible (-30), ends at right border (95%)" [level=4] [ref=e221]':
+                      - 'link "services: text starts visible (-30), ends at right border (95%)" [ref=e223] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/bc3e179087f56797d64811ef4ee00737e8e39501
+                    - generic [ref=e228]:
+                      - generic [ref=e229]:
+                        - link "QwErTy-2117" [ref=e230] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e231]
+                        - link "commits by QwErTy-2117" [ref=e232] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e233]: committed
+                      - generic "Jun 11, 2026, 4:18 PM GMT+2" [ref=e234]: Jun 11, 20263 days ago
+                      - generic [ref=e1437]: ·
+                      - 'button "Status checks: success" [ref=e1439] [cursor=pointer]':
+                        - generic [ref=e1440]:
+                          - generic:
+                            - img
+                          - generic [ref=e1441]: 1 / 1
+                    - generic [ref=e239]:
+                      - generic [ref=e240]:
+                        - tooltip "View commit details" [ref=e241]:
+                          - link "bc3e179" [ref=e242] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/bc3e179087f56797d64811ef4ee00737e8e39501
+                            - generic [ref=e244]: bc3e179
+                        - button "Copy full SHA for bc3e179" [ref=e246] [cursor=pointer]:
+                          - img [ref=e247]
+                      - tooltip "Browse repository at this point" [ref=e250]:
+                        - link "Browse repository at this point" [ref=e251] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/bc3e179087f56797d64811ef4ee00737e8e39501
+                          - img [ref=e252]
+                  - listitem "change hero 'meet' to 'I'm'. More information available below." [ref=e254]:
+                    - heading "change hero 'meet' to 'I'm'" [level=4] [ref=e256]:
+                      - link "change hero 'meet' to 'I'm'" [ref=e258] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/2a873e41f47fe371f42aa983edbc6d7edfcea344
+                    - generic [ref=e263]:
+                      - generic [ref=e264]:
+                        - link "QwErTy-2117" [ref=e265] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e266]
+                        - link "commits by QwErTy-2117" [ref=e267] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e268]: committed
+                      - generic "Jun 11, 2026, 4:05 PM GMT+2" [ref=e269]: Jun 11, 20263 days ago
+                      - generic [ref=e1442]: ·
+                      - 'button "Status checks: success" [ref=e1444] [cursor=pointer]':
+                        - generic [ref=e1445]:
+                          - generic:
+                            - img
+                          - generic [ref=e1446]: 1 / 1
+                    - generic [ref=e274]:
+                      - generic [ref=e275]:
+                        - tooltip "View commit details" [ref=e276]:
+                          - link "2a873e4" [ref=e277] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/2a873e41f47fe371f42aa983edbc6d7edfcea344
+                            - generic [ref=e279]: 2a873e4
+                        - button "Copy full SHA for 2a873e4" [ref=e281] [cursor=pointer]:
+                          - img [ref=e282]
+                      - tooltip "Browse repository at this point" [ref=e285]:
+                        - link "Browse repository at this point" [ref=e286] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/2a873e41f47fe371f42aa983edbc6d7edfcea344
+                          - img [ref=e287]
+                  - 'listitem "fix marquee clipping: overflow-x-clip, widen edge gradients to cover bottom-right. More information available below." [ref=e289]':
+                    - 'heading "fix marquee clipping: overflow-x-clip, widen edge gradients to cover bottom-right" [level=4] [ref=e291]':
+                      - 'link "fix marquee clipping: overflow-x-clip, widen edge gradients to cover bottom-right" [ref=e293] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/1960b8ed5273bb79bd64940a23149fe8bf73205f
+                    - generic [ref=e298]:
+                      - generic [ref=e299]:
+                        - link "QwErTy-2117" [ref=e300] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e301]
+                        - link "commits by QwErTy-2117" [ref=e302] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e303]: committed
+                      - generic "Jun 11, 2026, 4:01 PM GMT+2" [ref=e304]: Jun 11, 20263 days ago
+                      - generic [ref=e1447]: ·
+                      - 'button "Status checks: success" [ref=e1449] [cursor=pointer]':
+                        - generic [ref=e1450]:
+                          - generic:
+                            - img
+                          - generic [ref=e1451]: 1 / 1
+                    - generic [ref=e309]:
+                      - generic [ref=e310]:
+                        - tooltip "View commit details" [ref=e311]:
+                          - link "1960b8e" [ref=e312] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/1960b8ed5273bb79bd64940a23149fe8bf73205f
+                            - generic [ref=e314]: 1960b8e
+                        - button "Copy full SHA for 1960b8e" [ref=e316] [cursor=pointer]:
+                          - img [ref=e317]
+                      - tooltip "Browse repository at this point" [ref=e320]:
+                        - link "Browse repository at this point" [ref=e321] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/1960b8ed5273bb79bd64940a23149fe8bf73205f
+                          - img [ref=e322]
+                  - listitem "reduce services scroll animation to 150vh for faster reveal. More information available below." [ref=e324]:
+                    - heading "reduce services scroll animation to 150vh for faster reveal" [level=4] [ref=e326]:
+                      - link "reduce services scroll animation to 150vh for faster reveal" [ref=e328] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/9988fed578356e5f753de29a3d5bc40eee566dfd
+                    - generic [ref=e333]:
+                      - generic [ref=e334]:
+                        - link "QwErTy-2117" [ref=e335] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e336]
+                        - link "commits by QwErTy-2117" [ref=e337] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e338]: committed
+                      - generic "Jun 11, 2026, 3:57 PM GMT+2" [ref=e339]: Jun 11, 20263 days ago
+                      - generic [ref=e1452]: ·
+                      - 'button "Status checks: success" [ref=e1454] [cursor=pointer]':
+                        - generic [ref=e1455]:
+                          - generic:
+                            - img
+                          - generic [ref=e1456]: 1 / 1
+                    - generic [ref=e344]:
+                      - generic [ref=e345]:
+                        - tooltip "View commit details" [ref=e346]:
+                          - link "9988fed" [ref=e347] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/9988fed578356e5f753de29a3d5bc40eee566dfd
+                            - generic [ref=e349]: 9988fed
+                        - button "Copy full SHA for 9988fed" [ref=e351] [cursor=pointer]:
+                          - img [ref=e352]
+                      - tooltip "Browse repository at this point" [ref=e355]:
+                        - link "Browse repository at this point" [ref=e356] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/9988fed578356e5f753de29a3d5bc40eee566dfd
+                          - img [ref=e357]
+                  - listitem "add click detection to gravity physics for social link pills. More information available below." [ref=e359]:
+                    - heading "add click detection to gravity physics for social link pills" [level=4] [ref=e361]:
+                      - link "add click detection to gravity physics for social link pills" [ref=e363] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/4c4764a8770b5646eb77c9c2606b07ebd9e08706
+                    - generic [ref=e368]:
+                      - generic [ref=e369]:
+                        - link "QwErTy-2117" [ref=e370] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e371]
+                        - link "commits by QwErTy-2117" [ref=e372] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e373]: committed
+                      - generic "Jun 11, 2026, 3:47 PM GMT+2" [ref=e374]: Jun 11, 20263 days ago
+                      - generic [ref=e1457]: ·
+                      - 'button "Status checks: success" [ref=e1459] [cursor=pointer]':
+                        - generic [ref=e1460]:
+                          - generic:
+                            - img
+                          - generic [ref=e1461]: 1 / 1
+                    - generic [ref=e379]:
+                      - generic [ref=e380]:
+                        - tooltip "View commit details" [ref=e381]:
+                          - link "4c4764a" [ref=e382] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/4c4764a8770b5646eb77c9c2606b07ebd9e08706
+                            - generic [ref=e384]: 4c4764a
+                        - button "Copy full SHA for 4c4764a" [ref=e386] [cursor=pointer]:
+                          - img [ref=e387]
+                      - tooltip "Browse repository at this point" [ref=e390]:
+                        - link "Browse repository at this point" [ref=e391] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/4c4764a8770b5646eb77c9c2606b07ebd9e08706
+                          - img [ref=e392]
+                  - listitem "add gravity physics foreground with contact/info pills to about page. More information available below." [ref=e394]:
+                    - heading "add gravity physics foreground with contact/info pills to about page" [level=4] [ref=e396]:
+                      - link "add gravity physics foreground with contact/info pills to about page" [ref=e398] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/e0811eaa8c9e25947622f0d50e4b19012904642a
+                    - generic [ref=e403]:
+                      - generic [ref=e404]:
+                        - link "QwErTy-2117" [ref=e405] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e406]
+                        - link "commits by QwErTy-2117" [ref=e407] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e408]: committed
+                      - generic "Jun 11, 2026, 3:41 PM GMT+2" [ref=e409]: Jun 11, 20263 days ago
+                      - generic [ref=e1462]: ·
+                      - 'button "Status checks: success" [ref=e1464] [cursor=pointer]':
+                        - generic [ref=e1465]:
+                          - generic:
+                            - img
+                          - generic [ref=e1466]: 1 / 1
+                    - generic [ref=e414]:
+                      - generic [ref=e415]:
+                        - tooltip "View commit details" [ref=e416]:
+                          - link "e0811ea" [ref=e417] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/e0811eaa8c9e25947622f0d50e4b19012904642a
+                            - generic [ref=e419]: e0811ea
+                        - button "Copy full SHA for e0811ea" [ref=e421] [cursor=pointer]:
+                          - img [ref=e422]
+                      - tooltip "Browse repository at this point" [ref=e425]:
+                        - link "Browse repository at this point" [ref=e426] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/e0811eaa8c9e25947622f0d50e4b19012904642a
+                          - img [ref=e427]
+                  - listitem "redesign services section with scroll-reveal animated path text. More information available below." [ref=e429]:
+                    - heading "redesign services section with scroll-reveal animated path text" [level=4] [ref=e431]:
+                      - link "redesign services section with scroll-reveal animated path text" [ref=e433] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/bc47d7d2d536b0dc6e141bc38b37b6dbbf3d37af
+                    - generic [ref=e438]:
+                      - generic [ref=e439]:
+                        - link "QwErTy-2117" [ref=e440] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e441]
+                        - link "commits by QwErTy-2117" [ref=e442] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e443]: committed
+                      - generic "Jun 11, 2026, 3:21 PM GMT+2" [ref=e444]: Jun 11, 20263 days ago
+                      - generic [ref=e1467]: ·
+                      - 'button "Status checks: success" [ref=e1469] [cursor=pointer]':
+                        - generic [ref=e1470]:
+                          - generic:
+                            - img
+                          - generic [ref=e1471]: 1 / 1
+                    - generic [ref=e449]:
+                      - generic [ref=e450]:
+                        - tooltip "View commit details" [ref=e451]:
+                          - link "bc47d7d" [ref=e452] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/bc47d7d2d536b0dc6e141bc38b37b6dbbf3d37af
+                            - generic [ref=e454]: bc47d7d
+                        - button "Copy full SHA for bc47d7d" [ref=e456] [cursor=pointer]:
+                          - img [ref=e457]
+                      - tooltip "Browse repository at this point" [ref=e460]:
+                        - link "Browse repository at this point" [ref=e461] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/bc47d7d2d536b0dc6e141bc38b37b6dbbf3d37af
+                          - img [ref=e462]
+                  - 'listitem "fix: remove page transitions, instant navigation; add services section. More information available below." [ref=e464]':
+                    - 'heading "fix: remove page transitions, instant navigation; add services section" [level=4] [ref=e466]':
+                      - 'link "fix: remove page transitions, instant navigation; add services section" [ref=e468] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/0ab05acb46db2ad902408291491140e5c9a46b2f
+                    - generic [ref=e473]:
+                      - generic [ref=e474]:
+                        - link "QwErTy-2117" [ref=e475] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e476]
+                        - link "commits by QwErTy-2117" [ref=e477] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e478]: committed
+                      - generic "Jun 11, 2026, 2:54 PM GMT+2" [ref=e479]: Jun 11, 20263 days ago
+                      - generic [ref=e1472]: ·
+                      - 'button "Status checks: success" [ref=e1474] [cursor=pointer]':
+                        - generic [ref=e1475]:
+                          - generic:
+                            - img
+                          - generic [ref=e1476]: 1 / 1
+                    - generic [ref=e484]:
+                      - generic [ref=e485]:
+                        - tooltip "View commit details" [ref=e486]:
+                          - link "0ab05ac" [ref=e487] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/0ab05acb46db2ad902408291491140e5c9a46b2f
+                            - generic [ref=e489]: 0ab05ac
+                        - button "Copy full SHA for 0ab05ac" [ref=e491] [cursor=pointer]:
+                          - img [ref=e492]
+                      - tooltip "Browse repository at this point" [ref=e495]:
+                        - link "Browse repository at this point" [ref=e496] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/0ab05acb46db2ad902408291491140e5c9a46b2f
+                          - img [ref=e497]
+                  - 'listitem "style: black pill on light pages, crossfade transitions, scroll indicator removal. More information available below." [ref=e499]':
+                    - 'heading "style: black pill on light pages, crossfade transitions, scroll indicator removal" [level=4] [ref=e501]':
+                      - 'link "style: black pill on light pages, crossfade transitions, scroll indicator removal" [ref=e503] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/1e2bea18d4c86f32fa0cb456deb0f0124cc3383b
+                    - generic [ref=e508]:
+                      - generic [ref=e509]:
+                        - link "QwErTy-2117" [ref=e510] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e511]
+                        - link "commits by QwErTy-2117" [ref=e512] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e513]: committed
+                      - generic "Jun 11, 2026, 2:33 PM GMT+2" [ref=e514]: Jun 11, 20263 days ago
+                      - generic [ref=e1477]: ·
+                      - 'button "Status checks: success" [ref=e1479] [cursor=pointer]':
+                        - generic [ref=e1480]:
+                          - generic:
+                            - img
+                          - generic [ref=e1481]: 1 / 1
+                    - generic [ref=e519]:
+                      - generic [ref=e520]:
+                        - tooltip "View commit details" [ref=e521]:
+                          - link "1e2bea1" [ref=e522] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/1e2bea18d4c86f32fa0cb456deb0f0124cc3383b
+                            - generic [ref=e524]: 1e2bea1
+                        - button "Copy full SHA for 1e2bea1" [ref=e526] [cursor=pointer]:
+                          - img [ref=e527]
+                      - tooltip "Browse repository at this point" [ref=e530]:
+                        - link "Browse repository at this point" [ref=e531] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/1e2bea18d4c86f32fa0cb456deb0f0124cc3383b
+                          - img [ref=e532]
+                  - 'listitem "style: tighten nav padding, match radii, darker nav on light pages. More information available below." [ref=e534]':
+                    - 'heading "style: tighten nav padding, match radii, darker nav on light pages" [level=4] [ref=e536]':
+                      - 'link "style: tighten nav padding, match radii, darker nav on light pages" [ref=e538] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/28d61fd99ccb3d78fb66567db4f7a3a4adc31d15
+                    - generic [ref=e543]:
+                      - generic [ref=e544]:
+                        - link "QwErTy-2117" [ref=e545] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e546]
+                        - link "commits by QwErTy-2117" [ref=e547] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e548]: committed
+                      - generic "Jun 11, 2026, 2:11 PM GMT+2" [ref=e549]: Jun 11, 20263 days ago
+                    - generic [ref=e554]:
+                      - generic [ref=e555]:
+                        - tooltip "View commit details" [ref=e556]:
+                          - link "28d61fd" [ref=e557] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/28d61fd99ccb3d78fb66567db4f7a3a4adc31d15
+                            - generic [ref=e559]: 28d61fd
+                        - button "Copy full SHA for 28d61fd" [ref=e561] [cursor=pointer]:
+                          - img [ref=e562]
+                      - tooltip "Browse repository at this point" [ref=e565]:
+                        - link "Browse repository at this point" [ref=e566] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/28d61fd99ccb3d78fb66567db4f7a3a4adc31d15
+                          - img [ref=e567]
+                  - 'listitem "feat: wire PageTransition in root layout. More information available below." [ref=e569]':
+                    - 'heading "feat: wire PageTransition in root layout" [level=4] [ref=e571]':
+                      - 'link "feat: wire PageTransition in root layout" [ref=e573] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/b7bbfdd8a217d9cf3e7903ac590cc7e18ada4778
+                    - generic [ref=e578]:
+                      - generic [ref=e579]:
+                        - link "QwErTy-2117" [ref=e580] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e581]
+                        - link "commits by QwErTy-2117" [ref=e582] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e583]: committed
+                      - generic "Jun 11, 2026, 1:29 PM GMT+2" [ref=e584]: Jun 11, 20263 days ago
+                    - generic [ref=e589]:
+                      - generic [ref=e590]:
+                        - tooltip "View commit details" [ref=e591]:
+                          - link "b7bbfdd" [ref=e592] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/b7bbfdd8a217d9cf3e7903ac590cc7e18ada4778
+                            - generic [ref=e594]: b7bbfdd
+                        - button "Copy full SHA for b7bbfdd" [ref=e596] [cursor=pointer]:
+                          - img [ref=e597]
+                      - tooltip "Browse repository at this point" [ref=e600]:
+                        - link "Browse repository at this point" [ref=e601] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/b7bbfdd8a217d9cf3e7903ac590cc7e18ada4778
+                          - img [ref=e602]
+                  - 'listitem "feat: add sliding pill indicator to navbar. More information available below." [ref=e604]':
+                    - 'heading "feat: add sliding pill indicator to navbar" [level=4] [ref=e606]':
+                      - 'link "feat: add sliding pill indicator to navbar" [ref=e608] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/11816a5b2fb17ded7ccb05e458f0594c29c9a058
+                    - generic [ref=e613]:
+                      - generic [ref=e614]:
+                        - link "QwErTy-2117" [ref=e615] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e616]
+                        - link "commits by QwErTy-2117" [ref=e617] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e618]: committed
+                      - generic "Jun 11, 2026, 1:27 PM GMT+2" [ref=e619]: Jun 11, 20263 days ago
+                    - generic [ref=e624]:
+                      - generic [ref=e625]:
+                        - tooltip "View commit details" [ref=e626]:
+                          - link "11816a5" [ref=e627] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/11816a5b2fb17ded7ccb05e458f0594c29c9a058
+                            - generic [ref=e629]: 11816a5
+                        - button "Copy full SHA for 11816a5" [ref=e631] [cursor=pointer]:
+                          - img [ref=e632]
+                      - tooltip "Browse repository at this point" [ref=e635]:
+                        - link "Browse repository at this point" [ref=e636] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/11816a5b2fb17ded7ccb05e458f0594c29c9a058
+                          - img [ref=e637]
+                  - 'listitem "feat: add PageTransition component. More information available below." [ref=e639]':
+                    - 'heading "feat: add PageTransition component" [level=4] [ref=e641]':
+                      - 'link "feat: add PageTransition component" [ref=e643] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/c38e1f7274f2238d80101d4868351a865951a6ad
+                    - generic [ref=e648]:
+                      - generic [ref=e649]:
+                        - link "QwErTy-2117" [ref=e650] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e651]
+                        - link "commits by QwErTy-2117" [ref=e652] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e653]: committed
+                      - generic "Jun 11, 2026, 1:24 PM GMT+2" [ref=e654]: Jun 11, 20263 days ago
+                    - generic [ref=e659]:
+                      - generic [ref=e660]:
+                        - tooltip "View commit details" [ref=e661]:
+                          - link "c38e1f7" [ref=e662] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/c38e1f7274f2238d80101d4868351a865951a6ad
+                            - generic [ref=e664]: c38e1f7
+                        - button "Copy full SHA for c38e1f7" [ref=e666] [cursor=pointer]:
+                          - img [ref=e667]
+                      - tooltip "Browse repository at this point" [ref=e670]:
+                        - link "Browse repository at this point" [ref=e671] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/c38e1f7274f2238d80101d4868351a865951a6ad
+                          - img [ref=e672]
+            - generic [ref=e674]:
+              - img [ref=e677]
+              - generic [ref=e679]:
+                - heading "Commits on Jun 10, 2026" [level=3] [ref=e680]
+                - list "Commits on Jun 10, 2026" [ref=e683]:
+                  - listitem "update GitHub links to profile. More information available below." [ref=e684]:
+                    - heading "update GitHub links to profile" [level=4] [ref=e686]:
+                      - link "update GitHub links to profile" [ref=e688] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/0d2fbbc76523cdd0a306dc6c6701f5f0cadfe5aa
+                    - generic [ref=e693]:
+                      - generic [ref=e694]:
+                        - link "QwErTy-2117" [ref=e695] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e696]
+                        - link "commits by QwErTy-2117" [ref=e697] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e698]: committed
+                      - generic "Jun 10, 2026, 6:45 PM GMT+2" [ref=e699]: Jun 10, 20264 days ago
+                      - generic [ref=e1482]: ·
+                      - 'button "Status checks: success" [ref=e1484] [cursor=pointer]':
+                        - generic [ref=e1485]:
+                          - generic:
+                            - img
+                          - generic [ref=e1486]: 1 / 1
+                    - generic [ref=e704]:
+                      - generic [ref=e705]:
+                        - tooltip "View commit details" [ref=e706]:
+                          - link "0d2fbbc" [ref=e707] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/0d2fbbc76523cdd0a306dc6c6701f5f0cadfe5aa
+                            - generic [ref=e709]: 0d2fbbc
+                        - button "Copy full SHA for 0d2fbbc" [ref=e711] [cursor=pointer]:
+                          - img [ref=e712]
+                      - tooltip "Browse repository at this point" [ref=e715]:
+                        - link "Browse repository at this point" [ref=e716] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/0d2fbbc76523cdd0a306dc6c6701f5f0cadfe5aa
+                          - img [ref=e717]
+                  - listitem "finished template. More information available below." [ref=e719]:
+                    - heading "finished template" [level=4] [ref=e721]:
+                      - link "finished template" [ref=e723] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/08e753ecdbac1006eacf719b9f85c49beef95394
+                    - generic [ref=e728]:
+                      - generic [ref=e729]:
+                        - link "QwErTy-2117" [ref=e730] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e731]
+                        - link "commits by QwErTy-2117" [ref=e732] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e733]: committed
+                      - generic "Jun 10, 2026, 6:41 PM GMT+2" [ref=e734]: Jun 10, 20264 days ago
+                      - generic [ref=e1487]: ·
+                      - 'button "Status checks: success" [ref=e1489] [cursor=pointer]':
+                        - generic [ref=e1490]:
+                          - generic:
+                            - img
+                          - generic [ref=e1491]: 1 / 1
+                    - generic [ref=e739]:
+                      - generic [ref=e740]:
+                        - tooltip "View commit details" [ref=e741]:
+                          - link "08e753e" [ref=e742] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/08e753ecdbac1006eacf719b9f85c49beef95394
+                            - generic [ref=e744]: 08e753e
+                        - button "Copy full SHA for 08e753e" [ref=e746] [cursor=pointer]:
+                          - img [ref=e747]
+                      - tooltip "Browse repository at this point" [ref=e750]:
+                        - link "Browse repository at this point" [ref=e751] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/08e753ecdbac1006eacf719b9f85c49beef95394
+                          - img [ref=e752]
+                  - listitem "smooth white-to-website reveal after intro, a dreamer lasts 300ms. More information available below." [ref=e754]:
+                    - heading "smooth white-to-website reveal after intro, a dreamer lasts 300ms" [level=4] [ref=e756]:
+                      - link "smooth white-to-website reveal after intro, a dreamer lasts 300ms" [ref=e758] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/b95be381d4c4259a6c682a344339afccdd7d5b75
+                    - generic [ref=e763]:
+                      - generic [ref=e764]:
+                        - link "QwErTy-2117" [ref=e765] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e766]
+                        - link "commits by QwErTy-2117" [ref=e767] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e768]: committed
+                      - generic "Jun 10, 2026, 6:39 PM GMT+2" [ref=e769]: Jun 10, 20264 days ago
+                      - generic [ref=e1492]: ·
+                      - 'button "Status checks: success" [ref=e1494] [cursor=pointer]':
+                        - generic [ref=e1495]:
+                          - generic:
+                            - img
+                          - generic [ref=e1496]: 1 / 1
+                    - generic [ref=e774]:
+                      - generic [ref=e775]:
+                        - tooltip "View commit details" [ref=e776]:
+                          - link "b95be38" [ref=e777] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/b95be381d4c4259a6c682a344339afccdd7d5b75
+                            - generic [ref=e779]: b95be38
+                        - button "Copy full SHA for b95be38" [ref=e781] [cursor=pointer]:
+                          - img [ref=e782]
+                      - tooltip "Browse repository at this point" [ref=e785]:
+                        - link "Browse repository at this point" [ref=e786] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/b95be381d4c4259a6c682a344339afccdd7d5b75
+                          - img [ref=e787]
+                  - 'listitem "custom rotation: a dreamer lasts 800ms, then 2s per text. More information available below." [ref=e789]':
+                    - 'heading "custom rotation: a dreamer lasts 800ms, then 2s per text" [level=4] [ref=e791]':
+                      - 'link "custom rotation: a dreamer lasts 800ms, then 2s per text" [ref=e793] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/c078377ddd434115cbcc6213cf1cd27ebd0c6dca
+                    - generic [ref=e798]:
+                      - generic [ref=e799]:
+                        - link "QwErTy-2117" [ref=e800] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e801]
+                        - link "commits by QwErTy-2117" [ref=e802] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e803]: committed
+                      - generic "Jun 10, 2026, 6:35 PM GMT+2" [ref=e804]: Jun 10, 20264 days ago
+                      - generic [ref=e1497]: ·
+                      - 'button "Status checks: success" [ref=e1499] [cursor=pointer]':
+                        - generic [ref=e1500]:
+                          - generic:
+                            - img
+                          - generic [ref=e1501]: 1 / 1
+                    - generic [ref=e809]:
+                      - generic [ref=e810]:
+                        - tooltip "View commit details" [ref=e811]:
+                          - link "c078377" [ref=e812] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/c078377ddd434115cbcc6213cf1cd27ebd0c6dca
+                            - generic [ref=e814]: c078377
+                        - button "Copy full SHA for c078377" [ref=e816] [cursor=pointer]:
+                          - img [ref=e817]
+                      - tooltip "Browse repository at this point" [ref=e820]:
+                        - link "Browse repository at this point" [ref=e821] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/c078377ddd434115cbcc6213cf1cd27ebd0c6dca
+                          - img [ref=e822]
+                  - listitem "remove blur reveal, keep autoRotate timing fix. More information available below." [ref=e824]:
+                    - heading "remove blur reveal, keep autoRotate timing fix" [level=4] [ref=e826]:
+                      - link "remove blur reveal, keep autoRotate timing fix" [ref=e828] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/a5fee482e2d0b0348c6d6cd6df59f846c0b9d737
+                    - generic [ref=e833]:
+                      - generic [ref=e834]:
+                        - link "QwErTy-2117" [ref=e835] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e836]
+                        - link "commits by QwErTy-2117" [ref=e837] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e838]: committed
+                      - generic "Jun 10, 2026, 6:34 PM GMT+2" [ref=e839]: Jun 10, 20264 days ago
+                      - generic [ref=e1502]: ·
+                      - 'button "Status checks: success" [ref=e1504] [cursor=pointer]':
+                        - generic [ref=e1505]:
+                          - generic:
+                            - img
+                          - generic [ref=e1506]: 1 / 1
+                    - generic [ref=e844]:
+                      - generic [ref=e845]:
+                        - tooltip "View commit details" [ref=e846]:
+                          - link "a5fee48" [ref=e847] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/a5fee482e2d0b0348c6d6cd6df59f846c0b9d737
+                            - generic [ref=e849]: a5fee48
+                        - button "Copy full SHA for a5fee48" [ref=e851] [cursor=pointer]:
+                          - img [ref=e852]
+                      - tooltip "Browse repository at this point" [ref=e855]:
+                        - link "Browse repository at this point" [ref=e856] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/a5fee482e2d0b0348c6d6cd6df59f846c0b9d737
+                          - img [ref=e857]
+                  - 'listitem "fix: start hero autoRotate after loading finish + blur reveal transition. More information available below." [ref=e859]':
+                    - 'heading "fix: start hero autoRotate after loading finish + blur reveal transition" [level=4] [ref=e861]':
+                      - 'link "fix: start hero autoRotate after loading finish + blur reveal transition" [ref=e863] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/e8e4c7b8c2f6ba9042bd3ac8c3715b6cc82def3b
+                    - generic [ref=e868]:
+                      - generic [ref=e869]:
+                        - link "QwErTy-2117" [ref=e870] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e871]
+                        - link "commits by QwErTy-2117" [ref=e872] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e873]: committed
+                      - generic "Jun 10, 2026, 6:33 PM GMT+2" [ref=e874]: Jun 10, 20264 days ago
+                      - generic [ref=e1507]: ·
+                      - 'button "Status checks: success" [ref=e1509] [cursor=pointer]':
+                        - generic [ref=e1510]:
+                          - generic:
+                            - img
+                          - generic [ref=e1511]: 1 / 1
+                    - generic [ref=e879]:
+                      - generic [ref=e880]:
+                        - tooltip "View commit details" [ref=e881]:
+                          - link "e8e4c7b" [ref=e882] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/e8e4c7b8c2f6ba9042bd3ac8c3715b6cc82def3b
+                            - generic [ref=e884]: e8e4c7b
+                        - button "Copy full SHA for e8e4c7b" [ref=e886] [cursor=pointer]:
+                          - img [ref=e887]
+                      - tooltip "Browse repository at this point" [ref=e890]:
+                        - link "Browse repository at this point" [ref=e891] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/e8e4c7b8c2f6ba9042bd3ac8c3715b6cc82def3b
+                          - img [ref=e892]
+                  - 'listitem "reorder hero TextRotate: a dreamer first. More information available below." [ref=e894]':
+                    - 'heading "reorder hero TextRotate: a dreamer first" [level=4] [ref=e896]':
+                      - 'link "reorder hero TextRotate: a dreamer first" [ref=e898] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/f251147133514bf66d655cba631dd1cb21c9e7cb
+                    - generic [ref=e903]:
+                      - generic [ref=e904]:
+                        - link "QwErTy-2117" [ref=e905] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e906]
+                        - link "commits by QwErTy-2117" [ref=e907] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e908]: committed
+                      - generic "Jun 10, 2026, 6:27 PM GMT+2" [ref=e909]: Jun 10, 20264 days ago
+                      - generic [ref=e1512]: ·
+                      - 'button "Status checks: success" [ref=e1514] [cursor=pointer]':
+                        - generic [ref=e1515]:
+                          - generic:
+                            - img
+                          - generic [ref=e1516]: 1 / 1
+                    - generic [ref=e914]:
+                      - generic [ref=e915]:
+                        - tooltip "View commit details" [ref=e916]:
+                          - link "f251147" [ref=e917] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/f251147133514bf66d655cba631dd1cb21c9e7cb
+                            - generic [ref=e919]: f251147
+                        - button "Copy full SHA for f251147" [ref=e921] [cursor=pointer]:
+                          - img [ref=e922]
+                      - tooltip "Browse repository at this point" [ref=e925]:
+                        - link "Browse repository at this point" [ref=e926] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/f251147133514bf66d655cba631dd1cb21c9e7cb
+                          - img [ref=e927]
+                  - 'listitem "restore exact intro animation from 50fa3589 with isolation fix + navbar: white text only on /projects listing. More information available below." [ref=e929]':
+                    - 'heading "restore exact intro animation from 50fa358 with isolation fix + navbar: white text only on /projects listing" [level=4] [ref=e931]':
+                      - generic [ref=e932]:
+                        - link "restore exact intro animation from" [ref=e933] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commit/eed606079f79ac7d942a13c52b32a9614ee98b71
+                        - link "50fa358" [ref=e934] [cursor=pointer]:
+                          - /url: https://github.com/QwErTy-2117/Portfolio/commit/50fa3589acf7e902f748704821fb24369d8300ea
+                        - 'link "with isolation fix + navbar: white text only on /projects listing" [ref=e935] [cursor=pointer]':
+                          - /url: /QwErTy-2117/Portfolio/commit/eed606079f79ac7d942a13c52b32a9614ee98b71
+                    - generic [ref=e940]:
+                      - generic [ref=e941]:
+                        - link "QwErTy-2117" [ref=e942] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e943]
+                        - link "commits by QwErTy-2117" [ref=e944] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e945]: committed
+                      - generic "Jun 10, 2026, 6:24 PM GMT+2" [ref=e946]: Jun 10, 20264 days ago
+                      - generic [ref=e1517]: ·
+                      - 'button "Status checks: success" [ref=e1519] [cursor=pointer]':
+                        - generic [ref=e1520]:
+                          - generic:
+                            - img
+                          - generic [ref=e1521]: 1 / 1
+                    - generic [ref=e951]:
+                      - generic [ref=e952]:
+                        - tooltip "View commit details" [ref=e953]:
+                          - link "eed6060" [ref=e954] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/eed606079f79ac7d942a13c52b32a9614ee98b71
+                            - generic [ref=e956]: eed6060
+                        - button "Copy full SHA for eed6060" [ref=e958] [cursor=pointer]:
+                          - img [ref=e959]
+                      - tooltip "Browse repository at this point" [ref=e962]:
+                        - link "Browse repository at this point" [ref=e963] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/eed606079f79ac7d942a13c52b32a9614ee98b71
+                          - img [ref=e964]
+                  - listitem "replace TextRotate with AnimatePresence block text animation. More information available below." [ref=e966]:
+                    - heading "replace TextRotate with AnimatePresence block text animation" [level=4] [ref=e968]:
+                      - link "replace TextRotate with AnimatePresence block text animation" [ref=e970] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/64bf8c2e3447dc13f358143c8a4f68f6d7abb3e7
+                    - generic [ref=e975]:
+                      - generic [ref=e976]:
+                        - link "QwErTy-2117" [ref=e977] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e978]
+                        - link "commits by QwErTy-2117" [ref=e979] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e980]: committed
+                      - generic "Jun 10, 2026, 6:18 PM GMT+2" [ref=e981]: Jun 10, 20264 days ago
+                      - generic [ref=e1522]: ·
+                      - 'button "Status checks: success" [ref=e1524] [cursor=pointer]':
+                        - generic [ref=e1525]:
+                          - generic:
+                            - img
+                          - generic [ref=e1526]: 1 / 1
+                    - generic [ref=e986]:
+                      - generic [ref=e987]:
+                        - tooltip "View commit details" [ref=e988]:
+                          - link "64bf8c2" [ref=e989] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/64bf8c2e3447dc13f358143c8a4f68f6d7abb3e7
+                            - generic [ref=e991]: 64bf8c2
+                        - button "Copy full SHA for 64bf8c2" [ref=e993] [cursor=pointer]:
+                          - img [ref=e994]
+                      - tooltip "Browse repository at this point" [ref=e997]:
+                        - link "Browse repository at this point" [ref=e998] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/64bf8c2e3447dc13f358143c8a4f68f6d7abb3e7
+                          - img [ref=e999]
+                  - listitem "replace TextRotate with CSS-only text crossfade animation. More information available below." [ref=e1001]:
+                    - heading "replace TextRotate with CSS-only text crossfade animation" [level=4] [ref=e1003]:
+                      - link "replace TextRotate with CSS-only text crossfade animation" [ref=e1005] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/7183c7191622b858c874c7ee93c2f1550420850b
+                    - generic [ref=e1010]:
+                      - generic [ref=e1011]:
+                        - link "QwErTy-2117" [ref=e1012] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1013]
+                        - link "commits by QwErTy-2117" [ref=e1014] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1015]: committed
+                      - generic "Jun 10, 2026, 6:15 PM GMT+2" [ref=e1016]: Jun 10, 20264 days ago
+                      - generic [ref=e1527]: ·
+                      - 'button "Status checks: success" [ref=e1529] [cursor=pointer]':
+                        - generic [ref=e1530]:
+                          - generic:
+                            - img
+                          - generic [ref=e1531]: 1 / 1
+                    - generic [ref=e1021]:
+                      - generic [ref=e1022]:
+                        - tooltip "View commit details" [ref=e1023]:
+                          - link "7183c71" [ref=e1024] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/7183c7191622b858c874c7ee93c2f1550420850b
+                            - generic [ref=e1026]: 7183c71
+                        - button "Copy full SHA for 7183c71" [ref=e1028] [cursor=pointer]:
+                          - img [ref=e1029]
+                      - tooltip "Browse repository at this point" [ref=e1032]:
+                        - link "Browse repository at this point" [ref=e1033] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/7183c7191622b858c874c7ee93c2f1550420850b
+                          - img [ref=e1034]
+                  - listitem "restore TextRotate with isolation:isolate and inline color fix. More information available below." [ref=e1036]:
+                    - heading "restore TextRotate with isolation:isolate and inline color fix" [level=4] [ref=e1038]:
+                      - link "restore TextRotate with isolation:isolate and inline color fix" [ref=e1040] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/43da21a1c5c9afa9e768b232929d657197748a31
+                    - generic [ref=e1045]:
+                      - generic [ref=e1046]:
+                        - link "QwErTy-2117" [ref=e1047] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1048]
+                        - link "commits by QwErTy-2117" [ref=e1049] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1050]: committed
+                      - generic "Jun 10, 2026, 6:12 PM GMT+2" [ref=e1051]: Jun 10, 20264 days ago
+                      - generic [ref=e1532]: ·
+                      - 'button "Status checks: pending" [ref=e1534] [cursor=pointer]':
+                        - generic [ref=e1535]:
+                          - generic:
+                            - img
+                          - generic [ref=e1536]: 0 / 1
+                    - generic [ref=e1056]:
+                      - generic [ref=e1057]:
+                        - tooltip "View commit details" [ref=e1058]:
+                          - link "43da21a" [ref=e1059] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/43da21a1c5c9afa9e768b232929d657197748a31
+                            - generic [ref=e1061]: 43da21a
+                        - button "Copy full SHA for 43da21a" [ref=e1063] [cursor=pointer]:
+                          - img [ref=e1064]
+                      - tooltip "Browse repository at this point" [ref=e1067]:
+                        - link "Browse repository at this point" [ref=e1068] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/43da21a1c5c9afa9e768b232929d657197748a31
+                          - img [ref=e1069]
+                  - 'listitem "fix: replace TextRotate with plain text, use inline color #000000. More information available below." [ref=e1071]':
+                    - 'heading "fix: replace TextRotate with plain text, use inline color #000000" [level=4] [ref=e1073]':
+                      - 'link "fix: replace TextRotate with plain text, use inline color #000000" [ref=e1075] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/c693b806b00d693f299166ad033485b80ccd2acd
+                    - generic [ref=e1080]:
+                      - generic [ref=e1081]:
+                        - link "QwErTy-2117" [ref=e1082] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1083]
+                        - link "commits by QwErTy-2117" [ref=e1084] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1085]: committed
+                      - generic "Jun 10, 2026, 6:09 PM GMT+2" [ref=e1086]: Jun 10, 20264 days ago
+                      - generic [ref=e1537]: ·
+                      - 'button "Status checks: success" [ref=e1539] [cursor=pointer]':
+                        - generic [ref=e1540]:
+                          - generic:
+                            - img
+                          - generic [ref=e1541]: 1 / 1
+                    - generic [ref=e1091]:
+                      - generic [ref=e1092]:
+                        - tooltip "View commit details" [ref=e1093]:
+                          - link "c693b80" [ref=e1094] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/c693b806b00d693f299166ad033485b80ccd2acd
+                            - generic [ref=e1096]: c693b80
+                        - button "Copy full SHA for c693b80" [ref=e1098] [cursor=pointer]:
+                          - img [ref=e1099]
+                      - tooltip "Browse repository at this point" [ref=e1102]:
+                        - link "Browse repository at this point" [ref=e1103] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/c693b806b00d693f299166ad033485b80ccd2acd
+                          - img [ref=e1104]
+                  - listitem "restore motion animation, add isolation:isolate to fix backdrop-filter compositing bug. More information available below." [ref=e1106]:
+                    - heading "restore motion animation, add isolation:isolate to fix backdrop-filter compositing bug" [level=4] [ref=e1108]:
+                      - link "restore motion animation, add isolation:isolate to fix backdrop-filter compositing bug" [ref=e1110] [cursor=pointer]:
+                        - /url: /QwErTy-2117/Portfolio/commit/25f88838f592cee43c93efd61f825e351b7b9a18
+                    - generic [ref=e1115]:
+                      - generic [ref=e1116]:
+                        - link "QwErTy-2117" [ref=e1117] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1118]
+                        - link "commits by QwErTy-2117" [ref=e1119] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1120]: committed
+                      - generic "Jun 10, 2026, 6:07 PM GMT+2" [ref=e1121]: Jun 10, 20264 days ago
+                      - generic [ref=e1542]: ·
+                      - 'button "Status checks: success" [ref=e1544] [cursor=pointer]':
+                        - generic [ref=e1545]:
+                          - generic:
+                            - img
+                          - generic [ref=e1546]: 1 / 1
+                    - generic [ref=e1126]:
+                      - generic [ref=e1127]:
+                        - tooltip "View commit details" [ref=e1128]:
+                          - link "25f8883" [ref=e1129] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/25f88838f592cee43c93efd61f825e351b7b9a18
+                            - generic [ref=e1131]: 25f8883
+                        - button "Copy full SHA for 25f8883" [ref=e1133] [cursor=pointer]:
+                          - img [ref=e1134]
+                      - tooltip "Browse repository at this point" [ref=e1137]:
+                        - link "Browse repository at this point" [ref=e1138] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/25f88838f592cee43c93efd61f825e351b7b9a18
+                          - img [ref=e1139]
+                  - 'listitem "fix: only apply transition during exit phase to prevent hydration flash. More information available below." [ref=e1141]':
+                    - 'heading "fix: only apply transition during exit phase to prevent hydration flash" [level=4] [ref=e1143]':
+                      - 'link "fix: only apply transition during exit phase to prevent hydration flash" [ref=e1145] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/732a71c5e88eb5bcd918d368174e2db9e6750d81
+                    - generic [ref=e1150]:
+                      - generic [ref=e1151]:
+                        - link "QwErTy-2117" [ref=e1152] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1153]
+                        - link "commits by QwErTy-2117" [ref=e1154] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1155]: committed
+                      - generic "Jun 10, 2026, 6:02 PM GMT+2" [ref=e1156]: Jun 10, 20264 days ago
+                      - generic [ref=e1547]: ·
+                      - 'button "Status checks: pending" [ref=e1549] [cursor=pointer]':
+                        - generic [ref=e1550]:
+                          - generic:
+                            - img
+                          - generic [ref=e1551]: 0 / 1
+                    - generic [ref=e1161]:
+                      - generic [ref=e1162]:
+                        - tooltip "View commit details" [ref=e1163]:
+                          - link "732a71c" [ref=e1164] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/732a71c5e88eb5bcd918d368174e2db9e6750d81
+                            - generic [ref=e1166]: 732a71c
+                        - button "Copy full SHA for 732a71c" [ref=e1168] [cursor=pointer]:
+                          - img [ref=e1169]
+                      - tooltip "Browse repository at this point" [ref=e1172]:
+                        - link "Browse repository at this point" [ref=e1173] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/732a71c5e88eb5bcd918d368174e2db9e6750d81
+                          - img [ref=e1174]
+                  - 'listitem "fix: use plain div with CSS transition instead of motion.div for LoadingScreen. More information available below." [ref=e1176]':
+                    - 'heading "fix: use plain div with CSS transition instead of motion.div for LoadingScreen" [level=4] [ref=e1178]':
+                      - 'link "fix: use plain div with CSS transition instead of motion.div for LoadingScreen" [ref=e1180] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/72b26400f0dfeb1235979d6d5655637947e7d469
+                    - generic [ref=e1185]:
+                      - generic [ref=e1186]:
+                        - link "QwErTy-2117" [ref=e1187] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1188]
+                        - link "commits by QwErTy-2117" [ref=e1189] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1190]: committed
+                      - generic "Jun 10, 2026, 5:25 PM GMT+2" [ref=e1191]: Jun 10, 20264 days ago
+                      - generic [ref=e1552]: ·
+                      - 'button "Status checks: failure" [ref=e1554] [cursor=pointer]':
+                        - generic [ref=e1555]:
+                          - generic:
+                            - img
+                          - generic [ref=e1556]: 0 / 1
+                    - generic [ref=e1196]:
+                      - generic [ref=e1197]:
+                        - tooltip "View commit details" [ref=e1198]:
+                          - link "72b2640" [ref=e1199] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/72b26400f0dfeb1235979d6d5655637947e7d469
+                            - generic [ref=e1201]: 72b2640
+                        - button "Copy full SHA for 72b2640" [ref=e1203] [cursor=pointer]:
+                          - img [ref=e1204]
+                      - tooltip "Browse repository at this point" [ref=e1207]:
+                        - link "Browse repository at this point" [ref=e1208] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/72b26400f0dfeb1235979d6d5655637947e7d469
+                          - img [ref=e1209]
+                  - 'listitem "diagnostic: bare motion.div with no props. More information available below." [ref=e1211]':
+                    - 'heading "diagnostic: bare motion.div with no props" [level=4] [ref=e1213]':
+                      - 'link "diagnostic: bare motion.div with no props" [ref=e1215] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/02bb2da6c3dca14be27796885b8a08a158b2ef25
+                    - generic [ref=e1220]:
+                      - generic [ref=e1221]:
+                        - link "QwErTy-2117" [ref=e1222] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1223]
+                        - link "commits by QwErTy-2117" [ref=e1224] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1225]: committed
+                      - generic "Jun 10, 2026, 5:20 PM GMT+2" [ref=e1226]: Jun 10, 20264 days ago
+                      - generic [ref=e1557]: ·
+                      - 'button "Status checks: failure" [ref=e1559] [cursor=pointer]':
+                        - generic [ref=e1560]:
+                          - generic:
+                            - img
+                          - generic [ref=e1561]: 0 / 1
+                    - generic [ref=e1231]:
+                      - generic [ref=e1232]:
+                        - tooltip "View commit details" [ref=e1233]:
+                          - link "02bb2da" [ref=e1234] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/02bb2da6c3dca14be27796885b8a08a158b2ef25
+                            - generic [ref=e1236]: 02bb2da
+                        - button "Copy full SHA for 02bb2da" [ref=e1238] [cursor=pointer]:
+                          - img [ref=e1239]
+                      - tooltip "Browse repository at this point" [ref=e1242]:
+                        - link "Browse repository at this point" [ref=e1243] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/02bb2da6c3dca14be27796885b8a08a158b2ef25
+                          - img [ref=e1244]
+                  - 'listitem "diagnostic: try motion with initial=false. More information available below." [ref=e1246]':
+                    - 'heading "diagnostic: try motion with initial=false" [level=4] [ref=e1248]':
+                      - 'link "diagnostic: try motion with initial=false" [ref=e1250] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/4d5e28a4c0c7ec40517f930ddcb725111b847066
+                    - generic [ref=e1255]:
+                      - generic [ref=e1256]:
+                        - link "QwErTy-2117" [ref=e1257] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1258]
+                        - link "commits by QwErTy-2117" [ref=e1259] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1260]: committed
+                      - generic "Jun 10, 2026, 5:12 PM GMT+2" [ref=e1261]: Jun 10, 20264 days ago
+                      - generic [ref=e1562]: ·
+                      - 'button "Status checks: failure" [ref=e1564] [cursor=pointer]':
+                        - generic [ref=e1565]:
+                          - generic:
+                            - img
+                          - generic [ref=e1566]: 0 / 1
+                    - generic [ref=e1266]:
+                      - generic [ref=e1267]:
+                        - tooltip "View commit details" [ref=e1268]:
+                          - link "4d5e28a" [ref=e1269] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/4d5e28a4c0c7ec40517f930ddcb725111b847066
+                            - generic [ref=e1271]: 4d5e28a
+                        - button "Copy full SHA for 4d5e28a" [ref=e1273] [cursor=pointer]:
+                          - img [ref=e1274]
+                      - tooltip "Browse repository at this point" [ref=e1277]:
+                        - link "Browse repository at this point" [ref=e1278] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/4d5e28a4c0c7ec40517f930ddcb725111b847066
+                          - img [ref=e1279]
+                  - 'listitem "diagnostic: add motion.div back with plain text. More information available below." [ref=e1281]':
+                    - 'heading "diagnostic: add motion.div back with plain text" [level=4] [ref=e1283]':
+                      - 'link "diagnostic: add motion.div back with plain text" [ref=e1285] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/9507a13ac8a1ede80c428f9b44624231b6c7d554
+                    - generic [ref=e1290]:
+                      - generic [ref=e1291]:
+                        - link "QwErTy-2117" [ref=e1292] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1293]
+                        - link "commits by QwErTy-2117" [ref=e1294] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1295]: committed
+                      - generic "Jun 10, 2026, 5:08 PM GMT+2" [ref=e1296]: Jun 10, 20264 days ago
+                      - generic [ref=e1567]: ·
+                      - 'button "Status checks: success" [ref=e1569] [cursor=pointer]':
+                        - generic [ref=e1570]:
+                          - generic:
+                            - img
+                          - generic [ref=e1571]: 1 / 1
+                    - generic [ref=e1301]:
+                      - generic [ref=e1302]:
+                        - tooltip "View commit details" [ref=e1303]:
+                          - link "9507a13" [ref=e1304] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/9507a13ac8a1ede80c428f9b44624231b6c7d554
+                            - generic [ref=e1306]: 9507a13
+                        - button "Copy full SHA for 9507a13" [ref=e1308] [cursor=pointer]:
+                          - img [ref=e1309]
+                      - tooltip "Browse repository at this point" [ref=e1312]:
+                        - link "Browse repository at this point" [ref=e1313] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/9507a13ac8a1ede80c428f9b44624231b6c7d554
+                          - img [ref=e1314]
+                  - 'listitem "diagnostic: strip LoadingScreen to minimal plain div. More information available below." [ref=e1316]':
+                    - 'heading "diagnostic: strip LoadingScreen to minimal plain div" [level=4] [ref=e1318]':
+                      - 'link "diagnostic: strip LoadingScreen to minimal plain div" [ref=e1320] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/071874e52f0f7d177792587a8cfddbd09eae3ff1
+                    - generic [ref=e1325]:
+                      - generic [ref=e1326]:
+                        - link "QwErTy-2117" [ref=e1327] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1328]
+                        - link "commits by QwErTy-2117" [ref=e1329] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1330]: committed
+                      - generic "Jun 10, 2026, 5:05 PM GMT+2" [ref=e1331]: Jun 10, 20264 days ago
+                      - generic [ref=e1572]: ·
+                      - 'button "Status checks: success" [ref=e1574] [cursor=pointer]':
+                        - generic [ref=e1575]:
+                          - generic:
+                            - img
+                          - generic [ref=e1576]: 1 / 1
+                    - generic [ref=e1336]:
+                      - generic [ref=e1337]:
+                        - tooltip "View commit details" [ref=e1338]:
+                          - link "071874e" [ref=e1339] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/071874e52f0f7d177792587a8cfddbd09eae3ff1
+                            - generic [ref=e1341]: 071874e
+                        - button "Copy full SHA for 071874e" [ref=e1343] [cursor=pointer]:
+                          - img [ref=e1344]
+                      - tooltip "Browse repository at this point" [ref=e1347]:
+                        - link "Browse repository at this point" [ref=e1348] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/071874e52f0f7d177792587a8cfddbd09eae3ff1
+                          - img [ref=e1349]
+                  - 'listitem "diagnostic: add logging and red diagnostic div to loading screen. More information available below." [ref=e1351]':
+                    - 'heading "diagnostic: add logging and red diagnostic div to loading screen" [level=4] [ref=e1353]':
+                      - 'link "diagnostic: add logging and red diagnostic div to loading screen" [ref=e1355] [cursor=pointer]':
+                        - /url: /QwErTy-2117/Portfolio/commit/d8db649c497aa65c2f2cf3e5b4847d0b52b2c70b
+                    - generic [ref=e1360]:
+                      - generic [ref=e1361]:
+                        - link "QwErTy-2117" [ref=e1362] [cursor=pointer]:
+                          - /url: /QwErTy-2117
+                          - img "QwErTy-2117" [ref=e1363]
+                        - link "commits by QwErTy-2117" [ref=e1364] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/commits?author=QwErTy-2117
+                          - text: QwErTy-2117
+                      - generic [ref=e1365]: committed
+                      - generic "Jun 10, 2026, 4:56 PM GMT+2" [ref=e1366]: Jun 10, 20264 days ago
+                      - generic [ref=e1577]: ·
+                      - 'button "Status checks: success" [ref=e1579] [cursor=pointer]':
+                        - generic [ref=e1580]:
+                          - generic:
+                            - img
+                          - generic [ref=e1581]: 1 / 1
+                    - generic [ref=e1371]:
+                      - generic [ref=e1372]:
+                        - tooltip "View commit details" [ref=e1373]:
+                          - link "d8db649" [ref=e1374] [cursor=pointer]:
+                            - /url: /QwErTy-2117/Portfolio/commit/d8db649c497aa65c2f2cf3e5b4847d0b52b2c70b
+                            - generic [ref=e1376]: d8db649
+                        - button "Copy full SHA for d8db649" [ref=e1378] [cursor=pointer]:
+                          - img [ref=e1379]
+                      - tooltip "Browse repository at this point" [ref=e1382]:
+                        - link "Browse repository at this point" [ref=e1383] [cursor=pointer]:
+                          - /url: /QwErTy-2117/Portfolio/tree/d8db649c497aa65c2f2cf3e5b4847d0b52b2c70b
+                          - img [ref=e1384]
+        - navigation "Pagination" [ref=e1386]:
+          - generic [ref=e1387]:
+            - generic [ref=e1388]:
+              - img [ref=e1389]
+              - text: Previous
+            - link "Next Page" [ref=e1391] [cursor=pointer]:
+              - /url: /QwErTY-2117/Portfolio/commits/master?after=bcb0a8a2b385686111c6cf44bdef96a6d966464b+34
+              - text: Next
+              - img [ref=e1392]
+  - contentinfo [ref=e1394]:
+    - heading "Footer" [level=2] [ref=e1395]
+    - generic [ref=e1396]:
+      - generic [ref=e1397]:
+        - link "GitHub Homepage" [ref=e1398] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1399]
+        - generic [ref=e1401]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1402]:
+        - heading "Footer navigation" [level=3] [ref=e1403]
+        - list "Footer navigation" [ref=e1404]:
+          - listitem [ref=e1405]:
+            - link "Terms" [ref=e1406] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1407]:
+            - link "Privacy" [ref=e1408] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1409]:
+            - link "Security" [ref=e1410] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1411]:
+            - link "Status" [ref=e1412] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1413]:
+            - link "Community" [ref=e1414] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1415]:
+            - link "Docs" [ref=e1416] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1417]:
+            - link "Contact" [ref=e1418] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1419]:
+            - button "Manage cookies" [ref=e1421] [cursor=pointer]
+          - listitem [ref=e1422]:
+            - button "Do not share my personal information" [ref=e1424] [cursor=pointer]
