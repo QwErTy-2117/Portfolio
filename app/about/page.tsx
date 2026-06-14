@@ -80,7 +80,7 @@ export default function About() {
             angle={5}
           >
             <div className="text-base sm:text-lg bg-neutral-100 text-neutral-700 rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk border border-neutral-200">
-              Based in Italy
+              Literature & Philosophy
             </div>
           </MatterBody>
 
@@ -91,7 +91,7 @@ export default function About() {
             angle={-8}
           >
             <div className="text-base sm:text-lg bg-white text-[#ff5941] rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk border border-[#ff5941]">
-              5+ Years Experience
+              Writing & Reading
             </div>
           </MatterBody>
 
@@ -102,7 +102,7 @@ export default function About() {
             angle={3}
           >
             <div className="text-base sm:text-lg bg-[#1f464d] text-white rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk">
-              React · Next.js
+              AI & Automation
             </div>
           </MatterBody>
 
@@ -113,7 +113,7 @@ export default function About() {
             angle={-5}
           >
             <div className="text-base sm:text-lg bg-[#e794da] text-white rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk">
-              Design Systems
+              3D Modelling & Design
             </div>
           </MatterBody>
 
@@ -124,7 +124,7 @@ export default function About() {
             angle={7}
           >
             <div className="text-base sm:text-lg bg-[#f97316] text-white rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk">
-              UI/UX Design
+              Logic & Pure Craft
             </div>
           </MatterBody>
         </Gravity>
