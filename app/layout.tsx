@@ -1,4 +1,4 @@
-import { Playfair_Display } from "next/font/google"
+import { Playfair_Display, Caveat } from "next/font/google"
 import localFont from "next/font/local"
 
 import "./globals.css"
@@ -12,6 +12,12 @@ const calendas = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-calendas",
   weight: "500",
+})
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  variable: "--font-caveat",
+  weight: "400",
 })
 
 const overusedGrotesk = localFont({
@@ -31,6 +37,7 @@ export default function RootLayout({
       className={cn(
         "antialiased",
         calendas.variable,
+        caveat.variable,
         overusedGrotesk.variable,
         "font-overusedGrotesk"
       )}
