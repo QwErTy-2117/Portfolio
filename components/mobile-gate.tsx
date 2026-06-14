@@ -51,7 +51,7 @@ export default function MobileGate() {
   return (
     <div className="fixed inset-0 bg-white px-8 sm:px-12 md:px-16 py-16 sm:py-20" style={{ zIndex: 9999 }}>
       <div
-        className="max-w-2xl mx-auto text-left"
+        className="max-w-2xl mx-auto text-center"
         style={{ fontFamily: "var(--font-overused-grotesk)" }}
       >
         <div className="relative">
