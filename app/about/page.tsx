@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import Link from "next/link"
 import Lenis from "lenis"
 
-import { TextHighlighter, type TextHighlighterRef } from "@/components/fancy/text/text-highlighter"
+import { TextHighlighter } from "@/components/fancy/text/text-highlighter"
 import { motion, Transition } from "motion/react"
 import Gravity, { MatterBody } from "@/components/fancy/physics/gravity"
 
@@ -15,8 +15,6 @@ const inViewOptions = { once: true, amount: 0.1 }
 
 export default function About() {
   const containerRef = useRef<HTMLDivElement | null>(null)
-  const aiHighlightRef = useRef<TextHighlighterRef>(null)
-  const designHighlightRef = useRef<TextHighlighterRef>(null)
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -34,14 +32,6 @@ export default function About() {
     return () => {
       lenis.destroy()
     }
-  }, [])
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      aiHighlightRef.current?.animate()
-      designHighlightRef.current?.animate()
-    }, 500)
-    return () => clearTimeout(timer)
   }, [])
 
   return (
@@ -160,42 +150,73 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p>
-                I help people improve the efficiency and productivity of their work by{" "}
+                I&apos;ve always been drawn to{" "}
                 <TextHighlighter
-                  ref={aiHighlightRef}
-                  triggerType="ref"
+                  triggerType="inView"
                   className={highlightClass}
                   transition={transition}
                   highlightColor={highlightColor}
                   highlightTextColor="#fff"
                   useInViewOptions={inViewOptions}
                 >
-                  introducing AI into it
+                  creation
                 </TextHighlighter>
-                , through agentic systems or automated workflows. If you&apos;re completely new to this space, I&apos;ll guide you through everything you need to know.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              viewport={{ once: true }}
-            >
-              <p>
-                For me, the experience is as vital as the technology—if it isn&apos;t designed well, it doesn&apos;t matter how clean the code is. I approach every project with a{" "}
+                . It started with coding from a very young age, writing logic and building things through{" "}
                 <TextHighlighter
-                  ref={designHighlightRef}
-                  triggerType="ref"
+                  triggerType="inView"
                   className={highlightClass}
                   transition={transition}
                   highlightColor={highlightColor}
                   highlightTextColor="#fff"
                   useInViewOptions={inViewOptions}
                 >
-                  design-first sensibility
+                  pure craft
                 </TextHighlighter>
-                , ensuring that the output is actually intuitive.
+                . Over time, that curiosity pulled me toward design, and eventually into{" "}
+                <TextHighlighter
+                  triggerType="inView"
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  highlightTextColor="#fff"
+                  useInViewOptions={inViewOptions}
+                >
+                  3D modelling
+                </TextHighlighter>
+                , where ideas could take shape visually. Then{" "}
+                <TextHighlighter
+                  triggerType="inView"
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  highlightTextColor="#fff"
+                  useInViewOptions={inViewOptions}
+                >
+                  AI arrived
+                </TextHighlighter>
+                . At first I saw it simply as a{" "}
+                <TextHighlighter
+                  triggerType="inView"
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  highlightTextColor="#fff"
+                  useInViewOptions={inViewOptions}
+                >
+                  way to code better and faster
+                </TextHighlighter>
+                , so I started building{" "}
+                <TextHighlighter
+                  triggerType="inView"
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  highlightTextColor="#fff"
+                  useInViewOptions={inViewOptions}
+                >
+                  progressively more complex things
+                </TextHighlighter>
+                , pushing further each time. And now I&apos;m here, trying to help others with the knowledge I&apos;ve acquired along the way, while still learning myself.
               </p>
             </motion.div>
 
@@ -206,23 +227,45 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p>
-                My curiosity is probably too broad for my own good. I&apos;m as likely to be reading Deleuze, Plato, or Pirandello as I am to be digging into design history or mathematics. I find that the best systems are often inspired by the most unrelated disciplines.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              viewport={{ once: true }}
-            >
-              <p>
-                I think long, move fast, and prefer building things that actually work over talking about how they might work. If you&apos;re looking for someone to ship a vision without the corporate friction,{" "}
+                It might not seem obvious given my STEM background, but I&apos;m genuinely passionate about{" "}
+                <TextHighlighter
+                  triggerType="inView"
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  highlightTextColor="#fff"
+                  useInViewOptions={inViewOptions}
+                >
+                  literature and philosophy
+                </TextHighlighter>
+                . Maybe that&apos;s part of what drew me to design in the first place, and it&apos;s why I still fall in love with{" "}
+                <TextHighlighter
+                  triggerType="inView"
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  highlightTextColor="#fff"
+                  useInViewOptions={inViewOptions}
+                >
+                  writing and reading
+                </TextHighlighter>
+                , and with{" "}
+                <TextHighlighter
+                  triggerType="inView"
+                  className={highlightClass}
+                  transition={transition}
+                  highlightColor={highlightColor}
+                  highlightTextColor="#fff"
+                  useInViewOptions={inViewOptions}
+                >
+                  thinking critically
+                </TextHighlighter>{" "}
+                about everything, from modern society to the people around me. It probably also explains why I tend to be a bit of an introvert. But if that doesn&apos;t scare you,{" "}
                 <a
                   href="mailto:garofololuca7@gmail.com"
                   className="text-[#ff5941] hover:underline"
                 >
-                  let&apos;s talk
+                  let&apos;s get in touch
                 </a>
                 .
               </p>
