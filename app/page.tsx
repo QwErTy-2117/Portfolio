@@ -399,7 +399,7 @@ export default function Home() {
   animationType="scroll"
   svgClassName="absolute inset-0 w-full h-full"
   viewBox="0 0 1000 600"
-   text="Vibe Coding · Product Development · Technical Writing"
+   text="Vibe Coding · Conceptual 3D Designing · MVP Building"
   textClassName="font-calendas text-xl sm:text-2xl md:text-3xl fill-black"
   scrollTransformValues={[-30, 95]}
   textAnchor="start"
