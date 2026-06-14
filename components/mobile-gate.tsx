@@ -10,7 +10,6 @@ export default function MobileGate() {
 
   const TYPE_SPEED = 55
   const PAUSE = 800
-  const cursorW = <span className="inline-block w-[2px] h-[1em]" />
 
   const line1 = "Nice phone,"
   const line2 = "but this portfolio needs a bigger screen."
@@ -44,35 +43,43 @@ export default function MobileGate() {
     }
   }, [phase, line3Count, line3.length])
 
-  const cursor = (
-    <span className="inline-block w-[2px] h-[1em] bg-black ml-0.5 align-middle animate-pulse" />
+  const cursorSlot = (active: boolean) => (
+    <span
+      className={`inline-block w-[2px] h-[1em] align-middle ml-0.5 ${active ? "bg-black animate-pulse" : ""}`}
+    />
   )
 
   return (
     <div className="fixed inset-0 bg-white px-8 sm:px-12 md:px-16 py-16 sm:py-20" style={{ zIndex: 9999 }}>
       <div
-        className="max-w-2xl mx-auto text-left"
+        className="max-w-xl mx-auto text-left"
         style={{ fontFamily: "var(--font-overused-grotesk)" }}
       >
         <div className="relative">
           <div className="invisible" aria-hidden="true">
-            <p className="text-2xl sm:text-3xl md:text-4xl leading-relaxed">{line1}</p>
-            <p className="text-2xl sm:text-3xl md:text-4xl leading-relaxed">{line2}</p>
-            <p className="text-2xl sm:text-3xl md:text-4xl leading-relaxed">{line3}</p>
+            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed">
+              {line1}{cursorSlot(false)}
+            </p>
+            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed">
+              {line2}{cursorSlot(false)}
+            </p>
+            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed">
+              {line3}{cursorSlot(false)}
+            </p>
           </div>
 
           <div className="absolute inset-0">
-            <p className="text-2xl sm:text-3xl md:text-4xl text-black leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-black leading-relaxed">
               {line1.slice(0, line1Count)}
-              {phase === 0 ? cursor : cursorW}
+              {cursorSlot(phase === 0)}
             </p>
-            <p className="text-2xl sm:text-3xl md:text-4xl text-black leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-black leading-relaxed">
               {line2.slice(0, line2Count)}
-              {phase === 1 ? cursor : cursorW}
+              {cursorSlot(phase === 1)}
             </p>
-            <p className="text-2xl sm:text-3xl md:text-4xl text-black leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-black leading-relaxed">
               {line3.slice(0, line3Count)}
-              {phase === 2 ? cursor : cursorW}
+              {cursorSlot(phase === 2)}
             </p>
           </div>
         </div>
