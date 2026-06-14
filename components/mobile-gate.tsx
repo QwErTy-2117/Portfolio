@@ -12,8 +12,8 @@ export default function MobileGate() {
   const PAUSE = 800
   const cursorW = <span className="inline-block w-[2px] h-[1em]" />
 
-  const line1 = "Nice phone."
-  const line2 = "This portfolio needs a bigger screen."
+  const line1 = "Nice phone,"
+  const line2 = "but this portfolio needs a bigger screen."
   const line3 = "SEE YOU ON DESKTOP"
 
   useEffect(() => {
@@ -28,28 +28,16 @@ export default function MobileGate() {
 
   useEffect(() => {
     if (phase !== 1) return
-    const timer = setTimeout(() => setPhase(2), 50)
-    return () => clearTimeout(timer)
-  }, [phase])
-
-  useEffect(() => {
-    if (phase !== 2) return
     if (line2Count < line2.length) {
       const timer = setTimeout(() => setLine2Count((c) => c + 1), TYPE_SPEED)
       return () => clearTimeout(timer)
     }
-    const timer = setTimeout(() => setPhase(3), PAUSE)
+    const timer = setTimeout(() => setPhase(2), PAUSE)
     return () => clearTimeout(timer)
   }, [phase, line2Count, line2.length])
 
   useEffect(() => {
-    if (phase !== 3) return
-    const timer = setTimeout(() => setPhase(4), 50)
-    return () => clearTimeout(timer)
-  }, [phase])
-
-  useEffect(() => {
-    if (phase !== 4) return
+    if (phase !== 2) return
     if (line3Count < line3.length) {
       const timer = setTimeout(() => setLine3Count((c) => c + 1), TYPE_SPEED)
       return () => clearTimeout(timer)
@@ -68,17 +56,17 @@ export default function MobileGate() {
       >
         <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
           {line1.slice(0, line1Count)}
-          {line1Count < line1.length ? cursor : cursorW}
+          {phase === 0 ? cursor : cursorW}
         </p>
 
         <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
           {line2.slice(0, line2Count)}
-          {line1Count >= line1.length && line2Count < line2.length ? cursor : cursorW}
+          {phase === 1 ? cursor : cursorW}
         </p>
 
         <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
           {line3.slice(0, line3Count)}
-          {line2Count >= line2.length && line3Count < line3.length ? cursor : cursorW}
+          {phase === 2 ? cursor : cursorW}
         </p>
       </div>
     </div>
