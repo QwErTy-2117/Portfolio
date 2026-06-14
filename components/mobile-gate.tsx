@@ -54,20 +54,28 @@ export default function MobileGate() {
         className="max-w-2xl mx-auto text-left"
         style={{ fontFamily: "var(--font-overused-grotesk)" }}
       >
-        <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
-          {line1.slice(0, line1Count)}
-          {phase === 0 ? cursor : cursorW}
-        </p>
+        <div className="relative">
+          <div className="invisible" aria-hidden="true">
+            <p className="text-xl sm:text-2xl md:text-3xl leading-relaxed">{line1}</p>
+            <p className="text-xl sm:text-2xl md:text-3xl leading-relaxed">{line2}</p>
+            <p className="text-xl sm:text-2xl md:text-3xl leading-relaxed">{line3}</p>
+          </div>
 
-        <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
-          {line2.slice(0, line2Count)}
-          {phase === 1 ? cursor : cursorW}
-        </p>
-
-        <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
-          {line3.slice(0, line3Count)}
-          {phase === 2 ? cursor : cursorW}
-        </p>
+          <div className="absolute inset-0">
+            <p className="text-xl sm:text-2xl md:text-3xl text-black leading-relaxed">
+              {line1.slice(0, line1Count)}
+              {phase === 0 ? cursor : cursorW}
+            </p>
+            <p className="text-xl sm:text-2xl md:text-3xl text-black leading-relaxed">
+              {line2.slice(0, line2Count)}
+              {phase === 1 ? cursor : cursorW}
+            </p>
+            <p className="text-xl sm:text-2xl md:text-3xl text-black leading-relaxed">
+              {line3.slice(0, line3Count)}
+              {phase === 2 ? cursor : cursorW}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   )
