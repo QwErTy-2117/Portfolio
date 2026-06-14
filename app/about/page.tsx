@@ -113,7 +113,7 @@ export default function About() {
             angle={-5}
           >
             <div className="text-base sm:text-lg bg-[#e794da] text-white rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk">
-              Modelling
+              3D Modelling
             </div>
           </MatterBody>
 
