@@ -91,7 +91,7 @@ export default function About() {
             angle={-8}
           >
             <div className="text-base sm:text-lg bg-white text-[#ff5941] rounded-full px-5 py-3 hover:cursor-grab select-none font-overusedGrotesk border border-[#ff5941]">
-              Writing & Reading
+              AI Consulting
             </div>
           </MatterBody>
 
