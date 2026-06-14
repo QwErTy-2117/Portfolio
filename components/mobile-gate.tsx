@@ -57,27 +57,27 @@ export default function MobileGate() {
       >
         <div className="relative">
           <div className="invisible" aria-hidden="true">
-            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed whitespace-pre-wrap">
               {line1}{cursorSlot(false)}
             </p>
-            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed whitespace-pre-wrap">
               {line2}{cursorSlot(false)}
             </p>
-            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed">
+            <p className="text-3xl sm:text-4xl md:text-5xl leading-relaxed whitespace-pre-wrap">
               {line3}{cursorSlot(false)}
             </p>
           </div>
 
           <div className="absolute inset-0">
-            <p className="text-lg sm:text-xl md:text-2xl text-black leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-black leading-relaxed whitespace-pre-wrap">
               {line1.slice(0, line1Count)}
               {cursorSlot(phase === 0)}
             </p>
-            <p className="text-lg sm:text-xl md:text-2xl text-black leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-black leading-relaxed whitespace-pre-wrap">
               {line2.slice(0, line2Count)}
               {cursorSlot(phase === 1)}
             </p>
-            <p className="text-lg sm:text-xl md:text-2xl text-black leading-relaxed">
+            <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed whitespace-pre-wrap">
               {line3.slice(0, line3Count)}
               {cursorSlot(phase === 2)}
             </p>
