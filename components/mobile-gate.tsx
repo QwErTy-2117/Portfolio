@@ -63,7 +63,7 @@ export default function MobileGate() {
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed whitespace-pre-wrap">
               {line2}{cursorSlot(false)}
             </p>
-            <p className="text-3xl sm:text-4xl md:text-5xl leading-relaxed whitespace-pre-wrap">
+            <p className="text-2xl sm:text-3xl md:text-4xl leading-relaxed whitespace-pre-wrap">
               {line3}{cursorSlot(false)}
             </p>
           </div>
@@ -77,7 +77,7 @@ export default function MobileGate() {
               {line2.slice(0, line2Count)}
               {cursorSlot(phase === 1)}
             </p>
-            <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed whitespace-pre-wrap">
+            <p className="text-2xl sm:text-3xl md:text-4xl text-black leading-relaxed whitespace-pre-wrap">
               {line3.slice(0, line3Count)}
               {cursorSlot(phase === 2)}
             </p>
