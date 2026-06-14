@@ -6,36 +6,55 @@ export default function MobileGate() {
   const [line1Count, setLine1Count] = useState(0)
   const [line2Count, setLine2Count] = useState(0)
   const [line3Count, setLine3Count] = useState(0)
+  const [phase, setPhase] = useState(0)
 
   const TYPE_SPEED = 55
+  const PAUSE = 800
+  const cursorW = <span className="inline-block w-[2px] h-[1em]" />
 
   const line1 = "Nice phone."
   const line2 = "This portfolio needs a bigger screen."
   const line3 = "SEE YOU ON DESKTOP"
 
   useEffect(() => {
+    if (phase !== 0) return
     if (line1Count < line1.length) {
       const timer = setTimeout(() => setLine1Count((c) => c + 1), TYPE_SPEED)
       return () => clearTimeout(timer)
     }
-  }, [line1Count, line1.length])
+    const timer = setTimeout(() => setPhase(1), PAUSE)
+    return () => clearTimeout(timer)
+  }, [phase, line1Count, line1.length])
 
   useEffect(() => {
-    if (line1Count < line1.length) return
+    if (phase !== 1) return
+    const timer = setTimeout(() => setPhase(2), 50)
+    return () => clearTimeout(timer)
+  }, [phase])
+
+  useEffect(() => {
+    if (phase !== 2) return
     if (line2Count < line2.length) {
       const timer = setTimeout(() => setLine2Count((c) => c + 1), TYPE_SPEED)
       return () => clearTimeout(timer)
     }
-  }, [line1Count, line2Count, line1.length, line2.length])
+    const timer = setTimeout(() => setPhase(3), PAUSE)
+    return () => clearTimeout(timer)
+  }, [phase, line2Count, line2.length])
 
   useEffect(() => {
-    if (line1Count < line1.length) return
-    if (line2Count < line2.length) return
+    if (phase !== 3) return
+    const timer = setTimeout(() => setPhase(4), 50)
+    return () => clearTimeout(timer)
+  }, [phase])
+
+  useEffect(() => {
+    if (phase !== 4) return
     if (line3Count < line3.length) {
       const timer = setTimeout(() => setLine3Count((c) => c + 1), TYPE_SPEED)
       return () => clearTimeout(timer)
     }
-  }, [line1Count, line2Count, line3Count, line1.length, line2.length, line3.length])
+  }, [phase, line3Count, line3.length])
 
   const cursor = (
     <span className="inline-block w-[2px] h-[1em] bg-black ml-0.5 align-middle animate-pulse" />
@@ -49,17 +68,17 @@ export default function MobileGate() {
       >
         <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
           {line1.slice(0, line1Count)}
-          {line1Count < line1.length && cursor}
+          {line1Count < line1.length ? cursor : cursorW}
         </p>
 
         <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
           {line2.slice(0, line2Count)}
-          {line1Count >= line1.length && line2Count < line2.length && cursor}
+          {line1Count >= line1.length && line2Count < line2.length ? cursor : cursorW}
         </p>
 
         <p className="text-3xl sm:text-4xl md:text-5xl text-black leading-relaxed min-h-[1.4em]">
           {line3.slice(0, line3Count)}
-          {line2Count >= line2.length && line3Count < line3.length && cursor}
+          {line2Count >= line2.length && line3Count < line3.length ? cursor : cursorW}
         </p>
       </div>
     </div>
